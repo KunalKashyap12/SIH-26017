@@ -1,0 +1,801 @@
+project_id,project_name,state,district,project_type,land_area_hectares,affected_families,compensation_disbursed_pct,approval_pending_days,legal_disputes_count,possession_pct,rehabilitation_progress_pct,stakeholder_responsiveness_score,historical_dept_performance_score,start_date,expected_completion_date,delay_days,risk_score,risk_category
+P001,Canal Network Expansion (Visakhapatnam Phase 1),Andhra Pradesh,Visakhapatnam,Irrigation,37.38,183,78.86,166.3,0,70.19,51.47,5.0,3.7,2025-05-20,2027-10-18,119,18.3,Medium
+P002,Grid Augmentation Line (Vadodara Phase 2),Gujarat,Vadodara,Power Transmission,36.35,100,43.64,10.6,0,45.39,44.86,9.0,8.0,2023-02-19,2024-12-22,47,6.7,Low
+P003,High-Speed Rail Link (Cuttack Phase 2),Odisha,Cuttack,Railway,82.63,448,77.08,403.6,2,67.33,54.26,3.3,5.4,2022-10-08,2025-08-20,230,37.3,High
+P004,NH-44 Widening (Mysuru Package IV),Karnataka,Mysuru,Highway,52.25,261,65.82,135.8,1,60.36,72.52,4.4,5.7,2023-11-01,2025-04-15,131,19.4,Medium
+P005,Canal Network Expansion (Vijayawada Package IV),Andhra Pradesh,Vijayawada,Irrigation,35.92,173,80.3,199.2,1,71.98,85.74,8.6,4.8,2023-09-15,2025-06-30,103,18.1,Low
+P006,Metro Rail Phase 2 (Kolkata Phase 1),West Bengal,Kolkata,Railway,67.58,200,66.63,320.6,3,69.21,76.87,6.6,4.3,2023-08-12,2026-07-28,125,18.5,Medium
+P007,Dedicated Freight Corridor (Chennai Phase 1),Tamil Nadu,Chennai,Railway,103.82,294,56.73,29.3,2,45.18,52.34,7.8,6.1,2023-04-04,2025-12-29,87,13.6,Low
+P008,Lift Irrigation Project (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Irrigation,55.61,207,40.41,7.1,1,49.53,48.82,2.9,5.6,2023-02-06,2026-04-18,145,27.2,Medium
+P009,Thermal Power Substation Link (Khordha Package IV),Odisha,Khordha,Power Transmission,36.88,65,86.27,380.0,0,81.92,77.07,7.4,9.3,2025-07-17,2027-04-07,83,11.7,Low
+P010,Smart City Outer Ring Road (Mysuru Package IV),Karnataka,Mysuru,Urban Infrastructure,13.68,180,61.54,68.1,0,64.7,52.25,3.0,6.5,2024-12-25,2026-06-16,118,21.2,Medium
+P011,High-Speed Rail Link (Vadodara Package IV),Gujarat,Vadodara,Railway,16.46,64,67.31,24.9,1,68.84,59.29,9.9,7.8,2023-01-13,2025-10-08,15,2.6,Low
+P012,Tech Park Phase C (Khordha Phase 2),Odisha,Khordha,Industrial Corridor,29.11,205,52.36,113.8,1,51.03,36.29,6.0,6.7,2025-03-05,2028-04-14,177,28.9,Medium
+P013,Metro Rail Phase 2 (Khordha Package IV),Odisha,Khordha,Railway,23.17,121,49.48,164.2,1,42.4,60.01,7.3,5.0,2024-06-16,2027-04-19,98,14.6,Low
+P014,Water Treatment Plant Site (Coimbatore Phase 1),Tamil Nadu,Coimbatore,Urban Infrastructure,31.81,198,41.75,5.7,1,44.73,35.57,2.1,6.2,2022-10-19,2024-07-06,170,28.6,Medium
+P015,Green Energy Transmission Corridor (Udaipur Section A),Rajasthan,Udaipur,Power Transmission,38.19,74,55.75,57.9,0,65.76,52.36,3.3,7.2,2022-10-16,2026-09-28,150,23.6,Medium
+P016,Grid Augmentation Line (Belagavi Phase 3),Karnataka,Belagavi,Power Transmission,54.45,89,38.04,6.0,1,43.24,41.55,2.3,7.8,2023-01-23,2024-08-01,133,19.7,Medium
+P017,SEZ Land Acquisition Zone (Varanasi Phase 2),Uttar Pradesh,Varanasi,Industrial Corridor,34.71,184,41.79,98.2,2,31.62,46.79,4.5,8.1,2023-08-05,2026-12-19,153,26.9,Medium
+P018,Doubling & Electrification Line (Cuttack Phase 1),Odisha,Cuttack,Railway,52.71,209,70.85,405.9,2,54.63,74.68,3.6,8.6,2023-08-27,2027-07-03,140,22.0,Medium
+P019,765kV Substation Land (Udaipur Section A),Rajasthan,Udaipur,Power Transmission,38.41,74,27.07,729.8,2,45.12,41.81,7.6,8.4,2024-10-24,2027-11-04,346,53.0,High
+P020,Smart City Outer Ring Road (Lucknow Phase 3),Uttar Pradesh,Lucknow,Urban Infrastructure,8.32,119,33.75,182.4,0,27.11,45.14,2.0,5.4,2025-03-23,2026-04-29,207,33.0,High
+P021,Reservoir Dam Construction (Belagavi Package IV),Karnataka,Belagavi,Irrigation,18.09,104,70.78,31.7,2,54.24,64.44,7.8,3.5,2022-10-11,2025-10-22,90,15.7,Low
+P022,State Highway 12 Upgrade (Thane Phase 1),Maharashtra,Thane,Highway,32.85,215,74.91,425.3,0,65.01,52.05,1.4,8.2,2025-01-18,2027-10-12,220,36.5,High
+P023,Expressway Bypass Corridor (Kolkata Package IV),West Bengal,Kolkata,Highway,14.77,147,1.37,130.7,1,25.26,14.96,2.8,7.3,2023-07-05,2025-07-08,256,40.3,High
+P024,NH-44 Widening (Jaipur Section A),Rajasthan,Jaipur,Highway,57.39,286,79.51,30.0,2,67.6,85.19,8.1,6.4,2025-06-05,2027-08-17,0,0.0,Low
+P025,Dedicated Freight Corridor (Indore Package IV),Madhya Pradesh,Indore,Railway,115.36,531,51.03,458.6,3,48.52,68.01,7.7,5.7,2025-08-24,2028-07-23,221,33.6,High
+P026,Textile Park Development (Thane Package IV),Maharashtra,Thane,Industrial Corridor,91.29,459,83.88,255.0,2,78.76,80.09,5.3,6.7,2024-12-24,2028-09-14,111,17.9,Low
+P027,Grid Augmentation Line (Howrah Package IV),West Bengal,Howrah,Power Transmission,31.18,80,52.77,236.8,0,40.18,42.26,1.4,7.9,2024-06-12,2026-07-10,192,31.2,Medium
+P028,Lift Irrigation Project (Madurai Phase 1),Tamil Nadu,Madurai,Irrigation,111.95,470,77.86,222.3,0,80.84,54.18,6.5,3.0,2023-08-08,2025-11-13,120,20.4,Medium
+P029,Smart City Outer Ring Road (Guntur Phase 2),Andhra Pradesh,Guntur,Urban Infrastructure,40.92,342,96.14,40.2,2,85.09,77.01,4.7,6.7,2024-07-28,2026-05-05,38,5.9,Low
+P030,Reservoir Dam Construction (Ahmedabad Phase 1),Gujarat,Ahmedabad,Irrigation,28.42,183,51.02,42.7,2,49.94,63.14,3.8,6.0,2025-03-03,2027-01-14,137,21.8,Medium
+P031,Flyover & Arterial Road Network (Indore Phase 1),Madhya Pradesh,Indore,Urban Infrastructure,23.1,201,51.41,209.8,1,60.08,58.68,6.8,5.0,2023-11-06,2025-04-12,156,24.7,Medium
+P032,Metro Rail Phase 2 (Chennai Phase 3),Tamil Nadu,Chennai,Railway,29.17,74,66.37,44.7,1,73.6,74.08,4.9,5.7,2022-09-10,2025-05-07,60,9.9,Low
+P033,Expressway Bypass Corridor (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Highway,27.35,222,55.02,103.9,1,51.85,57.32,1.8,6.8,2023-05-06,2024-11-28,168,26.9,Medium
+P034,High-Speed Rail Link (Chennai Phase 3),Tamil Nadu,Chennai,Railway,41.59,234,34.87,274.2,9,30.46,27.23,9.2,6.4,2025-08-19,2029-06-23,301,50.0,High
+P035,Textile Park Development (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Industrial Corridor,41.28,221,60.47,275.8,1,65.75,43.32,8.0,6.8,2024-06-17,2028-05-30,140,23.0,Medium
+P036,Textile Park Development (Mysuru Phase 1),Karnataka,Mysuru,Industrial Corridor,36.68,191,56.3,108.7,1,52.31,38.28,1.5,8.4,2024-02-10,2025-04-27,206,33.4,High
+P037,Bus Rapid Transit Corridor (Bhopal Phase 2),Madhya Pradesh,Bhopal,Urban Infrastructure,50.79,303,62.76,282.8,1,70.46,60.64,5.7,3.5,2023-11-05,2026-09-24,210,33.8,High
+P038,Thermal Power Substation Link (Vijayawada Phase 2),Andhra Pradesh,Vijayawada,Power Transmission,89.39,126,85.38,328.3,1,87.78,64.0,1.8,6.9,2023-04-29,2025-01-21,207,32.0,High
+P039,Green Energy Transmission Corridor (Varanasi Section A),Uttar Pradesh,Varanasi,Power Transmission,74.6,169,54.9,191.4,3,44.05,61.39,8.5,8.7,2023-07-31,2026-09-09,104,16.8,Low
+P040,Urban Bypass Expressway (Vadodara Phase 3),Gujarat,Vadodara,Urban Infrastructure,12.02,106,34.4,46.7,1,49.71,46.38,6.5,5.6,2024-02-04,2025-12-15,132,20.3,Medium
+P041,Logistics Hub Cluster (Indore Phase 2),Madhya Pradesh,Indore,Industrial Corridor,5.39,101,97.55,57.6,1,82.37,74.54,2.6,6.4,2023-02-05,2025-01-02,29,5.2,Low
+P042,Textile Park Development (Agra Phase 1),Uttar Pradesh,Agra,Industrial Corridor,73.75,398,17.78,68.1,2,29.49,17.75,1.2,7.7,2023-01-22,2025-01-26,266,42.6,High
+P043,SEZ Land Acquisition Zone (Howrah Phase 1),West Bengal,Howrah,Industrial Corridor,13.13,109,71.54,22.4,1,54.52,50.09,1.3,6.2,2024-04-12,2026-03-17,129,23.3,Medium
+P044,Doubling & Electrification Line (Indore Section A),Madhya Pradesh,Indore,Railway,30.92,166,40.25,57.4,3,52.41,51.97,5.6,5.8,2023-01-28,2026-07-12,159,23.8,Medium
+P045,Textile Park Development (Howrah Phase 1),West Bengal,Howrah,Industrial Corridor,15.22,100,79.38,42.3,0,75.57,67.36,7.6,8.5,2024-03-10,2025-06-07,0,0.0,Low
+P046,Lift Irrigation Project (Belagavi Package IV),Karnataka,Belagavi,Irrigation,9.47,76,80.18,109.4,2,76.22,63.44,2.1,5.9,2024-02-16,2027-06-06,95,15.7,Low
+P047,State Highway 12 Upgrade (Agra Phase 2),Uttar Pradesh,Agra,Highway,54.93,330,38.33,430.3,2,51.3,54.9,3.0,7.1,2025-03-25,2028-04-09,247,38.9,High
+P048,Tech Park Phase C (Ahmedabad Section A),Gujarat,Ahmedabad,Industrial Corridor,64.67,224,69.91,19.9,0,65.14,66.22,3.9,5.9,2023-10-15,2026-02-12,79,13.0,Low
+P049,Urban Bypass Expressway (Guntur Phase 2),Andhra Pradesh,Guntur,Urban Infrastructure,23.75,260,35.9,229.3,0,37.19,41.47,3.0,4.7,2022-11-06,2026-05-03,234,35.9,High
+P050,State Highway 12 Upgrade (Sambalpur Phase 2),Odisha,Sambalpur,Highway,5.24,71,26.69,209.2,2,41.67,43.37,4.5,6.9,2024-08-13,2027-03-19,242,41.9,High
+P051,High-Speed Rail Link (Madurai Package IV),Tamil Nadu,Madurai,Railway,24.3,132,20.92,18.1,3,34.25,42.14,6.0,7.9,2024-12-11,2028-06-17,173,27.3,Medium
+P052,Bus Rapid Transit Corridor (Nagpur Phase 3),Maharashtra,Nagpur,Urban Infrastructure,49.1,372,63.99,460.5,1,71.72,65.61,7.2,3.1,2023-03-12,2025-07-03,202,31.5,High
+P053,Outer Ring Road Extension (Ahmedabad Section A),Gujarat,Ahmedabad,Highway,12.07,71,74.43,151.3,2,79.33,63.78,9.7,5.8,2024-04-10,2028-04-07,92,17.7,Low
+P054,Bus Rapid Transit Corridor (Agra Section A),Uttar Pradesh,Agra,Urban Infrastructure,41.99,285,69.25,81.4,9,61.5,58.29,9.4,6.6,2022-12-31,2025-05-03,180,30.3,Medium
+P055,Doubling & Electrification Line (Cuttack Phase 2),Odisha,Cuttack,Railway,36.18,160,42.06,254.3,1,42.72,54.35,6.1,7.8,2025-01-04,2027-09-29,144,25.3,Medium
+P056,Lift Irrigation Project (Surat Package IV),Gujarat,Surat,Irrigation,56.51,195,30.53,53.6,1,29.3,37.97,7.6,4.7,2023-11-29,2027-07-16,117,18.6,Low
+P057,Metro Rail Phase 2 (Agra Phase 1),Uttar Pradesh,Agra,Railway,40.03,189,27.5,212.9,0,37.14,42.53,9.6,8.0,2025-05-03,2027-06-04,139,22.5,Medium
+P058,Dedicated Freight Corridor (Udaipur Phase 1),Rajasthan,Udaipur,Railway,17.64,101,64.93,7.3,1,57.81,73.37,1.8,5.3,2025-04-17,2028-05-09,78,11.7,Low
+P059,Flyover & Arterial Road Network (Jodhpur Phase 2),Rajasthan,Jodhpur,Urban Infrastructure,89.79,836,92.3,329.2,0,88.88,92.05,1.1,3.4,2024-03-14,2027-09-02,145,22.3,Medium
+P060,Solar Park Land Acquisition (Howrah Package IV),West Bengal,Howrah,Power Transmission,32.5,113,82.2,107.0,1,64.69,63.15,1.3,8.7,2025-02-12,2028-09-14,121,20.1,Medium
+P061,DMIC Industrial Node (Ahmedabad Section A),Gujarat,Ahmedabad,Industrial Corridor,35.86,148,79.06,182.3,0,62.21,57.97,6.1,8.8,2023-06-25,2026-01-22,0,0.0,Low
+P062,Tech Park Phase C (Jodhpur Package IV),Rajasthan,Jodhpur,Industrial Corridor,18.18,155,61.72,45.0,1,51.4,49.26,7.9,8.7,2025-08-29,2028-10-19,30,8.2,Low
+P063,Feeder Canal Modernization (Varanasi Package IV),Uttar Pradesh,Varanasi,Irrigation,26.25,132,95.1,203.5,3,73.43,88.11,4.3,3.8,2022-12-17,2026-10-11,135,23.0,Medium
+P064,Reservoir Dam Construction (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Irrigation,18.85,88,23.54,266.3,0,33.16,28.25,5.9,5.0,2022-11-10,2026-10-25,213,37.2,High
+P065,DMIC Industrial Node (Varanasi Phase 1),Uttar Pradesh,Varanasi,Industrial Corridor,32.15,251,66.02,115.4,8,53.2,48.98,5.6,8.2,2025-06-23,2028-10-27,196,28.3,Medium
+P066,Thermal Power Substation Link (Kolkata Phase 3),West Bengal,Kolkata,Power Transmission,132.13,240,80.31,173.1,3,64.23,55.64,1.9,8.2,2023-08-20,2025-07-16,155,27.8,Medium
+P067,Textile Park Development (Surat Phase 1),Gujarat,Surat,Industrial Corridor,13.08,146,25.74,109.7,0,19.66,28.19,3.9,8.9,2023-11-23,2026-01-04,198,28.4,Medium
+P068,Grid Augmentation Line (Sambalpur Section A),Odisha,Sambalpur,Power Transmission,10.91,25,54.99,404.1,1,60.79,40.51,1.2,7.3,2023-01-01,2024-10-10,307,47.6,High
+P069,Lift Irrigation Project (Guntur Section A),Andhra Pradesh,Guntur,Irrigation,110.32,320,54.45,124.0,0,61.14,40.87,2.0,4.7,2023-08-27,2026-01-20,194,28.7,Medium
+P070,NH-44 Widening (Indore Phase 3),Madhya Pradesh,Indore,Highway,31.28,176,43.37,331.9,3,36.58,52.13,8.3,7.1,2023-02-03,2024-05-19,138,22.6,Medium
+P071,Bus Rapid Transit Corridor (Sambalpur Phase 2),Odisha,Sambalpur,Urban Infrastructure,22.16,146,24.69,290.9,2,37.01,16.74,8.5,6.2,2024-04-12,2027-12-22,245,39.5,High
+P072,River Interlinking Link (Bengaluru Urban Phase 1),Karnataka,Bengaluru Urban,Irrigation,79.83,204,89.82,95.1,2,78.2,62.5,8.2,4.6,2023-11-05,2026-12-04,45,8.5,Low
+P073,Reservoir Dam Construction (Lucknow Package IV),Uttar Pradesh,Lucknow,Irrigation,23.24,147,37.94,47.1,4,34.44,54.21,7.5,5.9,2024-08-04,2026-03-02,135,21.6,Medium
+P074,Suburban Rail Expansion (Mysuru Phase 2),Karnataka,Mysuru,Railway,143.96,638,39.42,93.8,0,45.1,55.19,8.1,8.1,2025-05-14,2029-04-04,59,11.4,Low
+P075,High-Speed Rail Link (Cuttack Phase 3),Odisha,Cuttack,Railway,60.85,242,43.75,315.0,1,37.27,39.96,7.0,5.6,2024-03-19,2025-11-29,175,26.8,Medium
+P076,High-Speed Rail Link (Howrah Package IV),West Bengal,Howrah,Railway,25.38,107,51.23,46.5,2,57.34,36.38,7.0,6.0,2023-05-10,2025-12-13,88,16.1,Low
+P077,Bus Rapid Transit Corridor (Gwalior Phase 1),Madhya Pradesh,Gwalior,Urban Infrastructure,184.56,1759,66.18,133.8,1,50.83,67.69,7.0,6.4,2024-03-28,2025-09-15,91,14.6,Low
+P078,Suburban Rail Expansion (Bhopal Phase 3),Madhya Pradesh,Bhopal,Railway,23.24,139,75.14,295.3,2,80.33,61.45,5.6,8.5,2024-03-04,2026-01-26,183,33.0,Medium
+P079,Solar Park Land Acquisition (Pune Phase 1),Maharashtra,Pune,Power Transmission,63.85,153,78.07,78.5,2,60.35,52.34,4.3,8.6,2023-07-22,2026-01-30,65,11.8,Low
+P080,DMIC Industrial Node (Gwalior Phase 3),Madhya Pradesh,Gwalior,Industrial Corridor,45.81,280,93.01,185.0,0,84.24,65.98,7.6,6.3,2025-07-07,2029-01-12,80,12.4,Low
+P081,State Highway 12 Upgrade (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Highway,97.15,403,65.29,50.7,2,71.52,47.24,3.7,7.0,2023-10-19,2027-09-04,147,23.7,Medium
+P082,Canal Network Expansion (Indore Phase 2),Madhya Pradesh,Indore,Irrigation,118.05,355,89.64,20.8,0,67.53,78.89,5.9,6.0,2025-08-25,2027-06-22,6,0.0,Low
+P083,Thermal Power Substation Link (Cuttack Phase 1),Odisha,Cuttack,Power Transmission,37.49,95,47.82,284.7,2,48.33,62.52,4.9,6.8,2025-07-27,2029-01-07,186,30.5,Medium
+P084,NH-44 Widening (Thane Section A),Maharashtra,Thane,Highway,20.8,131,56.99,18.8,0,51.49,64.8,3.5,5.5,2025-06-02,2026-12-06,83,12.9,Low
+P085,765kV Substation Land (Khordha Package IV),Odisha,Khordha,Power Transmission,51.68,104,54.05,57.0,2,55.05,54.26,9.8,7.4,2022-12-19,2025-03-17,67,11.9,Low
+P086,Green Energy Transmission Corridor (Cuttack Phase 2),Odisha,Cuttack,Power Transmission,22.01,87,73.97,347.7,1,61.11,62.86,3.3,8.6,2025-04-03,2028-10-12,171,25.6,Medium
+P087,Feeder Canal Modernization (Madurai Package IV),Tamil Nadu,Madurai,Irrigation,165.68,595,39.04,76.6,2,30.9,47.03,3.8,3.2,2025-05-13,2028-04-27,157,24.8,Medium
+P088,SEZ Land Acquisition Zone (Nagpur Phase 3),Maharashtra,Nagpur,Industrial Corridor,40.54,173,80.27,650.4,3,75.85,67.71,2.5,6.4,2023-05-23,2024-07-15,363,56.8,High
+P089,Suburban Rail Expansion (Khordha Package IV),Odisha,Khordha,Railway,27.83,101,50.4,701.8,11,48.22,41.37,8.4,6.5,2024-12-07,2028-04-04,382,60.0,High
+P090,Urban Bypass Expressway (Madurai Phase 2),Tamil Nadu,Madurai,Urban Infrastructure,42.04,258,56.69,56.2,1,58.08,60.62,6.3,6.5,2023-09-15,2025-01-01,78,13.5,Low
+P091,Logistics Hub Cluster (Madurai Phase 2),Tamil Nadu,Madurai,Industrial Corridor,13.33,87,40.11,7.5,1,35.35,56.64,6.5,7.5,2023-05-11,2026-07-30,21,5.1,Low
+P092,Water Treatment Plant Site (Pune Section A),Maharashtra,Pune,Urban Infrastructure,17.66,166,48.88,219.8,1,45.13,44.82,8.4,5.6,2024-08-18,2028-06-11,130,17.5,Medium
+P093,Reservoir Dam Construction (Mysuru Section A),Karnataka,Mysuru,Irrigation,90.05,233,48.4,107.9,3,50.34,60.91,4.1,6.0,2024-04-11,2027-05-16,177,31.3,Medium
+P094,River Interlinking Link (Howrah Section A),West Bengal,Howrah,Irrigation,22.36,152,62.41,19.1,1,61.64,55.65,2.7,6.7,2023-10-24,2026-02-17,110,19.8,Low
+P095,Canal Network Expansion (Vijayawada Phase 2),Andhra Pradesh,Vijayawada,Irrigation,16.69,101,20.14,221.3,0,24.41,27.14,2.8,6.6,2025-05-21,2028-07-19,257,39.4,High
+P096,Golden Quadrilateral Expansion (Kolkata Phase 1),West Bengal,Kolkata,Highway,54.73,252,55.48,5.7,2,48.61,37.05,7.6,4.4,2025-08-04,2027-01-18,113,19.5,Low
+P097,Water Treatment Plant Site (Gwalior Phase 1),Madhya Pradesh,Gwalior,Urban Infrastructure,89.06,732,67.42,367.5,2,57.41,68.16,6.5,5.3,2025-01-12,2028-02-18,196,30.9,Medium
+P098,Logistics Hub Cluster (Vijayawada Package IV),Andhra Pradesh,Vijayawada,Industrial Corridor,62.75,429,46.27,26.9,0,39.07,58.34,2.9,8.3,2023-08-07,2025-11-08,85,13.6,Low
+P099,SEZ Land Acquisition Zone (Indore Package IV),Madhya Pradesh,Indore,Industrial Corridor,77.25,287,82.01,24.5,1,69.64,76.53,2.3,9.2,2025-07-29,2026-09-24,65,11.4,Low
+P100,Green Energy Transmission Corridor (Khordha Phase 1),Odisha,Khordha,Power Transmission,20.75,73,70.14,34.8,0,57.59,50.89,2.1,8.6,2024-01-16,2026-10-29,72,12.3,Low
+P101,765kV Substation Land (Varanasi Phase 1),Uttar Pradesh,Varanasi,Power Transmission,12.6,92,78.29,580.6,1,74.56,54.5,6.7,6.8,2022-11-25,2024-06-14,176,27.5,Medium
+P102,Green Energy Transmission Corridor (Pune Phase 1),Maharashtra,Pune,Power Transmission,112.84,243,34.39,212.7,1,40.02,42.4,1.0,6.9,2023-08-21,2026-07-07,263,41.6,High
+P103,Canal Network Expansion (Guntur Phase 3),Andhra Pradesh,Guntur,Irrigation,28.73,161,58.56,290.9,1,53.48,52.12,1.2,4.0,2022-10-19,2024-08-13,236,37.3,High
+P104,DMIC Industrial Node (Visakhapatnam Package IV),Andhra Pradesh,Visakhapatnam,Industrial Corridor,30.32,179,12.89,91.2,3,17.81,23.4,4.5,7.6,2024-01-03,2025-10-10,250,42.0,High
+P105,Flyover & Arterial Road Network (Khordha Phase 3),Odisha,Khordha,Urban Infrastructure,99.1,495,39.91,73.8,0,35.87,59.81,7.2,4.6,2024-05-15,2025-08-01,82,10.4,Low
+P106,Feeder Canal Modernization (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Irrigation,55.54,166,79.91,48.1,1,73.32,77.28,7.3,1.1,2023-10-20,2026-05-29,102,16.2,Low
+P107,Outer Ring Road Extension (Chennai Phase 2),Tamil Nadu,Chennai,Highway,51.52,283,28.12,117.9,3,44.06,32.69,4.9,5.4,2022-12-11,2026-08-04,265,45.1,High
+P108,Thermal Power Substation Link (Sambalpur Package IV),Odisha,Sambalpur,Power Transmission,185.63,258,61.36,144.5,0,63.16,40.55,7.2,7.3,2023-07-24,2025-05-03,90,15.6,Low
+P109,Feeder Canal Modernization (Udaipur Phase 2),Rajasthan,Udaipur,Irrigation,22.59,87,28.37,179.8,1,39.89,19.63,5.7,3.2,2025-01-28,2028-09-14,231,38.8,High
+P110,Feeder Canal Modernization (Coimbatore Section A),Tamil Nadu,Coimbatore,Irrigation,73.4,349,20.48,53.5,0,36.22,37.28,9.8,3.3,2024-01-01,2027-07-07,130,20.7,Medium
+P111,Golden Quadrilateral Expansion (Nagpur Phase 1),Maharashtra,Nagpur,Highway,38.2,273,75.86,534.5,1,65.69,78.63,2.5,9.3,2023-07-27,2024-08-05,230,35.4,High
+P112,Dedicated Freight Corridor (Madurai Section A),Tamil Nadu,Madurai,Railway,44.77,263,58.24,33.5,1,45.25,62.63,6.4,6.2,2025-06-14,2026-11-23,103,16.7,Low
+P113,Textile Park Development (Mysuru Section A),Karnataka,Mysuru,Industrial Corridor,115.16,777,16.52,606.8,4,27.95,24.94,5.4,6.7,2024-10-14,2025-11-21,431,68.5,High
+P114,Urban Bypass Expressway (Madurai Section A),Tamil Nadu,Madurai,Urban Infrastructure,53.56,351,17.15,2.7,1,17.58,12.24,2.8,6.0,2024-05-06,2026-10-12,229,40.3,High
+P115,Dedicated Freight Corridor (Pune Phase 1),Maharashtra,Pune,Railway,54.8,304,60.42,118.1,0,59.54,73.13,7.7,7.6,2025-05-25,2027-08-09,59,9.3,Low
+P116,765kV Substation Land (Bengaluru Urban Section A),Karnataka,Bengaluru Urban,Power Transmission,81.81,156,73.54,73.0,1,73.64,82.32,3.5,10.0,2024-08-12,2026-06-14,90,15.5,Low
+P117,Reservoir Dam Construction (Howrah Phase 1),West Bengal,Howrah,Irrigation,27.83,132,38.05,107.3,1,48.13,43.96,4.4,6.8,2023-04-09,2027-03-24,145,25.9,Medium
+P118,Golden Quadrilateral Expansion (Vijayawada Phase 2),Andhra Pradesh,Vijayawada,Highway,19.5,146,72.59,152.2,1,61.99,49.66,4.4,7.3,2023-10-16,2027-02-28,91,13.0,Low
+P119,Golden Quadrilateral Expansion (Vijayawada Package IV),Andhra Pradesh,Vijayawada,Highway,16.72,164,62.98,103.0,0,60.05,59.87,3.2,5.0,2023-04-04,2024-11-16,140,19.2,Medium
+P120,Tech Park Phase C (Bhopal Phase 2),Madhya Pradesh,Bhopal,Industrial Corridor,8.37,80,49.72,96.5,0,52.81,63.55,4.9,6.0,2023-09-18,2026-04-30,78,13.3,Low
+P121,Metro Rail Phase 2 (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Railway,171.08,681,67.46,237.5,9,71.08,67.65,5.3,5.7,2025-01-19,2027-05-20,236,39.1,High
+P122,Textile Park Development (Kolkata Section A),West Bengal,Kolkata,Industrial Corridor,16.0,115,31.24,208.4,0,42.46,45.51,7.7,7.8,2024-12-15,2027-08-23,166,26.2,Medium
+P123,Lift Irrigation Project (Coimbatore Phase 1),Tamil Nadu,Coimbatore,Irrigation,31.0,132,52.67,322.4,1,64.2,37.21,7.9,4.9,2023-10-13,2025-06-18,215,32.9,High
+P124,Tech Park Phase C (Guntur Package IV),Andhra Pradesh,Guntur,Industrial Corridor,29.74,214,38.72,51.8,6,29.24,28.9,2.4,5.4,2025-02-24,2026-06-01,268,43.7,High
+P125,Smart City Outer Ring Road (Nagpur Phase 1),Maharashtra,Nagpur,Urban Infrastructure,46.09,253,52.19,169.3,9,50.08,38.38,6.3,3.2,2024-06-26,2026-10-27,282,45.4,High
+P126,Outer Ring Road Extension (Ahmedabad Phase 1),Gujarat,Ahmedabad,Highway,67.48,382,44.42,158.4,1,39.72,60.53,9.1,7.1,2025-02-22,2028-06-30,78,13.1,Low
+P127,NH-44 Widening (Surat Phase 2),Gujarat,Surat,Highway,69.78,470,26.42,83.1,1,22.81,35.58,2.0,6.9,2024-05-12,2027-12-04,264,40.9,High
+P128,Green Energy Transmission Corridor (Bengaluru Urban Section A),Karnataka,Bengaluru Urban,Power Transmission,23.63,82,65.08,119.8,2,71.6,70.01,5.3,7.5,2024-03-15,2025-07-21,94,15.6,Low
+P129,Solar Park Land Acquisition (Guntur Section A),Andhra Pradesh,Guntur,Power Transmission,32.29,79,90.62,67.8,1,92.91,62.94,7.8,8.4,2023-08-06,2025-03-20,0,1.2,Low
+P130,Lift Irrigation Project (Visakhapatnam Section A),Andhra Pradesh,Visakhapatnam,Irrigation,45.24,229,67.33,27.5,2,55.01,76.23,6.5,6.3,2023-04-02,2027-01-19,81,10.8,Low
+P131,Smart City Outer Ring Road (Ahmedabad Phase 2),Gujarat,Ahmedabad,Urban Infrastructure,30.37,331,60.36,43.3,0,46.23,67.97,1.9,5.6,2024-10-30,2025-12-02,135,24.0,Medium
+P132,Metro Rail Phase 2 (Vijayawada Phase 1),Andhra Pradesh,Vijayawada,Railway,122.18,614,64.86,20.1,2,55.52,50.03,4.6,5.1,2024-10-05,2028-08-25,180,29.4,Medium
+P133,Tech Park Phase C (Coimbatore Phase 3),Tamil Nadu,Coimbatore,Industrial Corridor,52.89,294,82.42,206.8,0,82.69,84.17,5.6,9.5,2023-01-19,2025-05-28,16,3.9,Low
+P134,Feeder Canal Modernization (Udaipur Phase 3),Rajasthan,Udaipur,Irrigation,63.51,286,88.54,194.6,2,73.75,66.77,10.0,4.6,2022-11-12,2024-09-01,54,6.8,Low
+P135,Solar Park Land Acquisition (Lucknow Package IV),Uttar Pradesh,Lucknow,Power Transmission,60.17,176,53.06,541.4,1,41.22,41.68,2.6,7.9,2023-02-17,2025-10-05,285,47.0,High
+P136,Tech Park Phase C (Kolkata Phase 2),West Bengal,Kolkata,Industrial Corridor,88.24,351,47.02,235.5,1,36.58,39.81,9.8,6.4,2023-04-25,2026-09-20,125,17.7,Medium
+P137,Green Energy Transmission Corridor (Bhopal Phase 3),Madhya Pradesh,Bhopal,Power Transmission,41.92,136,60.57,9.6,3,56.11,71.22,4.4,6.5,2025-05-01,2026-05-04,91,13.3,Low
+P138,SEZ Land Acquisition Zone (Belagavi Phase 1),Karnataka,Belagavi,Industrial Corridor,13.84,159,35.56,388.1,0,49.97,55.16,2.8,6.0,2023-05-06,2026-04-27,209,34.1,High
+P139,Suburban Rail Expansion (Udaipur Package IV),Rajasthan,Udaipur,Railway,49.39,187,27.06,357.4,1,27.44,29.1,4.7,4.7,2025-07-23,2027-11-27,241,38.5,High
+P140,Canal Network Expansion (Surat Phase 3),Gujarat,Surat,Irrigation,22.45,94,69.97,105.4,7,63.16,70.17,6.5,1.2,2024-06-16,2027-10-17,244,39.4,High
+P141,DMIC Industrial Node (Howrah Phase 1),West Bengal,Howrah,Industrial Corridor,24.62,175,66.02,158.7,0,52.06,66.56,2.9,7.0,2025-03-14,2027-04-01,100,19.0,Low
+P142,Bus Rapid Transit Corridor (Vijayawada Section A),Andhra Pradesh,Vijayawada,Urban Infrastructure,56.81,376,29.72,671.9,0,34.63,47.55,3.6,6.5,2022-12-07,2024-05-30,342,55.2,High
+P143,Outer Ring Road Extension (Bhopal Package IV),Madhya Pradesh,Bhopal,Highway,92.64,474,42.93,136.8,3,49.61,38.28,8.7,5.6,2024-04-19,2028-03-26,171,28.6,Medium
+P144,Flyover & Arterial Road Network (Visakhapatnam Phase 1),Andhra Pradesh,Visakhapatnam,Urban Infrastructure,37.19,355,56.94,424.3,1,49.48,54.87,10.0,8.3,2024-04-14,2027-04-22,99,15.9,Low
+P145,Bus Rapid Transit Corridor (Thane Phase 1),Maharashtra,Thane,Urban Infrastructure,46.14,394,33.02,15.6,0,32.18,44.83,3.9,6.9,2025-03-13,2026-07-29,121,19.4,Medium
+P146,Golden Quadrilateral Expansion (Pune Phase 1),Maharashtra,Pune,Highway,131.19,429,64.1,38.2,1,69.12,42.58,2.3,6.8,2024-08-27,2028-08-08,151,22.9,Medium
+P147,Bus Rapid Transit Corridor (Indore Phase 1),Madhya Pradesh,Indore,Urban Infrastructure,43.84,265,49.03,104.6,0,37.03,45.06,8.1,3.9,2024-11-29,2028-10-03,113,18.8,Low
+P148,SEZ Land Acquisition Zone (Gwalior Section A),Madhya Pradesh,Gwalior,Industrial Corridor,257.56,1162,81.12,158.2,2,76.75,77.08,6.4,5.3,2023-09-25,2027-07-30,115,22.4,Low
+P149,DMIC Industrial Node (Surat Package IV),Gujarat,Surat,Industrial Corridor,55.93,432,78.06,304.9,1,68.39,59.58,1.9,7.1,2025-01-06,2026-02-16,170,27.6,Medium
+P150,SEZ Land Acquisition Zone (Gwalior Package IV),Madhya Pradesh,Gwalior,Industrial Corridor,9.77,63,83.46,800.1,4,70.05,87.77,9.5,7.3,2022-09-17,2025-11-24,192,30.6,Medium
+P151,Outer Ring Road Extension (Chennai Phase 1),Tamil Nadu,Chennai,Highway,64.39,346,45.14,88.6,6,50.29,30.4,1.7,6.6,2025-07-22,2029-03-10,303,50.6,High
+P152,Bus Rapid Transit Corridor (Vijayawada Phase 1),Andhra Pradesh,Vijayawada,Urban Infrastructure,48.71,355,75.88,8.7,1,77.78,82.86,6.6,6.5,2023-02-24,2024-05-23,68,12.5,Low
+P153,Expressway Bypass Corridor (Jaipur Package IV),Rajasthan,Jaipur,Highway,96.29,398,58.69,290.8,1,57.98,45.74,4.8,8.6,2025-07-25,2028-09-24,115,19.2,Low
+P154,Logistics Hub Cluster (Sambalpur Package IV),Odisha,Sambalpur,Industrial Corridor,60.64,416,62.58,166.9,2,47.71,42.39,6.0,7.8,2024-12-12,2028-01-15,118,18.6,Medium
+P155,Water Treatment Plant Site (Gwalior Phase 3),Madhya Pradesh,Gwalior,Urban Infrastructure,32.99,302,42.3,39.8,9,43.26,37.73,2.9,5.8,2023-10-19,2026-03-21,346,57.5,High
+P156,Flyover & Arterial Road Network (Belagavi Phase 3),Karnataka,Belagavi,Urban Infrastructure,14.61,145,50.41,122.9,0,49.38,60.29,7.2,4.8,2025-05-22,2026-06-24,108,17.6,Low
+P157,Green Energy Transmission Corridor (Pune Phase 3),Maharashtra,Pune,Power Transmission,31.29,109,66.43,244.1,2,63.42,69.51,9.6,7.8,2024-02-10,2027-02-10,91,16.0,Low
+P158,Solar Park Land Acquisition (Chennai Phase 2),Tamil Nadu,Chennai,Power Transmission,19.34,71,93.74,264.9,1,87.08,68.24,5.1,8.3,2023-02-20,2024-07-07,64,9.1,Low
+P159,Doubling & Electrification Line (Kolkata Section A),West Bengal,Kolkata,Railway,23.68,144,57.26,124.6,0,43.43,44.11,5.7,5.8,2023-11-29,2026-11-04,72,10.7,Low
+P160,Reservoir Dam Construction (Khordha Phase 1),Odisha,Khordha,Irrigation,56.91,213,78.94,65.5,2,71.76,73.8,3.2,5.6,2024-07-06,2026-11-11,164,26.6,Medium
+P161,765kV Substation Land (Udaipur Section A),Rajasthan,Udaipur,Power Transmission,128.05,175,58.78,655.2,1,58.79,54.24,9.0,6.5,2023-05-03,2024-11-30,241,37.0,High
+P162,Outer Ring Road Extension (Sambalpur Package IV),Odisha,Sambalpur,Highway,49.21,218,68.95,196.0,1,60.3,72.55,9.7,5.9,2024-08-04,2027-06-15,56,8.5,Low
+P163,765kV Substation Land (Indore Phase 1),Madhya Pradesh,Indore,Power Transmission,14.93,37,43.84,94.4,0,49.59,29.34,8.1,6.5,2022-09-05,2024-06-04,74,10.0,Low
+P164,Suburban Rail Expansion (Surat Phase 2),Gujarat,Surat,Railway,51.08,282,38.91,59.2,8,34.89,46.66,5.9,5.4,2023-10-14,2025-01-11,262,39.9,High
+P165,Bus Rapid Transit Corridor (Pune Phase 3),Maharashtra,Pune,Urban Infrastructure,89.79,1013,62.89,236.4,1,55.1,66.45,9.6,4.9,2024-10-16,2027-10-07,106,20.8,Low
+P166,High-Speed Rail Link (Nagpur Phase 3),Maharashtra,Nagpur,Railway,23.17,64,60.43,49.9,3,69.39,74.05,2.4,7.4,2023-06-04,2026-04-27,142,22.0,Medium
+P167,Smart City Outer Ring Road (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Urban Infrastructure,33.1,330,40.99,33.9,1,39.44,50.4,5.3,5.2,2024-10-27,2026-10-20,147,22.9,Medium
+P168,Water Treatment Plant Site (Vadodara Phase 3),Gujarat,Vadodara,Urban Infrastructure,37.0,273,50.24,135.8,1,46.34,40.77,5.8,3.7,2023-02-12,2026-09-20,218,35.3,High
+P169,Lift Irrigation Project (Vijayawada Section A),Andhra Pradesh,Vijayawada,Irrigation,20.31,82,93.92,61.6,5,85.33,64.83,5.4,3.1,2025-04-28,2029-01-02,166,25.2,Medium
+P170,Thermal Power Substation Link (Varanasi Phase 3),Uttar Pradesh,Varanasi,Power Transmission,59.51,181,88.25,178.4,11,90.46,79.79,8.2,7.3,2023-12-07,2025-12-14,169,26.5,Medium
+P171,Outer Ring Road Extension (Madurai Package IV),Tamil Nadu,Madurai,Highway,33.42,243,95.34,22.6,14,96.08,80.28,7.0,7.8,2025-05-19,2027-02-19,220,38.2,High
+P172,NH-44 Widening (Nagpur Package IV),Maharashtra,Nagpur,Highway,50.13,349,63.2,191.5,2,61.89,72.55,2.1,8.5,2024-10-27,2026-03-05,153,25.2,Medium
+P173,Textile Park Development (Belagavi Phase 1),Karnataka,Belagavi,Industrial Corridor,18.81,163,72.0,60.0,2,54.03,72.23,4.1,5.3,2025-04-03,2028-10-26,125,21.6,Medium
+P174,Flyover & Arterial Road Network (Thane Phase 3),Maharashtra,Thane,Urban Infrastructure,26.36,195,48.23,0.0,1,58.69,49.19,4.1,5.6,2023-07-05,2024-09-17,137,24.5,Medium
+P175,NH-44 Widening (Sambalpur Phase 1),Odisha,Sambalpur,Highway,62.92,392,11.42,24.4,1,22.82,21.55,6.1,6.3,2023-04-25,2025-12-15,280,45.5,High
+P176,River Interlinking Link (Nagpur Phase 2),Maharashtra,Nagpur,Irrigation,27.67,106,36.74,488.2,0,36.7,38.03,3.6,4.4,2024-04-02,2026-05-19,303,48.5,High
+P177,Water Treatment Plant Site (Pune Phase 3),Maharashtra,Pune,Urban Infrastructure,133.65,1105,34.41,363.6,3,46.54,30.29,2.1,3.9,2023-05-08,2024-08-04,356,55.3,High
+P178,River Interlinking Link (Lucknow Phase 2),Uttar Pradesh,Lucknow,Irrigation,27.12,152,66.69,47.9,1,60.01,43.95,6.9,4.5,2024-12-15,2027-01-27,147,23.1,Medium
+P179,State Highway 12 Upgrade (Varanasi Phase 2),Uttar Pradesh,Varanasi,Highway,43.32,283,48.93,271.2,1,37.55,51.93,8.7,5.5,2024-12-01,2026-02-24,150,23.9,Medium
+P180,State Highway 12 Upgrade (Udaipur Package IV),Rajasthan,Udaipur,Highway,73.66,300,12.77,168.8,1,30.1,15.74,9.4,6.5,2022-08-31,2025-06-07,145,22.2,Medium
+P181,Tech Park Phase C (Guntur Phase 3),Andhra Pradesh,Guntur,Industrial Corridor,12.63,115,47.17,636.7,0,49.02,37.95,9.8,8.6,2025-03-18,2027-12-13,185,32.2,Medium
+P182,NH-44 Widening (Bengaluru Urban Phase 1),Karnataka,Bengaluru Urban,Highway,9.77,80,65.12,84.2,1,57.29,46.72,8.0,7.6,2024-01-16,2027-12-06,76,13.9,Low
+P183,Urban Bypass Expressway (Thane Phase 3),Maharashtra,Thane,Urban Infrastructure,11.66,71,96.51,205.9,0,78.65,69.37,2.3,7.5,2024-09-28,2027-12-22,97,17.1,Low
+P184,Smart City Outer Ring Road (Pune Phase 1),Maharashtra,Pune,Urban Infrastructure,94.34,735,68.38,11.8,3,66.13,45.56,8.7,5.8,2022-09-30,2026-05-26,117,18.7,Low
+P185,Water Treatment Plant Site (Chennai Phase 2),Tamil Nadu,Chennai,Urban Infrastructure,24.19,174,46.43,90.8,3,40.02,53.78,4.6,5.4,2023-02-20,2025-07-22,196,30.1,Medium
+P186,Textile Park Development (Lucknow Phase 2),Uttar Pradesh,Lucknow,Industrial Corridor,249.3,832,76.44,597.5,3,65.43,63.73,7.6,7.9,2024-03-16,2025-05-29,213,36.3,High
+P187,Tech Park Phase C (Bengaluru Urban Package IV),Karnataka,Bengaluru Urban,Industrial Corridor,23.97,128,47.51,139.4,5,51.55,50.53,5.8,6.3,2023-12-21,2026-01-15,176,28.9,Medium
+P188,Expressway Bypass Corridor (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Highway,42.03,213,60.17,61.1,0,67.17,61.4,8.5,4.3,2023-09-06,2026-04-13,101,17.4,Low
+P189,Dedicated Freight Corridor (Udaipur Phase 1),Rajasthan,Udaipur,Railway,116.35,572,68.82,23.1,0,64.94,78.77,4.8,7.2,2022-11-28,2025-11-28,42,7.7,Low
+P190,Dedicated Freight Corridor (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Railway,164.77,521,62.81,218.8,1,66.09,43.22,1.6,4.0,2023-09-09,2024-12-14,204,33.4,High
+P191,Logistics Hub Cluster (Surat Phase 1),Gujarat,Surat,Industrial Corridor,171.77,1181,50.86,186.3,0,57.22,47.69,6.0,8.5,2025-01-28,2027-12-08,196,34.6,Medium
+P192,State Highway 12 Upgrade (Vijayawada Package IV),Andhra Pradesh,Vijayawada,Highway,90.58,446,19.77,84.3,0,31.44,21.46,2.5,7.7,2022-12-31,2025-07-12,267,42.1,High
+P193,Suburban Rail Expansion (Cuttack Phase 2),Odisha,Cuttack,Railway,78.89,310,28.76,542.7,0,27.72,35.38,9.7,5.2,2023-01-11,2024-09-21,220,35.0,High
+P194,Expressway Bypass Corridor (Thane Phase 2),Maharashtra,Thane,Highway,57.08,313,57.98,4.0,0,65.15,69.9,5.7,6.3,2024-09-23,2027-10-16,10,4.1,Low
+P195,NH-44 Widening (Jaipur Phase 3),Rajasthan,Jaipur,Highway,65.61,367,26.25,65.2,2,30.59,42.4,6.0,6.8,2022-12-16,2026-05-28,161,26.1,Medium
+P196,State Highway 12 Upgrade (Sambalpur Phase 1),Odisha,Sambalpur,Highway,24.21,152,9.0,457.1,1,7.86,29.02,9.2,5.7,2024-12-05,2028-03-03,308,49.5,High
+P197,Grid Augmentation Line (Mysuru Phase 2),Karnataka,Mysuru,Power Transmission,19.81,36,37.86,69.7,0,34.51,40.05,6.6,8.4,2023-03-14,2026-08-30,100,15.7,Low
+P198,Flyover & Arterial Road Network (Ahmedabad Phase 1),Gujarat,Ahmedabad,Urban Infrastructure,36.51,283,78.87,52.3,3,78.29,74.75,3.7,6.0,2023-03-18,2026-05-17,84,14.6,Low
+P199,State Highway 12 Upgrade (Varanasi Package IV),Uttar Pradesh,Varanasi,Highway,32.21,217,56.68,137.5,0,44.24,37.98,3.7,5.1,2025-06-20,2028-05-14,185,29.5,Medium
+P200,Solar Park Land Acquisition (Jodhpur Package IV),Rajasthan,Jodhpur,Power Transmission,26.05,66,27.58,312.5,3,24.37,38.45,5.5,6.8,2024-09-07,2026-09-24,257,40.9,High
+P201,SEZ Land Acquisition Zone (Jaipur Phase 2),Rajasthan,Jaipur,Industrial Corridor,61.7,466,78.62,19.6,3,76.32,70.49,8.8,7.2,2025-01-01,2028-10-13,19,4.1,Low
+P202,High-Speed Rail Link (Nagpur Phase 2),Maharashtra,Nagpur,Railway,74.92,263,22.84,515.7,3,39.45,26.98,8.2,7.6,2023-05-14,2027-02-25,279,45.1,High
+P203,Urban Bypass Expressway (Gwalior Phase 1),Madhya Pradesh,Gwalior,Urban Infrastructure,39.11,411,74.04,285.3,2,71.37,55.18,9.7,6.0,2023-10-16,2026-11-06,143,21.6,Medium
+P204,High-Speed Rail Link (Jaipur Phase 3),Rajasthan,Jaipur,Railway,110.85,410,57.16,36.0,2,48.43,65.42,1.6,3.4,2024-11-27,2028-10-25,212,34.2,High
+P205,Urban Bypass Expressway (Madurai Phase 2),Tamil Nadu,Madurai,Urban Infrastructure,15.54,138,20.23,224.1,2,16.51,15.03,3.4,4.8,2025-03-30,2027-09-27,263,44.5,High
+P206,Doubling & Electrification Line (Ahmedabad Phase 2),Gujarat,Ahmedabad,Railway,31.65,121,54.79,87.5,3,56.47,38.05,1.7,6.8,2024-06-18,2025-12-04,227,37.8,High
+P207,Smart City Outer Ring Road (Ahmedabad Section A),Gujarat,Ahmedabad,Urban Infrastructure,21.38,238,28.87,92.6,1,22.84,34.18,7.8,4.2,2023-07-26,2026-12-11,172,30.0,Medium
+P208,Dedicated Freight Corridor (Chennai Section A),Tamil Nadu,Chennai,Railway,9.03,61,48.46,275.3,1,51.66,40.34,2.3,5.1,2024-12-15,2026-05-25,230,36.0,High
+P209,High-Speed Rail Link (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Railway,34.4,166,50.96,592.4,2,43.86,59.21,1.9,5.3,2025-08-06,2029-01-03,321,53.4,High
+P210,Metro Rail Phase 2 (Chennai Phase 3),Tamil Nadu,Chennai,Railway,33.4,168,61.91,24.4,0,69.05,62.44,6.1,5.8,2023-07-09,2025-07-12,39,5.3,Low
+P211,Doubling & Electrification Line (Coimbatore Phase 2),Tamil Nadu,Coimbatore,Railway,113.87,369,74.37,98.2,2,67.65,75.38,4.7,5.0,2023-12-28,2026-08-20,100,14.3,Low
+P212,SEZ Land Acquisition Zone (Vadodara Phase 1),Gujarat,Vadodara,Industrial Corridor,58.74,219,50.97,118.0,8,43.83,44.49,7.4,8.0,2024-05-11,2027-02-27,236,36.9,High
+P213,Golden Quadrilateral Expansion (Guntur Section A),Andhra Pradesh,Guntur,Highway,16.98,107,93.72,85.0,1,91.62,86.84,5.4,5.8,2025-07-09,2027-02-04,26,4.4,Low
+P214,Reservoir Dam Construction (Vadodara Phase 3),Gujarat,Vadodara,Irrigation,147.02,646,42.74,81.2,1,38.41,57.96,4.8,3.6,2025-06-05,2026-11-15,191,32.3,Medium
+P215,765kV Substation Land (Gwalior Phase 3),Madhya Pradesh,Gwalior,Power Transmission,91.45,212,72.37,9.7,3,61.94,59.13,4.8,7.3,2024-04-02,2027-02-02,84,14.0,Low
+P216,Reservoir Dam Construction (Thane Package IV),Maharashtra,Thane,Irrigation,56.63,194,73.01,208.2,0,75.61,59.35,8.8,6.6,2024-07-11,2027-03-08,72,11.4,Low
+P217,Feeder Canal Modernization (Sambalpur Package IV),Odisha,Sambalpur,Irrigation,30.88,130,48.02,103.2,0,43.73,62.71,4.6,5.4,2024-11-12,2027-08-01,166,25.2,Medium
+P218,Water Treatment Plant Site (Guntur Phase 1),Andhra Pradesh,Guntur,Urban Infrastructure,17.82,180,35.29,39.0,6,36.72,24.68,4.0,5.9,2024-08-01,2028-01-31,279,46.1,High
+P219,NH-44 Widening (Lucknow Phase 3),Uttar Pradesh,Lucknow,Highway,27.68,175,81.41,304.7,3,69.75,65.17,4.0,7.1,2023-03-06,2026-07-25,189,31.9,Medium
+P220,Flyover & Arterial Road Network (Sambalpur Package IV),Odisha,Sambalpur,Urban Infrastructure,82.81,764,68.46,292.0,2,54.26,48.65,2.8,4.1,2023-09-20,2025-08-26,255,41.6,High
+P221,State Highway 12 Upgrade (Thane Phase 1),Maharashtra,Thane,Highway,150.42,887,50.68,119.9,0,38.98,33.96,8.7,6.0,2023-08-15,2027-02-09,87,12.5,Low
+P222,NH-44 Widening (Indore Package IV),Madhya Pradesh,Indore,Highway,116.45,615,45.31,63.8,1,52.1,33.4,2.3,5.8,2022-12-08,2025-11-26,219,36.5,High
+P223,Metro Rail Phase 2 (Indore Phase 3),Madhya Pradesh,Indore,Railway,25.36,98,57.22,182.9,1,59.04,52.29,9.2,7.5,2024-02-07,2027-08-10,14,4.1,Low
+P224,Textile Park Development (Varanasi Section A),Uttar Pradesh,Varanasi,Industrial Corridor,15.8,114,69.82,61.2,1,59.42,69.43,3.6,7.6,2022-10-02,2023-12-27,15,4.7,Low
+P225,Suburban Rail Expansion (Guntur Package IV),Andhra Pradesh,Guntur,Railway,40.68,224,48.18,48.5,1,43.52,41.44,9.1,4.2,2025-03-01,2028-02-21,92,14.2,Low
+P226,DMIC Industrial Node (North 24 Parganas Section A),West Bengal,North 24 Parganas,Industrial Corridor,9.71,96,70.0,236.0,10,76.13,75.24,8.1,8.9,2025-01-07,2028-06-15,234,38.4,High
+P227,Bus Rapid Transit Corridor (Coimbatore Phase 2),Tamil Nadu,Coimbatore,Urban Infrastructure,46.64,404,62.61,7.4,1,71.65,56.01,6.2,4.8,2023-08-23,2026-03-07,91,13.9,Low
+P228,Textile Park Development (Vijayawada Phase 1),Andhra Pradesh,Vijayawada,Industrial Corridor,32.76,131,80.46,17.9,1,72.18,86.19,7.0,8.0,2025-03-02,2026-06-27,17,1.4,Low
+P229,Urban Bypass Expressway (North 24 Parganas Phase 1),West Bengal,North 24 Parganas,Urban Infrastructure,25.8,188,70.39,1.2,3,72.85,79.15,3.9,6.5,2023-08-08,2025-01-07,75,14.5,Low
+P230,River Interlinking Link (Indore Package IV),Madhya Pradesh,Indore,Irrigation,11.07,97,98.99,29.9,0,92.66,91.41,6.2,1.7,2022-09-11,2025-12-20,39,7.1,Low
+P231,Lift Irrigation Project (Ahmedabad Phase 3),Gujarat,Ahmedabad,Irrigation,53.8,129,62.99,12.9,6,54.68,73.58,3.6,5.3,2022-12-19,2026-01-01,241,40.8,High
+P232,Tech Park Phase C (Thane Phase 1),Maharashtra,Thane,Industrial Corridor,24.54,183,93.84,900.0,0,71.84,85.74,4.6,6.9,2025-05-07,2029-03-22,212,32.4,High
+P233,Textile Park Development (Varanasi Package IV),Uttar Pradesh,Varanasi,Industrial Corridor,15.22,153,47.23,61.3,0,38.99,62.04,7.9,4.3,2022-11-30,2024-10-22,106,17.5,Low
+P234,Water Treatment Plant Site (Pune Phase 1),Maharashtra,Pune,Urban Infrastructure,5.0,96,84.73,29.1,1,84.5,63.35,3.2,3.8,2023-08-21,2024-10-22,102,17.2,Low
+P235,Doubling & Electrification Line (Bengaluru Urban Package IV),Karnataka,Bengaluru Urban,Railway,35.85,234,91.34,49.6,1,86.79,71.46,8.5,5.7,2022-12-13,2024-09-30,15,1.2,Low
+P236,Water Treatment Plant Site (Belagavi Section A),Karnataka,Belagavi,Urban Infrastructure,138.27,839,36.86,495.2,1,44.25,50.31,4.4,6.2,2022-10-18,2026-04-02,328,55.1,High
+P237,Doubling & Electrification Line (Guntur Section A),Andhra Pradesh,Guntur,Railway,127.22,405,73.35,132.2,0,58.28,62.54,5.8,6.0,2024-01-26,2025-04-06,89,14.0,Low
+P238,Reservoir Dam Construction (Bhopal Package IV),Madhya Pradesh,Bhopal,Irrigation,25.98,143,12.38,81.7,1,25.28,37.35,9.5,5.0,2022-12-19,2024-09-02,177,29.2,Medium
+P239,Golden Quadrilateral Expansion (Bhopal Phase 2),Madhya Pradesh,Bhopal,Highway,23.3,92,51.03,372.0,0,57.58,63.89,7.1,6.4,2024-11-06,2026-03-23,112,17.2,Low
+P240,Tech Park Phase C (Madurai Section A),Tamil Nadu,Madurai,Industrial Corridor,52.02,216,76.44,90.5,2,78.85,60.18,6.8,8.5,2023-09-04,2025-12-30,83,11.6,Low
+P241,High-Speed Rail Link (Coimbatore Package IV),Tamil Nadu,Coimbatore,Railway,17.31,131,33.95,73.4,0,25.79,50.89,7.4,6.8,2023-11-06,2026-11-25,148,25.2,Medium
+P242,Bus Rapid Transit Corridor (Chennai Phase 3),Tamil Nadu,Chennai,Urban Infrastructure,45.89,526,41.02,41.8,4,47.88,32.06,9.3,5.4,2025-07-05,2028-07-15,138,22.8,Medium
+P243,Feeder Canal Modernization (Vadodara Package IV),Gujarat,Vadodara,Irrigation,65.01,231,55.63,85.4,0,42.2,47.86,3.2,3.4,2024-09-23,2027-11-16,157,25.7,Medium
+P244,Dedicated Freight Corridor (Cuttack Phase 3),Odisha,Cuttack,Railway,91.85,395,72.44,68.5,1,72.0,65.21,6.5,6.3,2023-07-29,2024-10-02,87,13.6,Low
+P245,Water Treatment Plant Site (Jaipur Phase 2),Rajasthan,Jaipur,Urban Infrastructure,33.95,337,27.93,203.6,2,36.84,26.08,4.6,8.5,2024-12-15,2026-10-25,244,39.9,High
+P246,Tech Park Phase C (Cuttack Package IV),Odisha,Cuttack,Industrial Corridor,31.41,216,46.01,61.5,4,38.22,50.18,1.1,8.2,2023-03-24,2026-09-30,193,33.0,Medium
+P247,Logistics Hub Cluster (Nagpur Phase 3),Maharashtra,Nagpur,Industrial Corridor,18.94,129,19.2,155.0,0,33.55,32.73,2.1,6.3,2025-02-03,2028-03-03,246,38.7,High
+P248,Solar Park Land Acquisition (Khordha Section A),Odisha,Khordha,Power Transmission,19.68,53,89.07,12.3,2,68.51,65.14,3.9,10.0,2025-02-11,2028-03-13,29,5.5,Low
+P249,Expressway Bypass Corridor (Surat Phase 2),Gujarat,Surat,Highway,30.88,153,56.12,38.2,1,62.75,64.33,6.1,5.9,2024-09-03,2028-02-29,64,10.6,Low
+P250,Thermal Power Substation Link (Pune Section A),Maharashtra,Pune,Power Transmission,48.21,153,42.91,94.2,0,38.73,50.0,8.9,8.7,2023-09-12,2025-02-15,95,15.0,Low
+P251,Lift Irrigation Project (Cuttack Phase 1),Odisha,Cuttack,Irrigation,72.62,348,77.5,497.5,1,75.35,61.5,8.1,4.7,2024-09-03,2026-06-11,166,24.3,Medium
+P252,Doubling & Electrification Line (Vadodara Package IV),Gujarat,Vadodara,Railway,20.04,75,50.39,85.3,1,60.88,40.88,6.0,6.4,2024-05-24,2028-05-12,154,24.8,Medium
+P253,River Interlinking Link (Udaipur Phase 3),Rajasthan,Udaipur,Irrigation,112.11,337,80.29,196.4,10,68.71,82.94,1.7,5.1,2023-06-22,2026-07-12,280,46.2,High
+P254,Smart City Outer Ring Road (Khordha Phase 2),Odisha,Khordha,Urban Infrastructure,29.86,370,33.26,53.0,1,37.52,50.87,3.6,4.9,2023-01-24,2026-04-18,208,34.0,High
+P255,Textile Park Development (Surat Phase 2),Gujarat,Surat,Industrial Corridor,36.02,238,46.74,24.5,0,46.63,38.42,4.3,6.7,2023-01-28,2025-11-01,157,23.2,Medium
+P256,Green Energy Transmission Corridor (Chennai Phase 2),Tamil Nadu,Chennai,Power Transmission,20.9,59,63.14,10.9,1,51.3,42.29,6.6,6.2,2025-06-19,2028-01-10,71,13.3,Low
+P257,765kV Substation Land (Bhopal Phase 1),Madhya Pradesh,Bhopal,Power Transmission,5.94,32,77.53,65.6,2,72.91,78.55,1.6,6.4,2024-06-30,2026-11-23,107,19.7,Low
+P258,Green Energy Transmission Corridor (Coimbatore Section A),Tamil Nadu,Coimbatore,Power Transmission,71.03,149,66.56,30.9,2,68.5,64.81,5.8,8.2,2024-03-03,2025-10-21,37,5.8,Low
+P259,River Interlinking Link (Indore Phase 1),Madhya Pradesh,Indore,Irrigation,63.6,225,28.66,34.4,10,44.42,22.16,9.1,4.0,2024-06-19,2025-08-11,285,49.4,High
+P260,Tech Park Phase C (Varanasi Section A),Uttar Pradesh,Varanasi,Industrial Corridor,29.64,245,68.15,257.5,2,72.38,64.86,7.3,6.1,2024-05-30,2026-06-15,118,17.8,Medium
+P261,Suburban Rail Expansion (Agra Phase 2),Uttar Pradesh,Agra,Railway,38.48,130,31.06,2.9,1,36.05,36.02,8.2,9.6,2024-08-25,2028-06-12,56,7.1,Low
+P262,Urban Bypass Expressway (Lucknow Section A),Uttar Pradesh,Lucknow,Urban Infrastructure,53.89,463,48.12,146.9,2,54.07,58.39,7.1,8.2,2022-11-23,2026-10-18,105,15.4,Low
+P263,Metro Rail Phase 2 (Jaipur Phase 2),Rajasthan,Jaipur,Railway,11.34,73,58.25,85.9,1,63.71,45.18,2.9,6.9,2025-07-12,2028-09-11,153,25.0,Medium
+P264,Lift Irrigation Project (Madurai Phase 1),Tamil Nadu,Madurai,Irrigation,24.61,97,27.06,127.1,0,32.63,33.45,2.0,5.7,2025-06-11,2027-02-07,234,35.1,High
+P265,Smart City Outer Ring Road (Indore Section A),Madhya Pradesh,Indore,Urban Infrastructure,66.4,666,88.81,148.9,2,69.49,63.2,8.5,4.2,2025-05-30,2027-11-17,107,16.8,Low
+P266,Green Energy Transmission Corridor (Vadodara Phase 2),Gujarat,Vadodara,Power Transmission,14.29,85,23.44,67.7,2,28.53,48.75,7.3,6.4,2023-01-30,2025-07-16,137,26.5,Medium
+P267,Outer Ring Road Extension (Nagpur Section A),Maharashtra,Nagpur,Highway,45.61,342,71.62,62.9,2,74.78,73.81,6.2,6.4,2022-12-03,2026-06-03,82,11.0,Low
+P268,Canal Network Expansion (Vadodara Package IV),Gujarat,Vadodara,Irrigation,13.23,75,76.31,238.0,11,72.15,75.39,2.7,4.8,2024-05-17,2026-07-30,324,51.4,High
+P269,Lift Irrigation Project (Pune Phase 1),Maharashtra,Pune,Irrigation,51.93,199,49.92,369.0,2,55.55,56.61,6.4,5.7,2024-02-09,2026-09-15,197,30.2,Medium
+P270,Tech Park Phase C (Belagavi Phase 2),Karnataka,Belagavi,Industrial Corridor,35.63,259,57.12,38.5,0,47.47,51.94,1.3,5.0,2023-02-16,2026-11-17,152,24.1,Medium
+P271,Metro Rail Phase 2 (Ahmedabad Package IV),Gujarat,Ahmedabad,Railway,10.9,94,61.9,18.5,2,70.53,72.55,2.1,8.8,2023-09-21,2025-11-03,110,17.2,Low
+P272,River Interlinking Link (Khordha Package IV),Odisha,Khordha,Irrigation,87.67,322,80.51,410.5,3,70.48,54.88,3.8,5.1,2023-06-24,2025-03-01,243,38.2,High
+P273,Reservoir Dam Construction (Khordha Section A),Odisha,Khordha,Irrigation,21.1,86,88.86,77.5,1,82.99,85.87,5.0,2.9,2023-06-22,2025-03-25,61,9.6,Low
+P274,Thermal Power Substation Link (Vijayawada Package IV),Andhra Pradesh,Vijayawada,Power Transmission,19.93,45,30.59,144.3,0,23.41,27.42,2.1,8.0,2024-12-11,2026-05-11,239,39.5,High
+P275,Solar Park Land Acquisition (Chennai Package IV),Tamil Nadu,Chennai,Power Transmission,42.54,120,97.11,80.2,1,76.02,74.46,2.1,6.7,2024-07-27,2028-02-07,28,6.6,Low
+P276,Urban Bypass Expressway (Pune Phase 2),Maharashtra,Pune,Urban Infrastructure,86.62,693,78.3,24.2,3,78.28,69.08,7.5,4.0,2023-04-05,2025-03-23,119,18.8,Medium
+P277,Expressway Bypass Corridor (Thane Section A),Maharashtra,Thane,Highway,17.08,106,70.92,160.2,0,77.39,73.49,6.1,5.5,2024-06-16,2027-12-14,65,10.5,Low
+P278,Textile Park Development (Chennai Phase 2),Tamil Nadu,Chennai,Industrial Corridor,38.33,329,46.59,134.1,0,42.94,59.63,5.8,6.9,2023-06-12,2024-12-07,111,18.6,Low
+P279,State Highway 12 Upgrade (Udaipur Package IV),Rajasthan,Udaipur,Highway,50.48,359,59.74,40.8,1,45.73,59.26,5.1,9.3,2023-11-06,2026-08-21,78,10.7,Low
+P280,Urban Bypass Expressway (Guntur Phase 2),Andhra Pradesh,Guntur,Urban Infrastructure,61.55,608,66.17,108.2,0,58.65,57.12,9.8,5.3,2024-08-18,2027-07-30,62,9.8,Low
+P281,Grid Augmentation Line (Jaipur Section A),Rajasthan,Jaipur,Power Transmission,41.78,105,22.89,287.0,1,17.6,48.01,1.4,8.6,2023-09-23,2025-02-01,238,37.6,High
+P282,Dedicated Freight Corridor (Jodhpur Phase 3),Rajasthan,Jodhpur,Railway,27.79,152,61.95,160.7,1,51.27,48.9,2.6,7.3,2022-12-26,2025-08-11,145,24.8,Medium
+P283,Green Energy Transmission Corridor (Udaipur Phase 3),Rajasthan,Udaipur,Power Transmission,19.67,68,73.36,18.3,8,73.83,75.79,6.8,7.6,2024-07-19,2027-03-25,160,28.4,Medium
+P284,Textile Park Development (Coimbatore Phase 3),Tamil Nadu,Coimbatore,Industrial Corridor,39.04,248,59.79,142.9,0,68.27,60.29,2.2,5.8,2025-01-01,2026-11-19,109,16.4,Low
+P285,Thermal Power Substation Link (Jodhpur Phase 1),Rajasthan,Jodhpur,Power Transmission,16.38,51,85.36,218.4,8,66.21,68.68,6.3,5.9,2023-01-30,2025-01-20,205,35.0,High
+P286,SEZ Land Acquisition Zone (Sambalpur Phase 2),Odisha,Sambalpur,Industrial Corridor,5.0,66,8.05,283.2,3,19.99,5.28,6.1,6.7,2022-11-17,2025-11-26,285,43.8,High
+P287,SEZ Land Acquisition Zone (Varanasi Section A),Uttar Pradesh,Varanasi,Industrial Corridor,50.78,248,92.86,178.5,1,75.99,75.99,9.7,8.6,2025-06-09,2029-04-15,0,0.3,Low
+P288,SEZ Land Acquisition Zone (Belagavi Phase 2),Karnataka,Belagavi,Industrial Corridor,72.09,517,58.84,29.8,2,47.61,47.93,9.0,8.3,2024-12-17,2027-03-21,15,2.8,Low
+P289,Smart City Outer Ring Road (Thane Section A),Maharashtra,Thane,Urban Infrastructure,6.22,53,77.37,222.9,1,63.5,53.94,9.5,5.5,2022-09-22,2024-05-27,87,11.8,Low
+P290,Tech Park Phase C (Nagpur Phase 3),Maharashtra,Nagpur,Industrial Corridor,17.16,136,78.35,203.6,0,73.21,53.56,2.0,7.7,2023-01-22,2025-03-08,135,20.5,Medium
+P291,Logistics Hub Cluster (Bengaluru Urban Section A),Karnataka,Bengaluru Urban,Industrial Corridor,58.23,300,34.64,4.5,0,27.61,34.68,8.8,7.0,2023-09-02,2025-06-12,61,8.5,Low
+P292,Metro Rail Phase 2 (Madurai Phase 1),Tamil Nadu,Madurai,Railway,171.25,858,41.51,95.5,1,41.99,48.5,2.2,5.6,2023-05-16,2025-09-11,205,31.1,High
+P293,Golden Quadrilateral Expansion (Vadodara Section A),Gujarat,Vadodara,Highway,37.17,259,53.25,72.9,0,43.32,63.93,6.7,5.9,2024-05-23,2028-02-28,51,4.2,Low
+P294,Feeder Canal Modernization (Madurai Package IV),Tamil Nadu,Madurai,Irrigation,21.2,104,30.73,199.2,1,29.86,26.4,7.5,3.0,2024-09-23,2025-11-15,196,31.3,Medium
+P295,NH-44 Widening (Nagpur Package IV),Maharashtra,Nagpur,Highway,31.91,221,39.94,43.8,1,34.72,40.82,2.4,9.0,2024-09-16,2027-09-25,159,25.5,Medium
+P296,Tech Park Phase C (Thane Section A),Maharashtra,Thane,Industrial Corridor,102.63,579,67.59,160.9,0,72.77,57.65,6.7,7.4,2023-07-29,2026-08-22,79,12.6,Low
+P297,Dedicated Freight Corridor (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Railway,22.55,128,69.08,440.0,1,69.51,62.87,1.5,5.7,2024-05-14,2027-12-27,253,42.0,High
+P298,Grid Augmentation Line (Udaipur Section A),Rajasthan,Udaipur,Power Transmission,20.1,48,18.1,287.7,1,35.29,40.1,3.6,10.0,2022-11-30,2024-08-21,180,26.1,Medium
+P299,Metro Rail Phase 2 (Coimbatore Package IV),Tamil Nadu,Coimbatore,Railway,25.48,128,45.17,457.9,1,43.46,48.74,9.3,8.6,2023-05-13,2024-11-04,172,27.2,Medium
+P300,Logistics Hub Cluster (Bhopal Package IV),Madhya Pradesh,Bhopal,Industrial Corridor,17.9,138,71.17,691.2,2,61.21,75.89,2.5,10.0,2024-04-10,2025-08-22,210,37.7,High
+P301,High-Speed Rail Link (Bengaluru Urban Section A),Karnataka,Bengaluru Urban,Railway,40.13,206,61.85,1.9,1,55.9,58.35,1.6,5.9,2022-09-03,2025-05-28,155,26.3,Medium
+P302,High-Speed Rail Link (Khordha Phase 3),Odisha,Khordha,Railway,123.78,575,40.5,175.5,1,30.84,47.46,5.0,6.3,2024-04-28,2027-07-22,179,30.2,Medium
+P303,Tech Park Phase C (Pune Section A),Maharashtra,Pune,Industrial Corridor,46.63,267,60.21,95.8,8,63.28,54.44,8.7,8.0,2023-10-16,2027-06-22,212,32.7,High
+P304,Smart City Outer Ring Road (Belagavi Section A),Karnataka,Belagavi,Urban Infrastructure,30.29,216,35.35,353.7,2,35.26,51.79,1.7,7.2,2024-08-06,2028-07-17,268,42.9,High
+P305,Doubling & Electrification Line (Madurai Section A),Tamil Nadu,Madurai,Railway,29.4,198,28.96,52.2,2,29.55,51.16,4.2,6.3,2023-11-17,2027-03-07,214,31.1,High
+P306,Lift Irrigation Project (Thane Section A),Maharashtra,Thane,Irrigation,11.33,70,86.19,713.7,0,79.6,78.39,9.1,3.6,2024-06-18,2027-10-04,131,22.0,Medium
+P307,Lift Irrigation Project (Surat Package IV),Gujarat,Surat,Irrigation,70.98,303,73.5,171.2,3,66.03,76.5,2.1,3.9,2025-08-17,2027-01-15,204,35.0,High
+P308,Suburban Rail Expansion (Mysuru Phase 1),Karnataka,Mysuru,Railway,34.52,239,79.77,284.0,0,84.35,53.92,3.8,7.6,2025-01-10,2026-09-23,70,9.1,Low
+P309,Urban Bypass Expressway (Visakhapatnam Package IV),Andhra Pradesh,Visakhapatnam,Urban Infrastructure,31.96,265,42.92,16.1,1,41.1,59.61,8.0,5.9,2025-06-24,2028-04-03,112,16.3,Low
+P310,Thermal Power Substation Link (Pune Phase 1),Maharashtra,Pune,Power Transmission,401.35,507,54.23,36.5,0,56.02,41.86,5.9,7.6,2024-09-25,2026-02-23,137,22.0,Medium
+P311,DMIC Industrial Node (Madurai Section A),Tamil Nadu,Madurai,Industrial Corridor,45.79,277,33.98,255.7,0,33.28,31.07,8.5,6.9,2023-04-28,2026-11-04,135,22.0,Medium
+P312,Lift Irrigation Project (Lucknow Section A),Uttar Pradesh,Lucknow,Irrigation,20.83,146,50.44,4.0,1,62.59,34.65,2.0,4.6,2023-06-21,2027-01-30,189,29.7,Medium
+P313,Green Energy Transmission Corridor (Bhopal Phase 1),Madhya Pradesh,Bhopal,Power Transmission,26.58,107,49.18,305.6,0,48.01,65.76,9.3,9.3,2023-12-04,2027-10-28,88,13.0,Low
+P314,Doubling & Electrification Line (Kolkata Section A),West Bengal,Kolkata,Railway,86.6,433,67.03,2.5,1,66.13,73.39,9.4,5.3,2023-08-04,2026-07-09,0,0.0,Low
+P315,Grid Augmentation Line (Jodhpur Phase 2),Rajasthan,Jodhpur,Power Transmission,39.84,88,42.29,192.7,0,34.89,59.45,2.4,6.3,2022-11-29,2024-08-17,164,26.4,Medium
+P316,Expressway Bypass Corridor (Howrah Phase 3),West Bengal,Howrah,Highway,12.44,98,33.39,81.8,0,43.37,51.36,1.3,9.0,2025-02-15,2027-02-22,147,24.6,Medium
+P317,Reservoir Dam Construction (Madurai Section A),Tamil Nadu,Madurai,Irrigation,72.92,275,49.61,170.2,1,43.94,49.03,9.9,4.8,2024-12-20,2026-09-10,176,28.3,Medium
+P318,Doubling & Electrification Line (Khordha Section A),Odisha,Khordha,Railway,22.17,178,52.94,214.3,0,50.92,66.75,5.3,6.1,2022-12-03,2026-05-07,162,25.9,Medium
+P319,Textile Park Development (Khordha Phase 1),Odisha,Khordha,Industrial Corridor,149.15,579,73.01,75.5,2,76.84,81.39,6.1,8.0,2023-12-31,2027-10-25,59,6.9,Low
+P320,Urban Bypass Expressway (Agra Phase 1),Uttar Pradesh,Agra,Urban Infrastructure,82.27,779,37.7,20.6,1,52.54,42.09,6.5,4.0,2022-11-27,2024-03-19,177,29.8,Medium
+P321,Suburban Rail Expansion (Jaipur Phase 1),Rajasthan,Jaipur,Railway,26.17,147,28.31,13.0,1,31.85,24.55,8.1,7.1,2022-11-16,2024-07-27,130,20.9,Medium
+P322,Textile Park Development (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Industrial Corridor,95.66,500,49.23,160.0,0,57.79,55.05,8.3,6.7,2025-02-23,2029-01-19,109,16.9,Low
+P323,Smart City Outer Ring Road (Varanasi Phase 1),Uttar Pradesh,Varanasi,Urban Infrastructure,38.51,216,93.39,132.4,1,71.38,94.84,2.7,6.6,2024-09-09,2026-07-19,44,7.5,Low
+P324,Smart City Outer Ring Road (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Urban Infrastructure,69.38,728,38.99,244.0,2,50.43,55.87,3.1,3.4,2024-10-20,2027-07-04,308,48.4,High
+P325,High-Speed Rail Link (Agra Phase 1),Uttar Pradesh,Agra,Railway,52.64,180,58.25,128.3,1,59.43,68.03,8.9,6.7,2024-12-03,2026-11-05,41,6.0,Low
+P326,Thermal Power Substation Link (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Power Transmission,19.4,41,37.55,98.8,0,40.38,57.09,8.4,7.5,2023-05-02,2025-03-28,52,8.5,Low
+P327,Green Energy Transmission Corridor (Nagpur Phase 2),Maharashtra,Nagpur,Power Transmission,22.59,50,60.43,91.4,2,67.57,70.57,6.6,7.0,2022-11-27,2025-09-17,105,15.9,Low
+P328,Urban Bypass Expressway (Cuttack Phase 1),Odisha,Cuttack,Urban Infrastructure,79.24,820,81.27,4.8,4,82.09,80.0,10.0,6.1,2024-10-27,2027-01-31,45,4.8,Low
+P329,Thermal Power Substation Link (Thane Phase 2),Maharashtra,Thane,Power Transmission,28.47,79,84.9,73.6,2,71.1,80.32,7.6,7.6,2023-01-02,2025-12-10,20,0.5,Low
+P330,Expressway Bypass Corridor (Bhopal Phase 3),Madhya Pradesh,Bhopal,Highway,27.04,226,87.41,671.5,0,85.34,66.08,2.9,7.4,2023-06-15,2027-05-12,243,39.9,High
+P331,Water Treatment Plant Site (Jaipur Phase 2),Rajasthan,Jaipur,Urban Infrastructure,17.88,174,75.11,372.2,4,58.82,70.57,8.6,6.7,2022-12-15,2025-07-18,123,19.8,Medium
+P332,Bus Rapid Transit Corridor (Visakhapatnam Package IV),Andhra Pradesh,Visakhapatnam,Urban Infrastructure,50.28,493,51.71,71.9,0,59.35,51.86,4.7,6.1,2025-03-12,2026-08-20,175,28.1,Medium
+P333,DMIC Industrial Node (Kolkata Phase 2),West Bengal,Kolkata,Industrial Corridor,171.9,937,47.03,159.5,0,52.16,60.74,1.3,5.9,2022-12-14,2025-05-10,185,28.1,Medium
+P334,Grid Augmentation Line (Vijayawada Phase 1),Andhra Pradesh,Vijayawada,Power Transmission,16.43,109,45.18,338.3,0,36.08,46.58,3.9,7.1,2025-07-14,2027-08-20,200,32.2,High
+P335,Bus Rapid Transit Corridor (North 24 Parganas Phase 1),West Bengal,North 24 Parganas,Urban Infrastructure,37.27,410,65.07,104.8,3,65.88,46.77,7.9,5.8,2023-08-31,2026-03-15,178,28.1,Medium
+P336,State Highway 12 Upgrade (Coimbatore Package IV),Tamil Nadu,Coimbatore,Highway,105.55,323,41.46,3.3,0,45.61,27.12,9.6,7.8,2024-05-19,2026-01-30,37,5.1,Low
+P337,Tech Park Phase C (Lucknow Section A),Uttar Pradesh,Lucknow,Industrial Corridor,34.48,209,79.56,13.9,0,74.53,75.44,3.5,6.7,2023-03-05,2025-11-14,80,12.8,Low
+P338,High-Speed Rail Link (Indore Phase 1),Madhya Pradesh,Indore,Railway,51.38,129,27.4,128.5,4,27.82,37.06,3.2,6.4,2025-01-31,2029-01-27,267,43.5,High
+P339,Bus Rapid Transit Corridor (Sambalpur Phase 2),Odisha,Sambalpur,Urban Infrastructure,16.5,187,17.58,627.8,1,19.85,23.01,6.1,5.4,2023-09-17,2025-03-26,324,54.9,High
+P340,NH-44 Widening (North 24 Parganas Phase 3),West Bengal,North 24 Parganas,Highway,50.46,230,76.92,212.7,0,76.75,55.91,8.3,7.2,2025-02-15,2028-12-10,42,7.6,Low
+P341,River Interlinking Link (Vijayawada Phase 1),Andhra Pradesh,Vijayawada,Irrigation,31.81,106,86.22,13.2,1,71.09,72.38,7.7,3.4,2025-03-11,2027-02-19,44,8.4,Low
+P342,Outer Ring Road Extension (Indore Phase 1),Madhya Pradesh,Indore,Highway,76.65,357,59.02,37.8,1,55.42,41.87,6.0,5.1,2022-10-31,2024-09-10,147,25.4,Medium
+P343,State Highway 12 Upgrade (Surat Package IV),Gujarat,Surat,Highway,89.17,467,62.84,265.6,1,64.5,52.61,6.7,4.1,2025-04-19,2027-04-04,170,26.3,Medium
+P344,Tech Park Phase C (Ahmedabad Phase 3),Gujarat,Ahmedabad,Industrial Corridor,255.23,1157,82.29,331.5,1,63.71,66.76,3.2,7.3,2023-01-05,2025-11-26,117,18.4,Low
+P345,Dedicated Freight Corridor (Thane Package IV),Maharashtra,Thane,Railway,56.53,269,63.42,173.1,2,62.43,57.52,4.9,4.6,2024-06-12,2025-09-04,188,29.0,Medium
+P346,Reservoir Dam Construction (Cuttack Phase 1),Odisha,Cuttack,Irrigation,46.73,197,58.28,186.1,2,58.44,54.21,3.3,7.4,2025-06-17,2026-08-14,176,27.4,Medium
+P347,Solar Park Land Acquisition (Coimbatore Section A),Tamil Nadu,Coimbatore,Power Transmission,42.34,109,27.77,5.2,0,37.93,27.05,9.0,8.6,2025-02-22,2026-08-07,45,6.6,Low
+P348,765kV Substation Land (Guntur Section A),Andhra Pradesh,Guntur,Power Transmission,28.08,95,59.88,317.4,1,54.16,68.68,2.0,6.4,2025-01-25,2026-04-28,215,33.6,High
+P349,State Highway 12 Upgrade (Agra Section A),Uttar Pradesh,Agra,Highway,47.17,210,35.91,279.4,0,38.16,35.79,7.1,8.2,2024-11-20,2027-05-16,191,31.1,Medium
+P350,SEZ Land Acquisition Zone (Lucknow Section A),Uttar Pradesh,Lucknow,Industrial Corridor,29.33,174,87.75,54.0,1,74.06,65.07,3.3,8.6,2024-01-04,2026-03-10,60,10.3,Low
+P351,SEZ Land Acquisition Zone (Visakhapatnam Package IV),Andhra Pradesh,Visakhapatnam,Industrial Corridor,41.53,304,30.69,222.0,0,43.22,26.1,5.3,8.7,2023-10-10,2027-02-09,210,31.9,High
+P352,Grid Augmentation Line (Udaipur Package IV),Rajasthan,Udaipur,Power Transmission,98.32,160,30.0,43.5,2,25.77,30.79,3.7,6.8,2023-07-14,2024-09-13,220,35.0,High
+P353,River Interlinking Link (Madurai Section A),Tamil Nadu,Madurai,Irrigation,17.2,57,41.06,7.4,2,54.87,29.05,3.9,5.7,2025-07-06,2029-04-20,197,31.3,Medium
+P354,Metro Rail Phase 2 (Gwalior Section A),Madhya Pradesh,Gwalior,Railway,86.05,286,34.95,40.4,1,42.08,23.87,3.3,7.7,2024-01-01,2026-08-16,178,26.5,Medium
+P355,River Interlinking Link (Howrah Phase 3),West Bengal,Howrah,Irrigation,98.28,442,75.42,35.4,3,78.74,70.2,7.8,6.7,2023-09-05,2026-05-15,88,13.0,Low
+P356,Water Treatment Plant Site (Jodhpur Phase 2),Rajasthan,Jodhpur,Urban Infrastructure,33.5,323,55.98,74.2,2,52.64,58.06,4.3,3.4,2023-10-17,2027-07-02,201,33.7,High
+P357,Smart City Outer Ring Road (North 24 Parganas Phase 3),West Bengal,North 24 Parganas,Urban Infrastructure,7.45,132,21.73,97.6,2,24.6,32.66,7.5,4.9,2024-05-06,2026-09-19,218,36.5,High
+P358,Metro Rail Phase 2 (Howrah Phase 2),West Bengal,Howrah,Railway,23.2,115,58.05,127.9,2,66.06,64.41,5.1,5.2,2023-03-22,2026-06-30,140,20.1,Medium
+P359,Solar Park Land Acquisition (Jodhpur Package IV),Rajasthan,Jodhpur,Power Transmission,96.81,146,25.91,116.6,1,21.9,18.21,5.9,10.0,2025-07-09,2028-03-09,193,31.8,Medium
+P360,Suburban Rail Expansion (Pune Section A),Maharashtra,Pune,Railway,35.98,184,75.35,56.8,2,59.44,81.74,5.9,6.8,2025-05-29,2028-12-12,75,9.9,Low
+P361,Textile Park Development (Vadodara Phase 1),Gujarat,Vadodara,Industrial Corridor,17.3,171,24.54,5.3,1,25.89,19.28,9.8,8.3,2023-12-10,2025-05-07,72,11.0,Low
+P362,Urban Bypass Expressway (North 24 Parganas Phase 3),West Bengal,North 24 Parganas,Urban Infrastructure,25.06,164,60.72,167.2,1,69.53,63.06,4.3,5.8,2024-08-10,2025-12-10,135,21.6,Medium
+P363,Golden Quadrilateral Expansion (Jodhpur Section A),Rajasthan,Jodhpur,Highway,68.75,296,40.14,90.7,1,45.93,30.76,2.9,7.3,2024-01-04,2025-11-22,180,30.2,Medium
+P364,Golden Quadrilateral Expansion (Udaipur Phase 3),Rajasthan,Udaipur,Highway,55.15,234,44.13,63.9,0,46.95,59.48,9.2,5.8,2022-12-21,2026-06-08,7,0.9,Low
+P365,Grid Augmentation Line (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Power Transmission,30.59,118,55.71,363.1,0,59.42,54.09,2.6,7.3,2022-09-14,2026-01-12,231,35.7,High
+P366,Textile Park Development (Pune Package IV),Maharashtra,Pune,Industrial Corridor,27.8,210,87.11,247.2,0,75.77,59.5,8.5,7.3,2024-08-11,2028-04-28,125,18.4,Medium
+P367,Reservoir Dam Construction (Khordha Package IV),Odisha,Khordha,Irrigation,27.28,128,20.69,351.1,2,34.47,35.03,2.4,4.0,2025-04-21,2028-11-27,374,60.6,High
+P368,DMIC Industrial Node (Belagavi Package IV),Karnataka,Belagavi,Industrial Corridor,18.32,150,38.04,123.0,3,38.36,25.04,6.9,6.2,2025-01-21,2027-03-14,202,31.6,High
+P369,Golden Quadrilateral Expansion (Belagavi Phase 1),Karnataka,Belagavi,Highway,122.92,458,67.89,25.3,1,71.58,71.29,2.4,6.6,2023-02-02,2025-12-29,100,15.5,Low
+P370,Golden Quadrilateral Expansion (Guntur Section A),Andhra Pradesh,Guntur,Highway,28.74,190,64.06,214.5,2,54.73,64.41,9.3,6.1,2022-12-22,2024-10-11,71,12.9,Low
+P371,Urban Bypass Expressway (Vadodara Package IV),Gujarat,Vadodara,Urban Infrastructure,91.18,515,23.07,41.5,1,24.24,22.44,6.1,5.3,2024-12-13,2027-09-14,197,32.4,Medium
+P372,SEZ Land Acquisition Zone (Udaipur Section A),Rajasthan,Udaipur,Industrial Corridor,114.55,567,61.34,104.8,2,59.06,52.99,4.0,6.7,2023-07-28,2026-05-11,184,32.1,Medium
+P373,Tech Park Phase C (Ahmedabad Section A),Gujarat,Ahmedabad,Industrial Corridor,77.38,481,57.86,12.1,1,54.16,37.88,2.3,6.4,2024-10-24,2027-10-01,140,21.1,Medium
+P374,NH-44 Widening (Coimbatore Phase 1),Tamil Nadu,Coimbatore,Highway,26.48,194,47.25,314.1,3,51.64,54.99,4.3,5.7,2023-10-16,2027-01-09,321,50.7,High
+P375,Reservoir Dam Construction (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Irrigation,49.54,217,73.32,24.2,0,64.1,58.95,7.3,4.8,2023-03-24,2024-12-15,3,0.8,Low
+P376,Solar Park Land Acquisition (Sambalpur Phase 2),Odisha,Sambalpur,Power Transmission,35.94,96,50.27,420.1,0,43.47,52.68,4.5,8.9,2024-02-24,2027-03-23,191,33.5,Medium
+P377,Grid Augmentation Line (Ahmedabad Package IV),Gujarat,Ahmedabad,Power Transmission,18.58,85,82.3,359.4,0,73.47,86.98,3.2,8.6,2022-12-15,2026-11-03,111,16.7,Low
+P378,Textile Park Development (Agra Section A),Uttar Pradesh,Agra,Industrial Corridor,46.68,204,47.71,112.4,1,49.81,41.49,6.2,5.4,2023-09-14,2025-04-18,148,23.9,Medium
+P379,Thermal Power Substation Link (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Power Transmission,15.12,56,38.74,245.5,11,32.62,59.84,4.8,8.8,2024-03-27,2027-01-09,328,54.9,High
+P380,State Highway 12 Upgrade (Chennai Section A),Tamil Nadu,Chennai,Highway,89.19,414,69.5,173.9,0,66.04,67.32,2.5,7.6,2023-11-16,2026-03-25,127,20.6,Medium
+P381,Outer Ring Road Extension (Nagpur Phase 3),Maharashtra,Nagpur,Highway,25.83,147,62.64,292.5,0,54.96,49.19,2.4,7.9,2023-05-03,2026-12-13,163,27.8,Medium
+P382,Textile Park Development (Cuttack Section A),Odisha,Cuttack,Industrial Corridor,42.56,252,60.3,101.8,1,55.04,54.48,7.4,8.5,2024-07-11,2026-03-18,107,20.2,Low
+P383,Textile Park Development (Madurai Phase 3),Tamil Nadu,Madurai,Industrial Corridor,45.26,311,73.53,277.4,0,62.13,73.71,9.8,6.3,2024-12-21,2027-06-21,93,15.4,Low
+P384,Water Treatment Plant Site (Howrah Phase 2),West Bengal,Howrah,Urban Infrastructure,30.14,326,55.89,111.7,2,65.2,51.96,3.1,4.8,2025-08-27,2029-03-04,184,30.4,Medium
+P385,DMIC Industrial Node (Vijayawada Phase 2),Andhra Pradesh,Vijayawada,Industrial Corridor,56.83,342,80.26,509.3,1,77.28,54.57,8.0,9.3,2023-12-13,2026-05-03,84,14.7,Low
+P386,Reservoir Dam Construction (North 24 Parganas Phase 1),West Bengal,North 24 Parganas,Irrigation,25.63,99,43.05,119.9,2,38.85,33.88,1.8,6.9,2025-04-07,2027-01-20,235,36.5,High
+P387,Thermal Power Substation Link (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Power Transmission,70.35,107,57.38,111.8,1,59.16,64.99,4.4,7.7,2025-06-11,2026-12-26,122,17.5,Medium
+P388,SEZ Land Acquisition Zone (Howrah Phase 2),West Bengal,Howrah,Industrial Corridor,13.34,159,57.31,276.7,0,64.2,59.94,5.6,7.9,2024-11-29,2026-03-12,129,21.0,Medium
+P389,Metro Rail Phase 2 (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Railway,40.24,185,68.48,310.2,1,61.4,64.46,3.4,7.0,2022-09-12,2025-04-28,186,29.1,Medium
+P390,Bus Rapid Transit Corridor (Vijayawada Package IV),Andhra Pradesh,Vijayawada,Urban Infrastructure,156.68,844,23.91,145.5,1,38.68,21.41,5.8,7.3,2025-07-03,2028-08-27,246,41.3,High
+P391,Suburban Rail Expansion (Gwalior Phase 3),Madhya Pradesh,Gwalior,Railway,17.28,101,91.49,35.7,1,72.48,88.79,8.9,6.6,2025-01-08,2028-05-13,0,0.5,Low
+P392,NH-44 Widening (Belagavi Phase 2),Karnataka,Belagavi,Highway,22.01,136,55.84,113.5,1,62.45,69.92,9.5,5.3,2023-12-09,2026-04-30,79,14.3,Low
+P393,Grid Augmentation Line (Thane Phase 2),Maharashtra,Thane,Power Transmission,53.81,107,52.05,620.0,0,52.54,35.26,1.9,7.2,2025-06-26,2027-05-19,322,50.1,High
+P394,Textile Park Development (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Industrial Corridor,41.87,205,13.54,251.7,3,15.73,11.53,3.4,10.0,2023-02-07,2025-12-08,305,50.7,High
+P395,Doubling & Electrification Line (Howrah Phase 1),West Bengal,Howrah,Railway,47.61,140,60.68,300.0,6,55.69,70.41,9.8,4.7,2023-03-27,2025-12-26,169,23.8,Medium
+P396,Thermal Power Substation Link (Nagpur Phase 2),Maharashtra,Nagpur,Power Transmission,52.82,166,11.67,6.0,2,33.45,36.13,3.4,7.9,2023-10-15,2025-11-06,257,39.8,High
+P397,State Highway 12 Upgrade (Lucknow Phase 1),Uttar Pradesh,Lucknow,Highway,58.91,268,37.55,113.6,1,47.75,46.04,7.2,9.6,2023-02-26,2025-01-17,113,19.2,Low
+P398,Canal Network Expansion (Udaipur Package IV),Rajasthan,Udaipur,Irrigation,84.12,302,36.13,187.2,14,41.47,56.56,3.3,3.8,2023-02-13,2026-11-29,438,69.9,High
+P399,Water Treatment Plant Site (Bhopal Phase 2),Madhya Pradesh,Bhopal,Urban Infrastructure,49.77,472,41.06,319.0,8,33.67,49.31,4.2,1.9,2025-01-06,2028-11-25,364,58.1,High
+P400,Solar Park Land Acquisition (Sambalpur Phase 1),Odisha,Sambalpur,Power Transmission,30.54,72,69.11,9.1,1,62.28,52.48,2.7,4.7,2023-04-29,2026-12-10,102,16.6,Low
+P401,765kV Substation Land (Bengaluru Urban Package IV),Karnataka,Bengaluru Urban,Power Transmission,60.61,98,57.49,344.4,1,49.69,62.87,8.7,6.8,2023-10-28,2027-08-14,89,16.5,Low
+P402,Reservoir Dam Construction (Nagpur Section A),Maharashtra,Nagpur,Irrigation,152.16,440,44.53,143.1,2,35.17,51.54,8.9,2.7,2023-11-11,2026-08-03,180,26.1,Medium
+P403,Solar Park Land Acquisition (Visakhapatnam Section A),Andhra Pradesh,Visakhapatnam,Power Transmission,33.13,66,23.87,39.6,1,31.46,50.02,3.7,9.0,2025-03-27,2029-01-08,152,26.4,Medium
+P404,State Highway 12 Upgrade (Mysuru Phase 2),Karnataka,Mysuru,Highway,17.62,141,24.97,68.7,1,40.96,23.72,8.4,7.1,2023-07-24,2024-09-08,162,28.1,Medium
+P405,NH-44 Widening (Jodhpur Phase 3),Rajasthan,Jodhpur,Highway,83.96,534,73.95,59.6,1,72.35,68.99,4.2,4.2,2024-02-14,2025-08-16,145,22.6,Medium
+P406,Feeder Canal Modernization (Visakhapatnam Phase 1),Andhra Pradesh,Visakhapatnam,Irrigation,33.44,140,59.8,136.2,0,51.09,66.18,1.9,2.9,2023-07-13,2026-09-25,202,31.5,High
+P407,Smart City Outer Ring Road (Madurai Section A),Tamil Nadu,Madurai,Urban Infrastructure,7.17,87,45.62,9.6,1,48.55,41.52,7.8,6.7,2025-08-02,2029-06-02,104,16.6,Low
+P408,Tech Park Phase C (Kolkata Phase 1),West Bengal,Kolkata,Industrial Corridor,69.1,494,93.36,31.1,1,93.6,73.97,6.4,7.4,2025-05-12,2028-12-03,18,1.8,Low
+P409,Suburban Rail Expansion (Madurai Phase 1),Tamil Nadu,Madurai,Railway,24.5,147,58.65,301.5,1,62.06,69.2,3.5,7.9,2023-10-15,2026-02-19,165,27.1,Medium
+P410,SEZ Land Acquisition Zone (Mysuru Phase 2),Karnataka,Mysuru,Industrial Corridor,34.2,284,54.64,25.6,1,58.22,49.66,3.3,8.5,2024-10-24,2027-01-07,118,19.7,Medium
+P411,Thermal Power Substation Link (Udaipur Phase 3),Rajasthan,Udaipur,Power Transmission,46.95,130,43.87,47.8,1,57.11,50.38,9.8,6.4,2024-09-27,2027-09-19,85,11.4,Low
+P412,Dedicated Freight Corridor (Indore Phase 2),Madhya Pradesh,Indore,Railway,42.22,183,77.55,108.7,2,78.13,81.53,8.8,7.3,2023-09-25,2025-01-01,3,0.0,Low
+P413,Canal Network Expansion (Belagavi Package IV),Karnataka,Belagavi,Irrigation,62.31,289,42.56,131.0,0,35.34,35.01,8.3,5.5,2022-11-17,2024-02-28,119,17.4,Medium
+P414,Feeder Canal Modernization (Nagpur Package IV),Maharashtra,Nagpur,Irrigation,26.4,166,68.89,259.6,5,60.36,79.14,2.2,2.4,2023-01-21,2025-08-19,254,41.3,High
+P415,Bus Rapid Transit Corridor (Vadodara Package IV),Gujarat,Vadodara,Urban Infrastructure,53.78,447,72.02,106.7,0,78.14,71.38,7.8,3.6,2025-05-12,2029-02-18,95,16.6,Low
+P416,High-Speed Rail Link (Bengaluru Urban Package IV),Karnataka,Bengaluru Urban,Railway,30.12,119,67.46,280.8,0,62.84,61.21,2.9,9.1,2024-06-19,2028-02-07,156,23.6,Medium
+P417,Expressway Bypass Corridor (Kolkata Section A),West Bengal,Kolkata,Highway,63.7,359,28.71,173.4,0,24.32,33.74,9.8,5.7,2023-11-03,2026-06-10,193,32.4,Medium
+P418,Metro Rail Phase 2 (Howrah Phase 3),West Bengal,Howrah,Railway,58.06,201,49.01,21.6,1,48.22,65.26,1.5,6.7,2022-11-07,2023-11-23,135,20.4,Medium
+P419,Thermal Power Substation Link (Mysuru Section A),Karnataka,Mysuru,Power Transmission,18.15,88,32.56,30.6,1,41.84,28.36,4.2,7.6,2022-09-05,2024-04-12,148,24.9,Medium
+P420,State Highway 12 Upgrade (Visakhapatnam Package IV),Andhra Pradesh,Visakhapatnam,Highway,82.64,555,20.48,103.4,2,40.3,24.22,4.9,7.0,2024-01-31,2027-07-01,233,37.2,High
+P421,River Interlinking Link (Surat Phase 1),Gujarat,Surat,Irrigation,24.48,124,68.54,91.0,0,59.5,55.32,8.4,4.7,2023-03-22,2024-12-20,32,4.5,Low
+P422,Suburban Rail Expansion (Pune Phase 1),Maharashtra,Pune,Railway,67.09,338,36.42,244.9,0,40.17,33.79,7.9,7.4,2025-05-16,2027-11-08,165,28.3,Medium
+P423,SEZ Land Acquisition Zone (Belagavi Phase 2),Karnataka,Belagavi,Industrial Corridor,48.21,242,56.27,156.5,0,64.19,52.97,4.4,8.3,2023-10-11,2026-10-29,117,21.6,Low
+P424,Water Treatment Plant Site (Vijayawada Phase 1),Andhra Pradesh,Vijayawada,Urban Infrastructure,145.28,1307,44.32,88.4,1,42.12,63.43,6.1,5.3,2023-05-09,2026-08-11,127,17.6,Medium
+P425,SEZ Land Acquisition Zone (Howrah Phase 2),West Bengal,Howrah,Industrial Corridor,30.95,234,72.42,33.7,0,57.05,78.18,8.5,6.1,2024-07-17,2027-08-05,32,6.1,Low
+P426,Flyover & Arterial Road Network (Kolkata Package IV),West Bengal,Kolkata,Urban Infrastructure,28.16,212,26.99,46.3,0,43.97,29.02,1.2,4.5,2025-01-04,2026-04-06,183,29.8,Medium
+P427,765kV Substation Land (Jodhpur Phase 2),Rajasthan,Jodhpur,Power Transmission,36.07,80,28.57,154.2,2,33.64,33.37,8.2,5.9,2024-06-25,2027-09-23,193,32.1,Medium
+P428,DMIC Industrial Node (Mysuru Section A),Karnataka,Mysuru,Industrial Corridor,29.15,207,54.96,99.1,1,53.79,59.16,9.5,6.8,2025-01-18,2026-05-02,44,4.9,Low
+P429,Metro Rail Phase 2 (Vadodara Package IV),Gujarat,Vadodara,Railway,66.68,197,72.99,130.2,0,70.27,48.04,1.3,4.1,2022-09-15,2024-10-17,192,29.3,Medium
+P430,Metro Rail Phase 2 (Varanasi Phase 3),Uttar Pradesh,Varanasi,Railway,10.89,82,72.47,33.7,1,54.44,75.81,1.4,6.5,2023-02-20,2026-03-03,141,21.7,Medium
+P431,DMIC Industrial Node (Vadodara Phase 2),Gujarat,Vadodara,Industrial Corridor,16.61,184,34.04,195.7,1,48.81,52.92,4.1,7.6,2022-12-25,2025-08-07,127,20.8,Medium
+P432,Doubling & Electrification Line (Kolkata Phase 3),West Bengal,Kolkata,Railway,16.43,82,96.86,344.6,1,81.68,92.96,1.8,7.4,2025-08-08,2027-01-05,119,18.1,Medium
+P433,Solar Park Land Acquisition (Howrah Phase 1),West Bengal,Howrah,Power Transmission,74.64,159,38.67,53.7,1,38.93,38.26,5.3,6.3,2023-04-19,2026-06-18,155,24.5,Medium
+P434,Golden Quadrilateral Expansion (Madurai Phase 3),Tamil Nadu,Madurai,Highway,132.02,606,36.29,121.7,1,31.57,39.76,7.6,5.4,2024-12-25,2028-10-22,90,15.8,Low
+P435,Thermal Power Substation Link (Kolkata Phase 2),West Bengal,Kolkata,Power Transmission,33.84,105,90.12,667.8,1,77.04,59.01,6.1,9.6,2022-10-25,2026-05-04,177,31.6,Medium
+P436,Urban Bypass Expressway (Thane Phase 1),Maharashtra,Thane,Urban Infrastructure,32.25,178,71.97,73.0,0,74.08,60.76,2.8,3.6,2024-03-26,2026-10-19,113,19.4,Low
+P437,Thermal Power Substation Link (Khordha Phase 2),Odisha,Khordha,Power Transmission,38.57,112,72.71,162.7,0,74.53,63.38,6.9,10.0,2025-02-20,2026-10-21,0,1.3,Low
+P438,Flyover & Arterial Road Network (Mysuru Phase 3),Karnataka,Mysuru,Urban Infrastructure,87.48,748,39.66,17.0,3,53.14,57.52,7.2,4.1,2025-01-05,2026-09-25,145,23.1,Medium
+P439,High-Speed Rail Link (Ahmedabad Phase 1),Gujarat,Ahmedabad,Railway,18.26,83,85.93,167.7,2,74.53,87.14,9.4,5.1,2023-04-18,2024-11-01,11,0.4,Low
+P440,NH-44 Widening (Khordha Phase 2),Odisha,Khordha,Highway,43.76,185,46.52,16.9,1,52.61,64.05,2.3,7.8,2024-06-28,2027-09-12,123,19.3,Medium
+P441,Doubling & Electrification Line (Guntur Package IV),Andhra Pradesh,Guntur,Railway,76.05,322,48.68,576.0,3,49.19,62.62,7.2,6.9,2023-03-16,2026-04-18,265,42.7,High
+P442,River Interlinking Link (Lucknow Phase 3),Uttar Pradesh,Lucknow,Irrigation,53.29,186,49.21,226.4,0,57.01,32.27,9.2,6.8,2022-11-03,2025-09-27,138,20.5,Medium
+P443,Metro Rail Phase 2 (Thane Phase 1),Maharashtra,Thane,Railway,42.19,189,28.9,279.3,2,39.49,41.24,5.5,3.9,2023-12-22,2027-01-08,261,43.3,High
+P444,Urban Bypass Expressway (Surat Phase 3),Gujarat,Surat,Urban Infrastructure,77.54,794,85.87,219.2,0,73.6,58.2,4.3,5.8,2024-03-19,2026-01-08,143,25.3,Medium
+P445,Metro Rail Phase 2 (Sambalpur Phase 3),Odisha,Sambalpur,Railway,5.0,81,72.89,160.4,0,63.08,56.92,2.5,6.1,2022-10-31,2024-12-11,101,16.5,Low
+P446,Suburban Rail Expansion (Varanasi Package IV),Uttar Pradesh,Varanasi,Railway,60.85,164,21.32,107.6,1,22.3,34.1,8.8,4.9,2024-03-08,2028-01-14,167,28.6,Medium
+P447,Expressway Bypass Corridor (Coimbatore Section A),Tamil Nadu,Coimbatore,Highway,22.41,137,39.33,351.8,1,43.91,50.09,4.5,9.1,2023-07-23,2026-10-22,264,44.4,High
+P448,Dedicated Freight Corridor (Thane Package IV),Maharashtra,Thane,Railway,9.27,91,25.88,565.7,1,43.51,39.73,9.3,6.5,2025-07-25,2029-05-14,201,30.9,High
+P449,NH-44 Widening (Pune Section A),Maharashtra,Pune,Highway,53.7,273,44.36,124.4,0,38.27,30.55,8.6,6.7,2023-09-22,2024-12-12,59,6.9,Low
+P450,Textile Park Development (Chennai Package IV),Tamil Nadu,Chennai,Industrial Corridor,102.54,447,74.23,482.7,1,58.05,51.88,4.4,7.7,2025-07-02,2026-10-02,237,37.5,High
+P451,Reservoir Dam Construction (Mysuru Phase 1),Karnataka,Mysuru,Irrigation,33.01,129,35.83,157.6,0,29.86,27.79,6.2,2.7,2023-02-06,2024-04-25,201,32.6,High
+P452,NH-44 Widening (Madurai Phase 2),Tamil Nadu,Madurai,Highway,74.79,354,46.79,139.1,0,54.67,33.61,1.2,5.3,2024-03-02,2025-12-07,202,30.8,High
+P453,Bus Rapid Transit Corridor (Pune Package IV),Maharashtra,Pune,Urban Infrastructure,122.63,1170,29.49,109.1,0,30.87,25.41,3.4,4.8,2025-01-16,2027-11-29,194,33.4,Medium
+P454,DMIC Industrial Node (Nagpur Phase 3),Maharashtra,Nagpur,Industrial Corridor,98.12,544,66.03,42.3,2,55.13,67.02,7.4,7.6,2024-05-23,2028-01-18,64,13.2,Low
+P455,Outer Ring Road Extension (Cuttack Phase 1),Odisha,Cuttack,Highway,125.21,693,20.14,0.7,2,23.93,42.17,7.1,8.3,2025-04-21,2029-03-19,152,24.8,Medium
+P456,Golden Quadrilateral Expansion (Howrah Section A),West Bengal,Howrah,Highway,63.85,247,70.14,49.8,9,68.74,59.9,4.2,5.7,2023-04-28,2026-11-18,255,39.7,High
+P457,River Interlinking Link (Lucknow Section A),Uttar Pradesh,Lucknow,Irrigation,38.73,216,93.47,128.3,0,83.77,85.0,8.3,3.5,2023-09-02,2025-07-03,0,0.7,Low
+P458,Water Treatment Plant Site (Coimbatore Phase 2),Tamil Nadu,Coimbatore,Urban Infrastructure,11.01,123,73.48,86.0,0,73.7,54.76,3.1,5.8,2023-05-10,2027-03-30,99,14.5,Low
+P459,Thermal Power Substation Link (Lucknow Section A),Uttar Pradesh,Lucknow,Power Transmission,30.43,132,58.21,107.1,0,52.13,71.9,5.2,7.6,2023-06-02,2025-03-14,62,11.7,Low
+P460,Solar Park Land Acquisition (Coimbatore Phase 1),Tamil Nadu,Coimbatore,Power Transmission,19.44,59,32.5,710.1,2,35.68,33.37,5.3,5.5,2024-06-01,2027-04-03,377,60.5,High
+P461,Expressway Bypass Corridor (Vijayawada Phase 3),Andhra Pradesh,Vijayawada,Highway,186.46,1183,88.63,77.6,3,69.02,87.21,4.1,5.7,2022-10-08,2025-07-21,76,13.3,Low
+P462,Metro Rail Phase 2 (Pune Phase 3),Maharashtra,Pune,Railway,32.08,141,90.94,108.3,1,70.03,92.2,9.6,6.0,2023-06-05,2025-05-02,0,1.4,Low
+P463,Water Treatment Plant Site (Kolkata Phase 1),West Bengal,Kolkata,Urban Infrastructure,40.14,260,51.14,25.8,0,49.91,63.51,7.3,5.0,2024-01-29,2027-04-12,147,24.5,Medium
+P464,SEZ Land Acquisition Zone (Khordha Phase 3),Odisha,Khordha,Industrial Corridor,55.35,350,16.47,8.8,0,19.89,13.05,5.9,7.3,2024-05-31,2027-02-02,135,24.5,Medium
+P465,Metro Rail Phase 2 (Howrah Section A),West Bengal,Howrah,Railway,37.81,197,61.31,268.8,2,61.3,62.61,5.6,4.6,2025-07-06,2028-05-24,162,26.4,Medium
+P466,Doubling & Electrification Line (Howrah Section A),West Bengal,Howrah,Railway,130.49,564,57.96,152.2,2,44.55,41.88,2.4,6.0,2023-09-20,2027-07-24,210,33.1,High
+P467,Bus Rapid Transit Corridor (North 24 Parganas Phase 1),West Bengal,North 24 Parganas,Urban Infrastructure,22.94,196,62.59,257.4,5,49.99,40.88,4.3,6.3,2023-10-19,2027-08-27,171,24.4,Medium
+P468,Expressway Bypass Corridor (Lucknow Phase 1),Uttar Pradesh,Lucknow,Highway,42.35,164,78.59,29.2,2,80.57,52.9,7.1,3.3,2023-05-05,2027-04-29,51,4.8,Low
+P469,State Highway 12 Upgrade (Coimbatore Phase 3),Tamil Nadu,Coimbatore,Highway,20.97,147,31.91,152.7,2,38.09,52.81,9.3,6.5,2025-08-24,2029-05-23,146,24.5,Medium
+P470,State Highway 12 Upgrade (Indore Phase 1),Madhya Pradesh,Indore,Highway,13.6,154,37.89,52.7,4,46.22,56.42,8.3,4.8,2023-02-14,2025-10-19,159,25.4,Medium
+P471,Expressway Bypass Corridor (Visakhapatnam Package IV),Andhra Pradesh,Visakhapatnam,Highway,23.13,127,89.94,46.6,0,88.5,66.36,3.7,6.8,2024-04-16,2027-12-14,74,10.7,Low
+P472,765kV Substation Land (Vadodara Package IV),Gujarat,Vadodara,Power Transmission,35.6,92,39.61,2.1,1,41.3,44.89,4.9,6.0,2022-10-30,2023-12-03,132,19.6,Medium
+P473,Expressway Bypass Corridor (Kolkata Section A),West Bengal,Kolkata,Highway,26.52,114,35.3,25.1,2,45.5,56.37,1.7,7.0,2024-08-31,2027-09-24,187,31.3,Medium
+P474,765kV Substation Land (Belagavi Phase 2),Karnataka,Belagavi,Power Transmission,21.77,40,36.35,66.6,3,40.38,41.01,1.9,9.8,2023-08-11,2026-06-19,184,28.2,Medium
+P475,Thermal Power Substation Link (Varanasi Phase 3),Uttar Pradesh,Varanasi,Power Transmission,12.75,81,71.71,22.4,3,59.35,60.39,5.2,6.6,2023-07-07,2025-02-15,95,17.8,Low
+P476,Outer Ring Road Extension (Sambalpur Section A),Odisha,Sambalpur,Highway,34.39,227,32.55,766.6,1,32.85,38.07,5.8,5.8,2024-08-15,2027-12-16,314,54.2,High
+P477,Feeder Canal Modernization (Surat Phase 1),Gujarat,Surat,Irrigation,11.84,65,12.27,66.4,0,21.46,35.63,3.4,4.2,2024-02-25,2026-11-16,220,34.1,High
+P478,SEZ Land Acquisition Zone (Bhopal Phase 3),Madhya Pradesh,Bhopal,Industrial Corridor,64.72,338,86.28,25.1,2,72.63,72.79,6.8,7.6,2023-12-18,2025-02-09,2,1.3,Low
+P479,Suburban Rail Expansion (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Railway,38.93,162,41.04,40.0,2,39.17,54.09,7.3,5.0,2023-08-19,2027-04-16,100,16.8,Low
+P480,Grid Augmentation Line (Bhopal Section A),Madhya Pradesh,Bhopal,Power Transmission,12.27,83,62.84,159.5,1,55.56,55.96,3.7,7.3,2023-08-12,2026-02-05,119,17.7,Medium
+P481,Urban Bypass Expressway (Vadodara Phase 1),Gujarat,Vadodara,Urban Infrastructure,29.02,331,59.16,11.9,1,47.44,47.27,7.8,4.4,2022-10-06,2025-01-14,100,14.7,Low
+P482,Smart City Outer Ring Road (Howrah Package IV),West Bengal,Howrah,Urban Infrastructure,20.82,166,34.63,357.1,3,28.09,33.94,2.9,4.6,2025-06-21,2026-10-04,332,53.4,High
+P483,SEZ Land Acquisition Zone (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Industrial Corridor,46.5,248,83.01,586.3,0,63.42,56.68,5.9,7.6,2023-06-27,2027-03-06,188,28.6,Medium
+P484,Water Treatment Plant Site (Bhopal Package IV),Madhya Pradesh,Bhopal,Urban Infrastructure,100.02,910,84.83,51.0,1,66.4,72.55,8.2,5.9,2024-05-10,2026-04-24,0,1.6,Low
+P485,Canal Network Expansion (Cuttack Package IV),Odisha,Cuttack,Irrigation,8.97,111,37.66,107.6,0,36.84,29.66,5.8,3.0,2024-01-22,2027-12-30,179,28.5,Medium
+P486,Urban Bypass Expressway (Chennai Phase 1),Tamil Nadu,Chennai,Urban Infrastructure,39.9,234,53.41,4.0,1,54.9,63.12,9.2,5.6,2023-11-06,2026-12-23,97,14.0,Low
+P487,High-Speed Rail Link (Thane Phase 1),Maharashtra,Thane,Railway,32.46,156,52.04,184.3,0,43.73,48.55,1.5,10.0,2022-12-16,2024-10-13,198,31.8,Medium
+P488,Metro Rail Phase 2 (Coimbatore Phase 1),Tamil Nadu,Coimbatore,Railway,60.55,189,57.14,96.2,1,65.06,63.92,6.3,8.1,2023-11-07,2026-03-17,48,8.4,Low
+P489,Green Energy Transmission Corridor (Surat Section A),Gujarat,Surat,Power Transmission,42.94,111,54.63,56.7,2,61.18,68.92,6.1,7.0,2024-02-27,2025-05-01,73,10.7,Low
+P490,State Highway 12 Upgrade (Varanasi Package IV),Uttar Pradesh,Varanasi,Highway,20.82,95,51.36,41.7,2,51.53,63.12,6.9,7.0,2025-05-23,2027-01-03,143,20.1,Medium
+P491,Reservoir Dam Construction (Thane Section A),Maharashtra,Thane,Irrigation,28.81,84,57.7,191.0,0,61.38,70.81,8.5,4.8,2024-10-30,2026-11-24,91,14.9,Low
+P492,Solar Park Land Acquisition (Guntur Section A),Andhra Pradesh,Guntur,Power Transmission,20.15,81,77.33,96.9,2,67.16,70.14,7.5,8.4,2024-05-12,2025-06-19,35,3.8,Low
+P493,Lift Irrigation Project (Khordha Section A),Odisha,Khordha,Irrigation,82.02,169,58.54,35.6,3,44.82,43.84,8.1,4.3,2025-07-21,2029-01-09,119,18.0,Medium
+P494,Outer Ring Road Extension (Guntur Phase 2),Andhra Pradesh,Guntur,Highway,37.19,231,90.51,210.3,0,90.49,91.57,3.6,6.5,2024-12-10,2027-09-13,78,13.3,Low
+P495,Urban Bypass Expressway (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Urban Infrastructure,152.31,1564,40.45,149.9,1,33.53,56.69,4.5,4.3,2024-01-27,2027-06-02,207,32.5,High
+P496,Bus Rapid Transit Corridor (Nagpur Package IV),Maharashtra,Nagpur,Urban Infrastructure,34.97,192,76.31,352.2,4,80.93,79.86,6.6,6.5,2022-10-12,2024-08-17,155,24.8,Medium
+P497,Golden Quadrilateral Expansion (Vijayawada Phase 1),Andhra Pradesh,Vijayawada,Highway,21.51,168,54.66,22.5,1,55.29,59.79,6.0,7.2,2023-02-26,2026-06-20,79,14.9,Low
+P498,Grid Augmentation Line (Visakhapatnam Section A),Andhra Pradesh,Visakhapatnam,Power Transmission,11.76,54,50.45,277.2,3,45.48,54.66,9.6,8.2,2023-10-10,2025-11-30,116,18.2,Low
+P499,State Highway 12 Upgrade (Bhopal Package IV),Madhya Pradesh,Bhopal,Highway,9.47,126,67.34,201.5,2,62.89,44.29,2.7,8.3,2023-06-04,2026-09-21,181,32.2,Medium
+P500,Textile Park Development (Madurai Phase 1),Tamil Nadu,Madurai,Industrial Corridor,11.16,93,70.21,22.0,2,65.2,71.82,4.2,8.7,2025-02-17,2028-12-10,55,10.0,Low
+P501,Doubling & Electrification Line (Gwalior Phase 3),Madhya Pradesh,Gwalior,Railway,44.72,143,76.27,213.6,2,57.78,52.78,6.2,7.5,2023-10-17,2027-06-08,81,11.7,Low
+P502,Thermal Power Substation Link (Pune Package IV),Maharashtra,Pune,Power Transmission,53.6,118,68.45,104.9,1,60.22,53.58,8.8,9.2,2022-10-29,2024-03-04,71,10.7,Low
+P503,Feeder Canal Modernization (Nagpur Phase 2),Maharashtra,Nagpur,Irrigation,11.18,51,76.81,522.0,0,76.1,69.23,9.4,6.7,2023-02-15,2024-11-23,101,14.4,Low
+P504,Tech Park Phase C (Vadodara Package IV),Gujarat,Vadodara,Industrial Corridor,71.61,341,71.95,27.5,1,66.71,62.58,4.0,6.0,2025-03-14,2029-02-08,145,24.3,Medium
+P505,Solar Park Land Acquisition (Gwalior Phase 3),Madhya Pradesh,Gwalior,Power Transmission,25.48,79,89.82,185.3,4,73.47,58.94,1.6,7.4,2024-07-06,2026-09-03,127,22.5,Medium
+P506,State Highway 12 Upgrade (Jodhpur Package IV),Rajasthan,Jodhpur,Highway,40.86,288,66.73,86.6,1,58.43,72.21,4.8,7.7,2024-02-19,2026-12-15,45,6.7,Low
+P507,Outer Ring Road Extension (Coimbatore Section A),Tamil Nadu,Coimbatore,Highway,122.63,704,67.25,565.6,2,72.01,74.47,4.5,5.7,2023-12-31,2027-09-05,265,39.9,High
+P508,Expressway Bypass Corridor (Nagpur Phase 3),Maharashtra,Nagpur,Highway,71.71,410,48.98,72.1,1,49.87,55.7,9.9,6.4,2024-07-08,2028-06-18,64,10.9,Low
+P509,Golden Quadrilateral Expansion (Vadodara Phase 2),Gujarat,Vadodara,Highway,29.92,160,45.4,589.5,6,47.26,48.45,4.9,7.0,2025-03-29,2028-05-08,330,51.9,High
+P510,River Interlinking Link (Indore Section A),Madhya Pradesh,Indore,Irrigation,18.76,113,30.06,417.2,2,46.58,53.16,3.8,4.5,2024-11-02,2027-08-06,334,52.8,High
+P511,SEZ Land Acquisition Zone (Coimbatore Section A),Tamil Nadu,Coimbatore,Industrial Corridor,7.29,56,59.13,56.7,0,52.37,42.63,4.3,7.3,2023-02-26,2025-02-14,75,12.6,Low
+P512,Smart City Outer Ring Road (Bhopal Phase 3),Madhya Pradesh,Bhopal,Urban Infrastructure,21.34,153,22.43,292.9,1,28.81,40.41,4.6,3.8,2024-04-20,2027-11-17,305,51.0,High
+P513,Metro Rail Phase 2 (Visakhapatnam Section A),Andhra Pradesh,Visakhapatnam,Railway,31.24,177,77.64,900.0,0,78.52,54.96,8.4,6.2,2025-02-11,2029-02-06,235,39.0,High
+P514,Feeder Canal Modernization (Surat Phase 2),Gujarat,Surat,Irrigation,17.45,128,49.54,52.4,4,56.13,45.57,1.7,5.0,2023-06-22,2026-05-23,215,35.3,High
+P515,Feeder Canal Modernization (Madurai Phase 1),Tamil Nadu,Madurai,Irrigation,33.17,104,41.3,103.3,0,37.62,47.34,3.8,6.7,2023-09-30,2026-09-24,133,21.2,Medium
+P516,Flyover & Arterial Road Network (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Urban Infrastructure,38.77,298,15.57,132.2,1,15.45,35.92,9.7,4.9,2022-11-07,2025-05-01,205,31.1,High
+P517,Bus Rapid Transit Corridor (Belagavi Phase 3),Karnataka,Belagavi,Urban Infrastructure,30.92,326,71.67,62.9,1,71.27,46.72,2.4,4.4,2024-07-08,2028-03-25,149,24.6,Medium
+P518,Dedicated Freight Corridor (Belagavi Section A),Karnataka,Belagavi,Railway,22.48,167,70.47,2.8,0,59.29,54.93,7.7,7.1,2022-09-02,2024-09-29,44,8.2,Low
+P519,Dedicated Freight Corridor (Chennai Package IV),Tamil Nadu,Chennai,Railway,41.53,138,61.33,44.8,1,69.06,58.7,4.2,2.4,2024-11-15,2027-04-03,186,29.1,Medium
+P520,Urban Bypass Expressway (Indore Phase 1),Madhya Pradesh,Indore,Urban Infrastructure,50.98,533,49.28,59.6,0,40.19,50.68,6.2,4.8,2024-12-14,2027-07-08,114,17.8,Low
+P521,Golden Quadrilateral Expansion (Vadodara Section A),Gujarat,Vadodara,Highway,16.15,161,66.53,105.5,1,57.86,65.56,1.9,6.2,2025-08-01,2028-04-03,141,24.4,Medium
+P522,Lift Irrigation Project (Bengaluru Urban Phase 1),Karnataka,Bengaluru Urban,Irrigation,105.45,286,8.5,33.8,0,7.74,16.16,3.8,5.1,2025-07-07,2027-10-10,221,35.1,High
+P523,Solar Park Land Acquisition (Vadodara Phase 3),Gujarat,Vadodara,Power Transmission,33.99,89,53.37,371.8,1,57.61,53.61,5.5,9.3,2023-07-03,2026-03-03,177,28.1,Medium
+P524,Doubling & Electrification Line (Mysuru Package IV),Karnataka,Mysuru,Railway,37.12,171,79.95,219.7,1,82.24,58.61,3.1,8.1,2024-03-18,2026-10-30,170,27.3,Medium
+P525,Metro Rail Phase 2 (Visakhapatnam Phase 1),Andhra Pradesh,Visakhapatnam,Railway,62.25,328,20.87,16.0,1,31.55,20.11,5.9,6.5,2024-06-30,2026-08-28,147,24.7,Medium
+P526,Water Treatment Plant Site (Indore Package IV),Madhya Pradesh,Indore,Urban Infrastructure,43.59,462,23.39,189.0,1,40.99,35.38,3.0,3.3,2022-12-17,2026-09-13,286,46.6,High
+P527,Tech Park Phase C (Vijayawada Phase 3),Andhra Pradesh,Vijayawada,Industrial Corridor,74.8,302,55.76,190.9,3,45.03,60.24,6.9,6.6,2025-06-27,2028-04-06,162,26.5,Medium
+P528,Solar Park Land Acquisition (Bengaluru Urban Package IV),Karnataka,Bengaluru Urban,Power Transmission,45.39,83,33.63,563.1,0,27.42,26.07,9.1,7.3,2024-01-25,2027-10-03,170,29.7,Medium
+P529,765kV Substation Land (Kolkata Package IV),West Bengal,Kolkata,Power Transmission,23.12,86,70.96,0.5,1,74.18,50.42,1.8,8.2,2025-04-25,2028-04-08,82,12.6,Low
+P530,Dedicated Freight Corridor (Kolkata Phase 2),West Bengal,Kolkata,Railway,48.0,234,30.72,51.3,3,44.43,39.75,2.9,6.3,2023-12-31,2026-07-13,217,33.6,High
+P531,State Highway 12 Upgrade (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Highway,15.52,115,45.84,473.1,3,55.16,39.25,8.6,6.0,2025-06-26,2028-02-05,262,43.8,High
+P532,DMIC Industrial Node (Kolkata Section A),West Bengal,Kolkata,Industrial Corridor,39.7,276,44.5,484.2,0,53.35,42.66,6.7,5.7,2023-03-12,2024-11-15,249,40.5,High
+P533,765kV Substation Land (Bengaluru Urban Phase 1),Karnataka,Bengaluru Urban,Power Transmission,35.7,81,59.14,229.5,11,53.41,52.47,1.7,6.8,2023-12-10,2027-01-25,324,51.4,High
+P534,Metro Rail Phase 2 (Chennai Phase 2),Tamil Nadu,Chennai,Railway,31.31,167,34.14,261.3,2,31.04,28.44,5.4,5.1,2024-10-26,2028-01-12,269,42.8,High
+P535,Grid Augmentation Line (Guntur Phase 1),Andhra Pradesh,Guntur,Power Transmission,33.23,99,63.89,17.3,1,71.14,41.57,2.9,9.7,2023-12-24,2026-11-29,116,16.8,Low
+P536,DMIC Industrial Node (Varanasi Phase 3),Uttar Pradesh,Varanasi,Industrial Corridor,8.92,92,31.9,129.8,0,31.6,50.6,2.8,6.3,2025-07-01,2027-04-26,204,33.3,High
+P537,DMIC Industrial Node (Bhopal Phase 3),Madhya Pradesh,Bhopal,Industrial Corridor,24.25,172,49.7,47.4,0,47.24,57.33,9.5,7.3,2024-05-26,2027-01-10,37,3.8,Low
+P538,Reservoir Dam Construction (North 24 Parganas Phase 3),West Bengal,North 24 Parganas,Irrigation,39.24,142,30.64,36.0,1,40.47,44.08,7.9,6.0,2024-01-19,2025-04-14,149,25.1,Medium
+P539,Urban Bypass Expressway (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Urban Infrastructure,41.26,237,82.07,299.2,0,68.89,72.47,7.3,5.4,2024-05-17,2026-12-27,116,17.9,Low
+P540,Flyover & Arterial Road Network (Nagpur Package IV),Maharashtra,Nagpur,Urban Infrastructure,16.93,182,68.19,26.1,1,71.62,68.86,3.2,3.9,2025-08-18,2027-01-26,79,10.7,Low
+P541,Metro Rail Phase 2 (Jodhpur Package IV),Rajasthan,Jodhpur,Railway,94.56,304,43.15,113.8,12,34.11,60.8,2.1,7.4,2023-12-03,2026-11-11,377,62.5,High
+P542,SEZ Land Acquisition Zone (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Industrial Corridor,19.11,133,91.44,502.2,0,88.36,82.73,8.8,7.6,2025-01-08,2028-07-01,61,13.2,Low
+P543,Lift Irrigation Project (Sambalpur Phase 1),Odisha,Sambalpur,Irrigation,75.72,232,40.75,37.0,0,45.61,35.77,1.1,2.2,2023-03-16,2025-08-22,211,34.7,High
+P544,River Interlinking Link (Howrah Section A),West Bengal,Howrah,Irrigation,50.42,133,52.47,687.0,1,53.68,54.08,4.5,6.3,2023-06-25,2027-03-02,280,44.7,High
+P545,Thermal Power Substation Link (Indore Phase 2),Madhya Pradesh,Indore,Power Transmission,22.54,96,37.1,900.0,3,39.28,39.6,3.5,8.8,2024-06-14,2026-08-26,416,65.7,High
+P546,Solar Park Land Acquisition (Varanasi Package IV),Uttar Pradesh,Varanasi,Power Transmission,138.58,197,29.53,146.0,0,29.07,38.67,6.1,8.2,2025-06-28,2027-08-15,110,18.1,Low
+P547,Lift Irrigation Project (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Irrigation,14.95,83,25.95,33.6,4,31.06,34.98,3.3,6.8,2024-04-10,2026-10-17,264,43.5,High
+P548,Solar Park Land Acquisition (Lucknow Phase 3),Uttar Pradesh,Lucknow,Power Transmission,72.92,155,93.02,68.4,0,81.02,90.52,3.8,8.8,2025-07-18,2028-01-25,0,0.0,Low
+P549,Tech Park Phase C (Belagavi Phase 3),Karnataka,Belagavi,Industrial Corridor,77.51,430,59.27,99.5,0,59.05,61.34,8.7,8.6,2023-05-28,2025-03-04,56,10.4,Low
+P550,NH-44 Widening (Belagavi Section A),Karnataka,Belagavi,Highway,22.13,99,39.81,66.6,0,36.9,32.48,6.4,8.0,2025-04-13,2026-11-22,91,16.9,Low
+P551,Textile Park Development (Jaipur Package IV),Rajasthan,Jaipur,Industrial Corridor,104.0,403,41.99,59.3,1,33.43,29.5,2.3,8.1,2025-01-31,2027-06-05,169,25.4,Medium
+P552,Lift Irrigation Project (Chennai Phase 1),Tamil Nadu,Chennai,Irrigation,30.34,123,53.59,645.1,2,43.82,49.69,7.5,2.7,2023-12-11,2026-04-20,265,43.2,High
+P553,Feeder Canal Modernization (Khordha Phase 3),Odisha,Khordha,Irrigation,45.45,157,83.16,30.0,2,79.85,54.6,2.9,2.8,2024-05-22,2025-09-02,128,17.8,Medium
+P554,Logistics Hub Cluster (Thane Phase 3),Maharashtra,Thane,Industrial Corridor,44.49,359,24.58,237.9,0,19.0,27.12,4.9,8.2,2024-12-29,2028-12-20,185,28.6,Medium
+P555,Solar Park Land Acquisition (Jaipur Phase 3),Rajasthan,Jaipur,Power Transmission,33.09,77,36.8,0.1,1,49.01,36.8,6.8,9.3,2022-08-31,2024-12-05,104,17.9,Low
+P556,Solar Park Land Acquisition (Vadodara Phase 3),Gujarat,Vadodara,Power Transmission,67.23,110,50.45,163.2,0,55.2,45.94,3.4,7.0,2023-12-16,2026-04-05,186,29.9,Medium
+P557,Flyover & Arterial Road Network (Pune Section A),Maharashtra,Pune,Urban Infrastructure,66.36,402,75.32,445.7,1,75.69,83.24,4.5,3.9,2023-11-19,2025-03-05,207,31.0,High
+P558,Feeder Canal Modernization (Guntur Phase 1),Andhra Pradesh,Guntur,Irrigation,9.86,58,18.06,61.1,1,34.44,22.38,7.6,5.1,2023-07-23,2025-02-12,173,29.5,Medium
+P559,High-Speed Rail Link (Indore Section A),Madhya Pradesh,Indore,Railway,97.34,402,68.31,36.9,2,54.3,53.68,9.4,4.5,2024-06-28,2027-10-22,84,12.7,Low
+P560,Bus Rapid Transit Corridor (Vadodara Phase 3),Gujarat,Vadodara,Urban Infrastructure,10.52,114,91.1,189.8,0,88.89,63.74,5.8,5.0,2025-02-16,2027-12-24,67,12.1,Low
+P561,Thermal Power Substation Link (Vadodara Phase 3),Gujarat,Vadodara,Power Transmission,79.39,110,13.53,224.4,4,22.76,26.68,1.1,7.4,2025-03-30,2028-11-21,350,57.2,High
+P562,Textile Park Development (Jaipur Phase 1),Rajasthan,Jaipur,Industrial Corridor,85.2,354,84.83,209.7,1,85.76,60.52,4.0,6.9,2025-06-13,2027-01-04,109,16.3,Low
+P563,Solar Park Land Acquisition (Chennai Phase 3),Tamil Nadu,Chennai,Power Transmission,16.15,43,94.14,69.2,2,92.77,82.76,4.6,10.0,2024-01-13,2025-10-20,42,8.1,Low
+P564,DMIC Industrial Node (Udaipur Package IV),Rajasthan,Udaipur,Industrial Corridor,26.89,185,51.98,52.3,2,39.59,39.22,4.1,6.4,2024-08-22,2025-09-01,94,15.6,Low
+P565,Smart City Outer Ring Road (Visakhapatnam Package IV),Andhra Pradesh,Visakhapatnam,Urban Infrastructure,15.97,171,86.22,561.9,1,74.24,76.23,4.9,5.3,2024-07-17,2026-06-05,132,21.6,Medium
+P566,Feeder Canal Modernization (Howrah Phase 3),West Bengal,Howrah,Irrigation,31.15,193,80.14,462.2,2,73.26,81.01,6.7,3.2,2024-07-17,2027-10-28,213,33.7,High
+P567,Green Energy Transmission Corridor (Howrah Package IV),West Bengal,Howrah,Power Transmission,29.05,103,62.03,110.0,1,63.48,41.81,2.1,8.9,2025-07-15,2029-03-15,141,21.1,Medium
+P568,Textile Park Development (Chennai Phase 2),Tamil Nadu,Chennai,Industrial Corridor,65.68,393,75.93,337.0,0,64.1,64.05,3.5,7.0,2023-07-28,2027-03-31,177,27.9,Medium
+P569,Lift Irrigation Project (Vijayawada Package IV),Andhra Pradesh,Vijayawada,Irrigation,97.78,344,21.2,108.4,2,22.2,29.92,5.6,6.2,2024-11-02,2026-12-15,204,32.2,High
+P570,Doubling & Electrification Line (Chennai Phase 2),Tamil Nadu,Chennai,Railway,104.25,374,38.54,99.4,1,38.44,52.74,3.8,3.3,2024-09-04,2027-04-15,252,41.9,High
+P571,DMIC Industrial Node (Agra Phase 1),Uttar Pradesh,Agra,Industrial Corridor,24.01,166,71.4,30.7,3,66.07,62.79,9.9,7.1,2023-05-21,2026-03-08,35,3.2,Low
+P572,Water Treatment Plant Site (North 24 Parganas Section A),West Bengal,North 24 Parganas,Urban Infrastructure,31.28,324,20.42,100.1,1,39.09,33.14,4.9,5.4,2025-06-19,2028-01-24,229,39.1,High
+P573,Dedicated Freight Corridor (Surat Package IV),Gujarat,Surat,Railway,10.35,80,38.41,138.8,1,47.86,52.66,8.8,7.3,2023-01-09,2024-05-09,90,16.8,Low
+P574,Doubling & Electrification Line (Khordha Phase 2),Odisha,Khordha,Railway,20.0,91,39.18,4.1,2,40.12,45.06,9.1,5.4,2023-11-14,2025-05-15,79,11.8,Low
+P575,NH-44 Widening (Bhopal Phase 3),Madhya Pradesh,Bhopal,Highway,75.46,372,72.42,105.7,0,55.67,59.61,8.5,7.7,2024-11-08,2027-02-26,0,2.1,Low
+P576,Grid Augmentation Line (Vijayawada Section A),Andhra Pradesh,Vijayawada,Power Transmission,122.94,220,76.06,273.7,0,61.26,52.44,1.4,7.2,2025-06-27,2029-06-26,191,29.3,Medium
+P577,SEZ Land Acquisition Zone (Nagpur Phase 2),Maharashtra,Nagpur,Industrial Corridor,14.5,163,73.78,205.1,2,66.73,73.5,9.5,7.3,2025-05-10,2026-07-25,68,12.7,Low
+P578,High-Speed Rail Link (Coimbatore Package IV),Tamil Nadu,Coimbatore,Railway,23.47,114,12.1,181.5,2,29.42,38.35,2.2,7.3,2025-04-18,2027-04-11,282,44.3,High
+P579,State Highway 12 Upgrade (Gwalior Package IV),Madhya Pradesh,Gwalior,Highway,35.88,241,48.17,432.5,3,45.64,65.26,1.3,5.7,2024-02-02,2027-06-06,281,46.9,High
+P580,Bus Rapid Transit Corridor (Pune Phase 3),Maharashtra,Pune,Urban Infrastructure,45.16,292,52.4,3.3,0,52.76,66.49,4.7,6.1,2023-01-23,2025-01-17,129,18.7,Medium
+P581,Lift Irrigation Project (Gwalior Phase 3),Madhya Pradesh,Gwalior,Irrigation,19.94,132,94.31,146.6,1,93.03,89.21,2.8,5.2,2023-08-30,2024-11-11,92,16.5,Low
+P582,Tech Park Phase C (Cuttack Phase 3),Odisha,Cuttack,Industrial Corridor,50.3,223,62.53,278.7,6,69.74,63.17,2.7,6.8,2025-07-11,2028-10-01,296,49.7,High
+P583,Doubling & Electrification Line (Pune Phase 1),Maharashtra,Pune,Railway,25.65,142,65.7,140.3,1,54.67,70.06,3.6,5.4,2023-12-26,2027-10-05,137,19.9,Medium
+P584,Solar Park Land Acquisition (Jodhpur Phase 1),Rajasthan,Jodhpur,Power Transmission,36.2,49,50.91,70.5,1,39.27,48.21,3.2,5.3,2023-08-14,2025-08-29,132,23.9,Medium
+P585,Golden Quadrilateral Expansion (Mysuru Phase 2),Karnataka,Mysuru,Highway,55.13,353,83.3,26.4,4,70.11,74.96,7.2,6.7,2023-07-06,2026-02-17,99,17.5,Low
+P586,Metro Rail Phase 2 (Udaipur Package IV),Rajasthan,Udaipur,Railway,36.77,111,70.38,393.4,2,70.18,57.95,2.7,5.8,2023-04-16,2024-06-30,244,36.4,High
+P587,Grid Augmentation Line (Howrah Phase 1),West Bengal,Howrah,Power Transmission,26.38,108,54.61,114.5,0,64.74,46.93,5.9,8.6,2022-10-07,2023-10-25,82,12.5,Low
+P588,Metro Rail Phase 2 (Belagavi Phase 1),Karnataka,Belagavi,Railway,33.71,234,70.61,378.8,0,54.88,72.38,9.9,6.8,2022-11-10,2025-07-13,85,15.3,Low
+P589,Textile Park Development (Jaipur Package IV),Rajasthan,Jaipur,Industrial Corridor,34.25,161,63.88,158.7,0,48.62,57.41,4.9,8.5,2023-09-15,2025-04-21,115,19.6,Low
+P590,DMIC Industrial Node (Belagavi Section A),Karnataka,Belagavi,Industrial Corridor,27.73,164,85.17,201.9,0,85.98,62.79,6.8,8.5,2024-09-07,2027-07-25,57,9.4,Low
+P591,Textile Park Development (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Industrial Corridor,30.14,204,74.35,293.6,0,74.47,55.4,9.7,10.0,2025-04-06,2027-11-09,0,1.4,Low
+P592,Bus Rapid Transit Corridor (Vadodara Section A),Gujarat,Vadodara,Urban Infrastructure,121.39,587,38.61,193.7,0,53.76,55.17,2.2,5.8,2022-12-22,2026-07-09,170,26.1,Medium
+P593,Water Treatment Plant Site (Coimbatore Phase 1),Tamil Nadu,Coimbatore,Urban Infrastructure,55.74,586,72.45,91.4,0,64.26,70.81,4.8,4.2,2024-08-07,2028-07-15,116,18.8,Low
+P594,Golden Quadrilateral Expansion (Madurai Section A),Tamil Nadu,Madurai,Highway,29.32,103,42.73,129.7,1,42.45,46.89,8.7,7.8,2024-06-04,2028-03-11,77,11.2,Low
+P595,DMIC Industrial Node (Vadodara Package IV),Gujarat,Vadodara,Industrial Corridor,61.73,321,51.64,292.5,1,43.04,47.6,9.4,9.1,2025-05-05,2027-02-03,78,12.8,Low
+P596,Thermal Power Substation Link (Bhopal Phase 3),Madhya Pradesh,Bhopal,Power Transmission,28.49,123,78.62,84.2,4,61.86,66.18,6.4,8.4,2025-02-10,2028-12-08,103,18.1,Low
+P597,Suburban Rail Expansion (Varanasi Phase 2),Uttar Pradesh,Varanasi,Railway,88.22,397,62.83,88.4,4,61.59,42.85,2.3,3.7,2023-06-29,2027-02-11,214,35.7,High
+P598,Canal Network Expansion (Gwalior Section A),Madhya Pradesh,Gwalior,Irrigation,48.29,236,48.93,18.1,1,45.8,47.73,9.1,5.5,2025-08-16,2028-02-25,62,10.3,Low
+P599,Grid Augmentation Line (Thane Section A),Maharashtra,Thane,Power Transmission,33.77,73,33.39,442.8,1,27.05,49.54,2.6,7.0,2024-04-18,2026-05-17,305,50.7,High
+P600,Smart City Outer Ring Road (Nagpur Phase 2),Maharashtra,Nagpur,Urban Infrastructure,51.2,290,62.92,17.2,1,69.36,54.48,4.2,3.6,2024-10-06,2026-05-24,92,16.5,Low
+P601,Smart City Outer Ring Road (Belagavi Phase 1),Karnataka,Belagavi,Urban Infrastructure,11.27,151,43.29,188.0,0,37.43,41.56,4.4,5.4,2024-05-12,2027-03-20,142,25.6,Medium
+P602,Grid Augmentation Line (Jodhpur Section A),Rajasthan,Jodhpur,Power Transmission,15.72,76,53.96,96.0,2,59.18,35.62,5.0,6.0,2023-09-14,2025-08-11,118,20.8,Medium
+P603,Smart City Outer Ring Road (Udaipur Phase 1),Rajasthan,Udaipur,Urban Infrastructure,14.95,200,84.52,93.6,0,70.45,70.96,8.1,6.4,2023-04-17,2026-11-11,0,1.0,Low
+P604,SEZ Land Acquisition Zone (Coimbatore Package IV),Tamil Nadu,Coimbatore,Industrial Corridor,40.74,306,27.36,204.8,0,40.84,18.67,8.2,8.1,2025-06-15,2027-11-23,158,26.9,Medium
+P605,Golden Quadrilateral Expansion (Guntur Section A),Andhra Pradesh,Guntur,Highway,134.21,809,42.18,12.5,3,34.59,47.38,7.5,6.7,2025-08-03,2027-08-19,122,20.0,Medium
+P606,Metro Rail Phase 2 (Bhopal Phase 3),Madhya Pradesh,Bhopal,Railway,195.09,703,83.58,162.1,2,81.59,72.06,1.2,5.5,2022-09-08,2023-10-06,213,33.9,High
+P607,Outer Ring Road Extension (Howrah Section A),West Bengal,Howrah,Highway,59.06,294,42.44,266.1,1,34.28,56.99,6.1,6.6,2023-02-12,2026-01-02,189,31.8,Medium
+P608,Suburban Rail Expansion (Sambalpur Phase 2),Odisha,Sambalpur,Railway,53.28,255,32.65,317.1,2,35.66,41.58,7.7,5.0,2024-06-21,2027-02-15,227,37.7,High
+P609,Metro Rail Phase 2 (Udaipur Phase 1),Rajasthan,Udaipur,Railway,9.48,90,44.81,33.7,0,51.96,40.45,5.0,6.1,2023-08-05,2025-09-03,157,25.8,Medium
+P610,Expressway Bypass Corridor (Khordha Package IV),Odisha,Khordha,Highway,24.36,108,79.19,409.9,0,63.72,69.54,9.5,3.4,2023-05-31,2025-05-24,65,10.2,Low
+P611,Solar Park Land Acquisition (Mysuru Phase 3),Karnataka,Mysuru,Power Transmission,20.27,92,58.03,192.2,1,50.66,62.21,8.4,7.9,2025-08-16,2028-11-23,102,16.1,Low
+P612,Dedicated Freight Corridor (Sambalpur Phase 3),Odisha,Sambalpur,Railway,22.97,167,40.71,384.5,0,52.15,29.75,6.7,6.3,2024-11-12,2028-04-05,199,31.5,Medium
+P613,Golden Quadrilateral Expansion (Kolkata Section A),West Bengal,Kolkata,Highway,32.26,166,65.31,119.5,3,71.11,64.19,1.6,7.8,2024-08-21,2028-07-11,168,29.0,Medium
+P614,Metro Rail Phase 2 (Vadodara Phase 2),Gujarat,Vadodara,Railway,25.69,73,83.02,140.6,4,63.39,86.04,6.9,6.6,2022-11-17,2025-09-18,107,19.0,Low
+P615,Reservoir Dam Construction (Howrah Phase 1),West Bengal,Howrah,Irrigation,8.29,41,49.29,452.5,1,41.17,42.51,9.2,6.0,2025-01-12,2026-07-08,166,28.5,Medium
+P616,Grid Augmentation Line (Sambalpur Package IV),Odisha,Sambalpur,Power Transmission,64.13,171,35.85,414.3,0,29.82,45.23,4.4,8.5,2023-09-22,2026-12-20,226,34.9,High
+P617,Textile Park Development (North 24 Parganas Phase 1),West Bengal,North 24 Parganas,Industrial Corridor,16.37,177,67.93,107.0,1,55.44,72.9,8.5,8.4,2023-03-07,2024-09-17,25,3.5,Low
+P618,Metro Rail Phase 2 (Agra Phase 3),Uttar Pradesh,Agra,Railway,43.79,130,50.06,57.7,3,61.8,50.45,3.8,9.3,2024-08-09,2026-08-22,163,25.9,Medium
+P619,Lift Irrigation Project (Belagavi Phase 1),Karnataka,Belagavi,Irrigation,173.39,401,36.42,89.9,1,41.11,48.8,6.1,5.3,2023-03-26,2025-01-06,146,22.6,Medium
+P620,Tech Park Phase C (Bhopal Phase 1),Madhya Pradesh,Bhopal,Industrial Corridor,18.37,153,39.0,88.3,2,40.95,36.24,6.8,7.4,2024-08-21,2028-04-24,176,31.2,Medium
+P621,SEZ Land Acquisition Zone (Ahmedabad Package IV),Gujarat,Ahmedabad,Industrial Corridor,5.49,68,39.0,60.9,1,53.86,36.06,7.1,8.6,2025-07-03,2028-04-25,49,8.5,Low
+P622,Dedicated Freight Corridor (Jodhpur Phase 1),Rajasthan,Jodhpur,Railway,29.53,181,69.52,56.3,0,66.06,68.55,8.9,5.6,2024-12-03,2027-04-25,35,6.1,Low
+P623,State Highway 12 Upgrade (Pune Phase 2),Maharashtra,Pune,Highway,83.57,550,60.1,355.3,0,61.6,63.75,3.1,6.7,2025-01-15,2026-01-28,138,21.6,Medium
+P624,High-Speed Rail Link (Bhopal Package IV),Madhya Pradesh,Bhopal,Railway,158.98,406,86.78,13.0,2,73.4,89.2,3.4,6.7,2025-03-13,2027-08-29,47,8.9,Low
+P625,Lift Irrigation Project (Thane Phase 1),Maharashtra,Thane,Irrigation,14.55,59,78.98,203.8,1,68.79,59.21,7.3,4.9,2024-01-05,2027-02-28,104,20.1,Low
+P626,Logistics Hub Cluster (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Industrial Corridor,53.12,190,35.03,34.2,1,41.13,39.16,2.6,7.3,2024-07-18,2026-11-12,127,20.6,Medium
+P627,Suburban Rail Expansion (Ahmedabad Phase 2),Gujarat,Ahmedabad,Railway,25.82,109,29.05,76.0,8,23.53,27.65,5.2,7.3,2025-04-08,2028-10-08,305,48.8,High
+P628,Golden Quadrilateral Expansion (Coimbatore Phase 3),Tamil Nadu,Coimbatore,Highway,33.8,201,30.45,11.4,3,29.23,22.6,1.2,4.8,2024-10-23,2027-04-22,239,38.4,High
+P629,High-Speed Rail Link (Jodhpur Package IV),Rajasthan,Jodhpur,Railway,265.94,935,46.21,56.6,1,39.58,44.15,2.3,8.6,2024-06-23,2027-04-29,140,22.1,Medium
+P630,765kV Substation Land (Varanasi Phase 3),Uttar Pradesh,Varanasi,Power Transmission,11.86,64,77.24,263.3,0,58.33,63.3,7.1,8.4,2024-12-29,2027-09-08,30,4.8,Low
+P631,Golden Quadrilateral Expansion (Madurai Phase 2),Tamil Nadu,Madurai,Highway,44.27,256,92.64,389.3,1,82.9,69.68,7.7,6.3,2024-07-23,2025-08-15,59,8.6,Low
+P632,River Interlinking Link (Belagavi Phase 3),Karnataka,Belagavi,Irrigation,51.98,155,61.35,45.1,0,60.04,50.27,2.0,6.8,2023-05-05,2025-10-21,80,11.6,Low
+P633,SEZ Land Acquisition Zone (Indore Phase 1),Madhya Pradesh,Indore,Industrial Corridor,82.63,351,35.55,112.1,0,36.26,35.72,3.0,7.3,2024-09-06,2027-09-12,243,39.2,High
+P634,Dedicated Freight Corridor (Varanasi Phase 2),Uttar Pradesh,Varanasi,Railway,39.39,177,71.4,114.4,0,60.27,81.02,1.9,6.4,2024-07-30,2026-11-25,105,17.1,Low
+P635,NH-44 Widening (Howrah Phase 3),West Bengal,Howrah,Highway,46.11,263,73.9,372.3,10,71.73,75.44,4.9,6.5,2023-10-07,2025-02-10,282,45.1,High
+P636,Green Energy Transmission Corridor (Sambalpur Package IV),Odisha,Sambalpur,Power Transmission,27.28,40,84.68,259.0,0,66.88,57.54,2.1,9.6,2023-09-19,2025-05-18,91,16.9,Low
+P637,State Highway 12 Upgrade (Agra Phase 1),Uttar Pradesh,Agra,Highway,44.78,252,54.76,129.5,0,54.04,66.13,4.9,6.8,2025-05-17,2028-12-25,110,18.4,Low
+P638,Flyover & Arterial Road Network (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Urban Infrastructure,28.29,256,10.74,200.0,1,27.26,29.15,7.6,4.5,2023-11-04,2026-07-24,220,36.6,High
+P639,765kV Substation Land (Visakhapatnam Phase 2),Andhra Pradesh,Visakhapatnam,Power Transmission,58.33,152,13.57,338.3,1,14.28,39.99,7.2,9.0,2024-11-17,2026-10-10,180,30.2,Medium
+P640,Feeder Canal Modernization (Cuttack Package IV),Odisha,Cuttack,Irrigation,27.74,138,37.46,1.7,0,46.93,36.31,3.5,6.2,2024-09-21,2027-12-30,126,20.5,Medium
+P641,DMIC Industrial Node (Nagpur Phase 1),Maharashtra,Nagpur,Industrial Corridor,48.56,298,45.31,92.8,2,53.0,45.71,7.1,9.1,2025-04-30,2029-02-22,151,24.7,Medium
+P642,Feeder Canal Modernization (Udaipur Section A),Rajasthan,Udaipur,Irrigation,35.8,81,78.82,428.0,3,60.61,82.6,9.3,5.6,2023-09-06,2026-06-03,92,13.5,Low
+P643,Doubling & Electrification Line (Nagpur Package IV),Maharashtra,Nagpur,Railway,85.16,282,34.98,242.7,2,26.7,32.28,4.1,7.6,2023-10-31,2025-06-27,184,30.7,Medium
+P644,Outer Ring Road Extension (Varanasi Phase 1),Uttar Pradesh,Varanasi,Highway,35.21,212,80.62,140.9,1,84.81,84.45,4.0,6.5,2024-07-14,2027-03-10,77,11.9,Low
+P645,Urban Bypass Expressway (Pune Package IV),Maharashtra,Pune,Urban Infrastructure,9.68,145,64.99,135.8,0,53.58,71.24,6.1,6.4,2022-12-29,2026-01-19,20,2.3,Low
+P646,Green Energy Transmission Corridor (Mysuru Package IV),Karnataka,Mysuru,Power Transmission,94.3,123,43.77,76.9,0,53.38,62.77,3.2,8.7,2023-11-17,2026-02-11,94,17.1,Low
+P647,765kV Substation Land (Kolkata Package IV),West Bengal,Kolkata,Power Transmission,18.55,54,69.22,132.3,0,65.96,56.34,6.9,8.4,2023-08-30,2025-11-20,10,0.0,Low
+P648,State Highway 12 Upgrade (Bhopal Section A),Madhya Pradesh,Bhopal,Highway,22.41,182,65.41,191.8,2,55.67,50.77,8.5,4.9,2023-10-27,2025-07-26,88,16.8,Low
+P649,Smart City Outer Ring Road (Jodhpur Phase 1),Rajasthan,Jodhpur,Urban Infrastructure,23.41,212,77.81,97.5,0,61.61,62.16,5.1,4.7,2024-02-03,2027-10-09,84,16.0,Low
+P650,Expressway Bypass Corridor (Pune Section A),Maharashtra,Pune,Highway,102.6,348,62.27,225.4,2,59.12,73.89,7.1,6.7,2024-01-09,2025-11-17,130,20.6,Medium
+P651,Metro Rail Phase 2 (Pune Phase 1),Maharashtra,Pune,Railway,7.38,90,68.22,355.5,13,61.35,56.0,6.9,6.8,2024-12-17,2028-07-05,333,56.4,High
+P652,Feeder Canal Modernization (Agra Section A),Uttar Pradesh,Agra,Irrigation,385.03,1305,24.02,30.2,2,35.49,35.4,1.3,7.7,2023-01-03,2026-02-06,242,37.7,High
+P653,765kV Substation Land (Bhopal Phase 1),Madhya Pradesh,Bhopal,Power Transmission,80.81,214,74.47,108.1,0,78.46,62.53,2.7,8.8,2023-04-02,2026-07-31,63,11.7,Low
+P654,Doubling & Electrification Line (Coimbatore Package IV),Tamil Nadu,Coimbatore,Railway,43.27,239,59.73,94.4,0,64.93,52.69,9.0,5.2,2023-04-22,2026-12-11,71,11.5,Low
+P655,Lift Irrigation Project (Thane Phase 1),Maharashtra,Thane,Irrigation,35.12,188,73.86,209.3,0,62.26,54.78,9.5,4.2,2023-08-25,2025-11-14,25,1.3,Low
+P656,High-Speed Rail Link (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Railway,45.34,237,42.55,51.8,2,53.89,46.46,8.0,7.9,2024-04-17,2026-09-05,112,17.1,Low
+P657,Bus Rapid Transit Corridor (Guntur Package IV),Andhra Pradesh,Guntur,Urban Infrastructure,54.1,319,79.77,184.0,0,80.66,81.58,9.3,4.6,2025-08-13,2027-01-27,36,5.5,Low
+P658,Thermal Power Substation Link (Udaipur Phase 3),Rajasthan,Udaipur,Power Transmission,59.38,111,69.31,377.9,3,75.21,46.78,3.8,9.0,2023-04-25,2027-04-05,278,46.0,High
+P659,Expressway Bypass Corridor (Pune Package IV),Maharashtra,Pune,Highway,55.52,302,60.63,97.5,1,56.94,70.53,3.2,6.9,2023-07-29,2027-01-28,80,12.2,Low
+P660,Outer Ring Road Extension (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Highway,39.14,235,36.25,435.5,1,46.4,46.85,4.5,6.6,2022-12-08,2026-11-23,334,53.5,High
+P661,Feeder Canal Modernization (Mysuru Package IV),Karnataka,Mysuru,Irrigation,31.56,126,47.15,897.4,1,50.15,52.23,1.5,4.2,2024-06-05,2027-06-15,439,71.6,High
+P662,Logistics Hub Cluster (Jaipur Section A),Rajasthan,Jaipur,Industrial Corridor,32.67,177,68.34,20.2,1,59.02,66.33,8.3,3.5,2024-05-25,2025-10-31,108,18.2,Low
+P663,Smart City Outer Ring Road (Madurai Phase 1),Tamil Nadu,Madurai,Urban Infrastructure,31.62,362,62.54,47.8,1,71.77,51.02,9.9,5.8,2024-01-27,2025-09-12,72,11.5,Low
+P664,River Interlinking Link (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Irrigation,85.65,319,47.07,540.6,1,36.26,45.13,8.4,3.5,2024-12-20,2026-04-25,220,35.0,High
+P665,Tech Park Phase C (Vijayawada Section A),Andhra Pradesh,Vijayawada,Industrial Corridor,57.12,439,16.67,572.0,0,16.56,38.81,6.0,5.5,2024-08-23,2028-06-23,326,54.0,High
+P666,High-Speed Rail Link (Mysuru Section A),Karnataka,Mysuru,Railway,5.0,53,33.21,18.5,0,47.22,32.31,3.7,6.5,2024-06-06,2026-07-25,137,21.6,Medium
+P667,Water Treatment Plant Site (Mysuru Section A),Karnataka,Mysuru,Urban Infrastructure,59.86,540,76.12,2.7,2,58.6,65.93,2.8,6.4,2022-12-05,2024-10-06,112,16.3,Low
+P668,Metro Rail Phase 2 (Mysuru Section A),Karnataka,Mysuru,Railway,42.35,215,35.94,31.6,2,49.13,24.05,4.3,4.2,2023-07-18,2025-06-18,184,29.1,Medium
+P669,765kV Substation Land (Howrah Phase 3),West Bengal,Howrah,Power Transmission,36.09,104,81.95,900.0,1,79.34,78.94,7.0,9.0,2024-06-13,2027-04-15,200,33.1,High
+P670,Urban Bypass Expressway (Kolkata Phase 3),West Bengal,Kolkata,Urban Infrastructure,27.35,237,95.21,35.7,2,72.32,76.51,5.0,4.1,2024-04-27,2028-03-27,95,15.1,Low
+P671,Textile Park Development (Chennai Phase 3),Tamil Nadu,Chennai,Industrial Corridor,85.04,486,53.64,125.7,1,50.96,53.25,9.4,8.0,2025-02-23,2028-08-15,81,12.3,Low
+P672,Green Energy Transmission Corridor (Pune Section A),Maharashtra,Pune,Power Transmission,74.49,149,75.78,339.6,0,75.7,53.27,8.7,8.5,2025-08-15,2027-04-10,99,14.1,Low
+P673,NH-44 Widening (Bengaluru Urban Phase 1),Karnataka,Bengaluru Urban,Highway,20.5,164,65.63,3.7,1,63.8,77.37,1.9,6.6,2022-09-30,2024-11-23,70,11.1,Low
+P674,DMIC Industrial Node (Indore Phase 1),Madhya Pradesh,Indore,Industrial Corridor,49.66,346,70.42,167.0,0,76.21,56.36,2.2,7.2,2025-02-10,2028-11-07,85,14.1,Low
+P675,Feeder Canal Modernization (Nagpur Phase 1),Maharashtra,Nagpur,Irrigation,17.66,60,86.75,58.4,8,86.75,78.61,7.1,4.3,2024-04-12,2025-10-15,188,28.8,Medium
+P676,State Highway 12 Upgrade (Chennai Phase 2),Tamil Nadu,Chennai,Highway,13.0,82,49.55,356.9,3,45.48,52.55,3.1,7.1,2024-09-09,2028-07-20,288,46.2,High
+P677,Outer Ring Road Extension (Vadodara Phase 1),Gujarat,Vadodara,Highway,22.87,148,6.72,60.0,10,7.16,31.85,8.1,7.1,2022-09-09,2026-03-09,333,52.1,High
+P678,River Interlinking Link (Pune Package IV),Maharashtra,Pune,Irrigation,69.88,230,74.93,208.9,1,79.8,58.99,6.3,3.7,2024-02-28,2025-06-20,141,22.5,Medium
+P679,Bus Rapid Transit Corridor (Pune Phase 3),Maharashtra,Pune,Urban Infrastructure,74.8,451,81.52,201.9,1,74.07,79.45,3.1,3.6,2023-12-07,2027-06-22,173,30.5,Medium
+P680,NH-44 Widening (Sambalpur Section A),Odisha,Sambalpur,Highway,53.78,237,21.59,45.1,0,18.05,27.42,5.3,8.0,2024-04-27,2026-01-22,161,26.2,Medium
+P681,Textile Park Development (Varanasi Section A),Uttar Pradesh,Varanasi,Industrial Corridor,63.04,477,88.84,6.4,0,87.04,72.14,4.7,7.4,2024-06-11,2028-04-27,33,3.0,Low
+P682,765kV Substation Land (Khordha Phase 3),Odisha,Khordha,Power Transmission,53.9,116,94.29,94.7,1,92.43,84.83,8.9,8.8,2024-12-14,2028-04-12,0,0.5,Low
+P683,Outer Ring Road Extension (Visakhapatnam Phase 3),Andhra Pradesh,Visakhapatnam,Highway,22.62,104,69.97,61.4,0,68.46,72.93,1.3,6.0,2024-12-26,2028-07-18,112,20.0,Low
+P684,Textile Park Development (Kolkata Phase 1),West Bengal,Kolkata,Industrial Corridor,50.6,178,23.18,298.0,2,28.57,38.41,9.1,6.2,2025-03-25,2026-07-21,198,29.9,Medium
+P685,Suburban Rail Expansion (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Railway,66.71,317,66.42,290.0,0,66.37,74.67,6.9,5.0,2023-08-08,2027-03-11,125,18.6,Medium
+P686,SEZ Land Acquisition Zone (Varanasi Phase 2),Uttar Pradesh,Varanasi,Industrial Corridor,64.44,361,35.69,109.9,3,44.43,33.18,7.6,7.0,2024-09-27,2027-06-20,242,39.4,High
+P687,Solar Park Land Acquisition (Udaipur Phase 2),Rajasthan,Udaipur,Power Transmission,89.27,245,88.81,167.9,1,88.93,89.25,1.0,8.1,2023-08-06,2024-09-18,82,13.1,Low
+P688,DMIC Industrial Node (Udaipur Phase 3),Rajasthan,Udaipur,Industrial Corridor,62.25,400,27.94,166.9,0,44.85,22.74,6.7,6.5,2023-10-28,2027-01-15,166,28.6,Medium
+P689,River Interlinking Link (Coimbatore Phase 3),Tamil Nadu,Coimbatore,Irrigation,47.64,222,81.35,316.0,3,73.87,75.96,6.3,6.7,2024-07-08,2026-12-11,92,14.6,Low
+P690,765kV Substation Land (Agra Phase 3),Uttar Pradesh,Agra,Power Transmission,81.66,116,59.44,99.6,0,64.54,57.8,5.8,7.0,2024-09-23,2025-09-29,95,16.6,Low
+P691,Bus Rapid Transit Corridor (Thane Phase 2),Maharashtra,Thane,Urban Infrastructure,35.88,358,57.06,58.0,3,66.91,54.4,8.1,5.5,2022-10-15,2025-01-03,105,19.2,Low
+P692,Metro Rail Phase 2 (Jaipur Package IV),Rajasthan,Jaipur,Railway,18.89,90,38.92,55.4,0,32.97,36.18,6.0,5.1,2024-04-26,2025-09-22,96,14.2,Low
+P693,River Interlinking Link (Mysuru Package IV),Karnataka,Mysuru,Irrigation,32.39,183,55.49,138.3,1,42.07,53.7,8.7,4.0,2024-02-04,2025-05-06,107,18.4,Low
+P694,Bus Rapid Transit Corridor (Bhopal Phase 1),Madhya Pradesh,Bhopal,Urban Infrastructure,20.93,211,49.82,107.3,3,59.09,38.05,3.1,5.1,2025-07-05,2028-11-18,271,43.1,High
+P695,Logistics Hub Cluster (Nagpur Phase 3),Maharashtra,Nagpur,Industrial Corridor,22.06,121,11.53,104.4,1,13.53,20.42,8.3,6.2,2025-07-21,2028-06-25,173,24.6,Medium
+P696,765kV Substation Land (Guntur Phase 2),Andhra Pradesh,Guntur,Power Transmission,32.84,56,79.56,17.2,1,60.73,55.17,2.6,7.9,2024-05-20,2025-09-27,75,12.8,Low
+P697,Doubling & Electrification Line (Bengaluru Urban Phase 3),Karnataka,Bengaluru Urban,Railway,20.2,85,63.58,228.2,1,51.69,61.34,8.3,6.7,2023-05-14,2024-09-13,131,22.0,Medium
+P698,Reservoir Dam Construction (Belagavi Phase 3),Karnataka,Belagavi,Irrigation,29.05,117,70.9,43.3,7,62.78,49.44,9.5,6.1,2024-08-26,2026-01-14,139,20.1,Medium
+P699,Smart City Outer Ring Road (Varanasi Phase 2),Uttar Pradesh,Varanasi,Urban Infrastructure,8.84,73,73.99,39.5,0,60.97,53.71,4.0,3.9,2023-03-17,2026-11-07,64,9.6,Low
+P700,Flyover & Arterial Road Network (Chennai Package IV),Tamil Nadu,Chennai,Urban Infrastructure,42.95,425,74.03,95.8,1,63.15,51.11,5.8,5.4,2025-04-23,2026-06-26,122,18.7,Medium
+P701,Metro Rail Phase 2 (Guntur Phase 1),Andhra Pradesh,Guntur,Railway,36.63,145,65.83,46.5,2,73.75,56.14,6.9,6.1,2024-12-07,2027-07-17,121,20.7,Medium
+P702,SEZ Land Acquisition Zone (Jaipur Phase 1),Rajasthan,Jaipur,Industrial Corridor,19.83,159,70.79,157.8,1,70.7,75.48,1.7,5.0,2022-10-11,2026-01-25,154,22.5,Medium
+P703,Dedicated Freight Corridor (Varanasi Package IV),Uttar Pradesh,Varanasi,Railway,60.01,334,84.2,83.6,0,80.95,86.47,5.4,4.8,2024-05-04,2026-05-07,49,8.1,Low
+P704,Flyover & Arterial Road Network (Jodhpur Section A),Rajasthan,Jodhpur,Urban Infrastructure,73.93,757,64.75,107.3,13,50.93,44.6,4.2,5.8,2025-03-07,2026-12-09,327,49.2,High
+P705,Expressway Bypass Corridor (Agra Section A),Uttar Pradesh,Agra,Highway,10.96,110,63.67,138.7,1,66.05,63.59,8.9,5.2,2025-01-23,2028-06-01,47,8.1,Low
+P706,Reservoir Dam Construction (Varanasi Phase 2),Uttar Pradesh,Varanasi,Irrigation,20.65,113,66.29,41.0,1,68.2,67.04,8.9,4.7,2025-06-25,2028-07-30,34,5.7,Low
+P707,Doubling & Electrification Line (Lucknow Phase 3),Uttar Pradesh,Lucknow,Railway,20.56,81,95.53,30.5,3,88.14,80.78,7.3,3.7,2022-10-12,2025-12-03,50,7.3,Low
+P708,Water Treatment Plant Site (Coimbatore Package IV),Tamil Nadu,Coimbatore,Urban Infrastructure,18.08,188,92.9,382.3,1,75.39,83.73,6.9,5.1,2023-01-08,2026-07-14,85,15.9,Low
+P709,Logistics Hub Cluster (Lucknow Phase 1),Uttar Pradesh,Lucknow,Industrial Corridor,68.18,343,20.61,102.4,1,26.03,21.58,7.6,4.7,2025-05-25,2028-07-06,185,25.9,Medium
+P710,Smart City Outer Ring Road (Ahmedabad Phase 2),Gujarat,Ahmedabad,Urban Infrastructure,31.65,281,85.69,95.6,1,85.42,72.84,4.3,4.5,2024-06-26,2027-08-04,89,14.3,Low
+P711,SEZ Land Acquisition Zone (Indore Package IV),Madhya Pradesh,Indore,Industrial Corridor,30.01,151,27.57,6.5,6,37.43,31.6,4.6,6.7,2023-03-29,2024-09-08,233,39.4,High
+P712,Dedicated Freight Corridor (Udaipur Phase 1),Rajasthan,Udaipur,Railway,8.14,55,58.28,124.0,1,62.03,41.02,6.0,6.3,2024-08-17,2026-05-16,115,18.7,Low
+P713,Textile Park Development (Thane Section A),Maharashtra,Thane,Industrial Corridor,58.94,204,30.19,145.4,2,37.33,41.52,9.4,6.9,2023-06-09,2026-05-21,177,30.6,Medium
+P714,Solar Park Land Acquisition (Khordha Section A),Odisha,Khordha,Power Transmission,14.45,82,43.63,147.3,1,43.96,45.69,7.5,6.3,2022-11-17,2024-07-16,113,17.5,Low
+P715,Thermal Power Substation Link (Visakhapatnam Section A),Andhra Pradesh,Visakhapatnam,Power Transmission,38.28,64,16.11,221.0,1,31.06,20.1,6.0,6.3,2023-10-09,2025-10-08,209,33.5,High
+P716,Solar Park Land Acquisition (Howrah Phase 3),West Bengal,Howrah,Power Transmission,45.06,121,72.63,35.2,12,56.17,63.79,7.9,5.9,2024-04-10,2027-06-23,295,49.4,High
+P717,Golden Quadrilateral Expansion (Madurai Package IV),Tamil Nadu,Madurai,Highway,101.54,346,72.74,52.3,0,71.38,74.42,4.3,7.0,2024-01-21,2028-01-08,68,12.3,Low
+P718,Dedicated Freight Corridor (Nagpur Phase 3),Maharashtra,Nagpur,Railway,13.71,113,95.82,299.6,0,96.8,90.34,7.6,6.4,2023-07-25,2025-04-10,7,4.7,Low
+P719,Urban Bypass Expressway (Bengaluru Urban Phase 1),Karnataka,Bengaluru Urban,Urban Infrastructure,5.0,94,68.33,529.3,1,70.75,67.15,4.7,6.0,2024-08-06,2026-11-05,232,37.6,High
+P720,Water Treatment Plant Site (Ahmedabad Package IV),Gujarat,Ahmedabad,Urban Infrastructure,42.01,486,17.41,26.3,1,20.32,27.69,3.5,4.6,2024-01-20,2025-01-26,243,39.5,High
+P721,Expressway Bypass Corridor (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Highway,141.23,877,74.82,123.9,1,63.06,68.78,6.5,4.7,2024-02-06,2025-03-23,78,11.9,Low
+P722,Textile Park Development (Cuttack Phase 1),Odisha,Cuttack,Industrial Corridor,92.69,459,40.94,43.4,1,47.39,40.09,7.2,6.8,2024-04-10,2026-12-12,118,18.7,Medium
+P723,Golden Quadrilateral Expansion (Pune Section A),Maharashtra,Pune,Highway,42.83,307,59.36,11.2,3,66.92,43.01,5.1,6.8,2023-11-06,2027-06-11,135,23.4,Medium
+P724,Logistics Hub Cluster (Kolkata Phase 1),West Bengal,Kolkata,Industrial Corridor,25.31,199,29.24,70.9,0,36.38,32.5,6.1,5.8,2024-06-15,2027-10-31,182,29.4,Medium
+P725,DMIC Industrial Node (Nagpur Phase 2),Maharashtra,Nagpur,Industrial Corridor,67.04,434,88.99,27.9,3,79.93,76.41,7.2,5.9,2023-09-26,2027-09-19,71,10.2,Low
+P726,Reservoir Dam Construction (Surat Phase 2),Gujarat,Surat,Irrigation,17.63,97,48.09,222.8,1,40.08,52.22,7.9,5.3,2023-01-05,2026-02-19,81,12.5,Low
+P727,Flyover & Arterial Road Network (Sambalpur Phase 3),Odisha,Sambalpur,Urban Infrastructure,52.31,354,38.37,137.3,2,46.66,57.69,9.1,5.3,2024-08-30,2026-12-13,190,30.5,Medium
+P728,Grid Augmentation Line (Mysuru Phase 3),Karnataka,Mysuru,Power Transmission,53.47,138,84.32,28.0,1,80.8,82.01,4.2,9.2,2022-09-30,2025-02-17,17,1.6,Low
+P729,DMIC Industrial Node (Varanasi Phase 1),Uttar Pradesh,Varanasi,Industrial Corridor,81.06,334,41.3,1.7,1,55.15,32.16,9.6,9.3,2024-12-15,2028-07-15,106,16.4,Low
+P730,Feeder Canal Modernization (Jodhpur Section A),Rajasthan,Jodhpur,Irrigation,289.96,611,78.89,297.2,1,66.67,57.37,6.7,3.0,2022-11-19,2025-10-27,173,26.4,Medium
+P731,Flyover & Arterial Road Network (Bengaluru Urban Phase 2),Karnataka,Bengaluru Urban,Urban Infrastructure,49.12,534,53.32,34.9,2,58.9,38.18,8.1,4.7,2024-02-25,2026-01-07,131,20.5,Medium
+P732,Solar Park Land Acquisition (Agra Package IV),Uttar Pradesh,Agra,Power Transmission,24.99,109,48.73,167.8,0,47.4,57.51,7.3,7.9,2023-08-14,2026-02-28,86,15.6,Low
+P733,SEZ Land Acquisition Zone (Madurai Package IV),Tamil Nadu,Madurai,Industrial Corridor,35.9,232,26.67,74.0,1,33.96,42.05,2.9,7.6,2025-06-05,2027-06-26,276,44.6,High
+P734,Logistics Hub Cluster (Indore Phase 3),Madhya Pradesh,Indore,Industrial Corridor,9.71,103,79.73,158.5,1,80.21,86.35,1.6,8.4,2022-12-15,2024-08-02,97,19.3,Low
+P735,NH-44 Widening (Visakhapatnam Section A),Andhra Pradesh,Visakhapatnam,Highway,21.74,176,92.58,68.3,1,74.98,78.45,7.5,7.7,2025-06-08,2026-08-12,0,0.0,Low
+P736,NH-44 Widening (Visakhapatnam Section A),Andhra Pradesh,Visakhapatnam,Highway,26.92,217,54.96,16.4,0,49.79,64.65,5.6,8.2,2022-11-01,2026-03-08,41,7.3,Low
+P737,Smart City Outer Ring Road (Udaipur Section A),Rajasthan,Udaipur,Urban Infrastructure,24.7,162,85.39,45.4,0,83.38,75.68,7.3,5.3,2022-10-18,2023-11-19,8,1.6,Low
+P738,765kV Substation Land (Khordha Phase 3),Odisha,Khordha,Power Transmission,41.03,52,32.37,37.5,1,38.54,51.63,5.3,7.0,2023-09-19,2026-01-23,136,22.9,Medium
+P739,Logistics Hub Cluster (Ahmedabad Section A),Gujarat,Ahmedabad,Industrial Corridor,19.75,109,59.28,100.6,3,46.77,63.77,3.8,9.5,2023-07-06,2025-08-31,165,25.7,Medium
+P740,Bus Rapid Transit Corridor (Cuttack Section A),Odisha,Cuttack,Urban Infrastructure,84.84,498,37.83,193.3,0,39.13,47.09,3.6,5.4,2022-10-01,2024-02-15,224,35.6,High
+P741,Urban Bypass Expressway (Ahmedabad Phase 3),Gujarat,Ahmedabad,Urban Infrastructure,36.6,217,77.53,55.1,1,72.81,70.17,7.6,4.9,2025-04-22,2026-11-14,68,11.6,Low
+P742,Dedicated Freight Corridor (Cuttack Section A),Odisha,Cuttack,Railway,36.34,139,44.59,2.2,1,56.18,54.29,3.5,4.9,2023-04-24,2024-06-30,148,23.1,Medium
+P743,NH-44 Widening (Gwalior Phase 3),Madhya Pradesh,Gwalior,Highway,28.62,212,64.6,131.7,1,53.16,56.68,7.4,7.0,2023-09-05,2027-03-07,101,13.6,Low
+P744,Green Energy Transmission Corridor (Chennai Package IV),Tamil Nadu,Chennai,Power Transmission,41.12,132,77.08,167.5,1,77.96,53.48,4.5,9.0,2023-03-15,2024-06-21,116,20.7,Low
+P745,Tech Park Phase C (Madurai Phase 3),Tamil Nadu,Madurai,Industrial Corridor,67.95,301,89.2,592.8,1,70.17,59.38,7.9,6.6,2024-09-04,2027-01-18,157,26.7,Medium
+P746,Smart City Outer Ring Road (Agra Section A),Uttar Pradesh,Agra,Urban Infrastructure,19.1,205,87.09,160.3,2,71.37,73.37,2.3,5.0,2025-07-05,2026-10-03,155,24.4,Medium
+P747,DMIC Industrial Node (Kolkata Phase 2),West Bengal,Kolkata,Industrial Corridor,22.34,146,15.33,114.7,2,17.58,30.94,2.8,7.5,2023-02-24,2026-05-27,276,44.8,High
+P748,Metro Rail Phase 2 (Chennai Package IV),Tamil Nadu,Chennai,Railway,29.14,90,71.62,153.3,1,75.65,49.31,7.2,6.8,2025-01-23,2028-07-09,89,15.9,Low
+P749,Solar Park Land Acquisition (Madurai Package IV),Tamil Nadu,Madurai,Power Transmission,13.34,55,61.46,473.3,1,51.07,49.99,6.0,7.5,2023-08-04,2025-11-25,199,34.1,Medium
+P750,Smart City Outer Ring Road (Bengaluru Urban Section A),Karnataka,Bengaluru Urban,Urban Infrastructure,19.8,216,61.49,317.2,2,65.79,51.24,2.8,4.7,2024-08-22,2026-11-09,283,45.8,High
+P751,Textile Park Development (Mysuru Phase 3),Karnataka,Mysuru,Industrial Corridor,25.61,227,71.39,70.2,1,65.09,66.1,9.1,6.6,2025-08-21,2026-12-14,34,4.6,Low
+P752,Golden Quadrilateral Expansion (Varanasi Phase 3),Uttar Pradesh,Varanasi,Highway,70.51,266,33.1,48.7,0,49.8,31.26,3.5,5.5,2023-10-03,2025-07-15,167,29.1,Medium
+P753,High-Speed Rail Link (Kolkata Phase 1),West Bengal,Kolkata,Railway,44.56,248,73.73,54.8,5,76.27,51.27,4.8,5.3,2024-03-26,2028-01-21,139,22.6,Medium
+P754,Thermal Power Substation Link (Udaipur Phase 1),Rajasthan,Udaipur,Power Transmission,42.32,130,41.59,126.4,2,49.69,32.8,2.8,6.8,2023-05-18,2025-12-30,223,35.7,High
+P755,Suburban Rail Expansion (Bengaluru Urban Package IV),Karnataka,Bengaluru Urban,Railway,69.28,290,24.14,245.3,2,39.87,21.78,4.5,4.3,2025-03-29,2027-07-21,281,45.7,High
+P756,Golden Quadrilateral Expansion (Jaipur Phase 3),Rajasthan,Jaipur,Highway,33.02,218,77.35,125.9,2,73.86,79.77,5.4,8.0,2025-03-31,2028-01-13,101,18.0,Low
+P757,Grid Augmentation Line (Nagpur Phase 2),Maharashtra,Nagpur,Power Transmission,49.05,137,79.22,12.6,2,80.51,61.44,3.7,8.2,2023-02-24,2025-12-11,125,20.1,Medium
+P758,High-Speed Rail Link (Belagavi Phase 1),Karnataka,Belagavi,Railway,33.87,150,81.83,231.5,3,67.9,78.2,7.9,6.4,2023-05-12,2025-09-08,66,12.1,Low
+P759,Lift Irrigation Project (Indore Phase 3),Madhya Pradesh,Indore,Irrigation,44.66,201,51.78,295.2,1,41.28,53.53,4.5,6.4,2023-12-27,2026-09-05,169,26.9,Medium
+P760,Golden Quadrilateral Expansion (North 24 Parganas Phase 2),West Bengal,North 24 Parganas,Highway,23.64,197,86.15,61.5,2,80.01,90.19,7.6,7.7,2023-02-14,2024-12-03,9,2.4,Low
+P761,Outer Ring Road Extension (Varanasi Phase 2),Uttar Pradesh,Varanasi,Highway,5.88,66,74.32,196.4,0,66.61,57.86,2.9,5.9,2025-02-14,2029-01-16,109,16.2,Low
+P762,NH-44 Widening (Nagpur Phase 2),Maharashtra,Nagpur,Highway,33.09,215,78.48,100.1,5,69.52,56.56,4.4,8.2,2022-10-09,2025-01-03,149,25.6,Medium
+P763,Feeder Canal Modernization (Kolkata Section A),West Bengal,Kolkata,Irrigation,106.38,383,80.26,395.9,1,73.36,53.99,1.1,6.0,2023-12-28,2027-04-22,213,33.3,High
+P764,River Interlinking Link (Indore Package IV),Madhya Pradesh,Indore,Irrigation,73.31,232,48.74,335.8,2,45.59,40.11,7.8,3.5,2025-02-10,2027-10-18,191,31.5,Medium
+P765,Tech Park Phase C (Howrah Package IV),West Bengal,Howrah,Industrial Corridor,75.49,309,44.12,134.2,1,48.74,52.62,6.6,8.3,2025-07-18,2028-02-01,144,21.0,Medium
+P766,Bus Rapid Transit Corridor (Indore Phase 3),Madhya Pradesh,Indore,Urban Infrastructure,92.49,811,64.75,211.7,0,49.33,45.07,8.4,4.6,2024-04-05,2025-08-07,111,17.9,Low
+P767,Doubling & Electrification Line (Bhopal Phase 2),Madhya Pradesh,Bhopal,Railway,39.11,242,89.18,386.7,0,91.13,66.53,5.1,7.4,2024-05-08,2026-05-01,163,26.6,Medium
+P768,Tech Park Phase C (Jaipur Phase 1),Rajasthan,Jaipur,Industrial Corridor,42.44,318,61.04,123.2,0,68.9,69.61,8.2,6.8,2023-07-05,2026-11-25,59,8.5,Low
+P769,Metro Rail Phase 2 (Khordha Section A),Odisha,Khordha,Railway,23.03,127,59.62,67.6,0,68.1,59.16,6.8,5.6,2022-12-27,2026-10-07,108,17.3,Low
+P770,Water Treatment Plant Site (Pune Phase 3),Maharashtra,Pune,Urban Infrastructure,28.87,259,72.4,252.2,1,63.43,49.49,1.0,4.7,2025-03-07,2026-06-11,198,32.3,Medium
+P771,River Interlinking Link (Kolkata Phase 1),West Bengal,Kolkata,Irrigation,58.08,196,43.77,44.7,0,46.12,30.12,3.3,3.6,2025-08-07,2028-07-12,164,27.3,Medium
+P772,Water Treatment Plant Site (Surat Package IV),Gujarat,Surat,Urban Infrastructure,90.28,987,84.49,88.5,2,87.22,57.06,5.4,3.4,2025-05-01,2028-06-19,187,30.3,Medium
+P773,Canal Network Expansion (Pune Phase 3),Maharashtra,Pune,Irrigation,32.96,175,45.72,361.4,2,56.85,62.68,6.6,1.8,2023-09-12,2027-08-21,225,38.3,High
+P774,Urban Bypass Expressway (Cuttack Section A),Odisha,Cuttack,Urban Infrastructure,26.11,294,77.59,232.0,0,77.95,80.18,1.6,3.9,2023-02-05,2025-11-18,134,23.4,Medium
+P775,DMIC Industrial Node (Pune Phase 1),Maharashtra,Pune,Industrial Corridor,36.61,255,78.21,93.1,3,68.84,80.41,7.3,10.0,2025-08-18,2028-12-17,9,1.4,Low
+P776,Grid Augmentation Line (Madurai Phase 3),Tamil Nadu,Madurai,Power Transmission,57.45,119,75.05,43.5,1,70.4,81.13,5.9,8.4,2023-12-12,2027-03-27,81,11.1,Low
+P777,DMIC Industrial Node (Surat Phase 1),Gujarat,Surat,Industrial Corridor,12.39,117,70.37,79.2,0,72.6,63.42,5.7,9.4,2025-07-28,2027-05-29,27,3.6,Low
+P778,Suburban Rail Expansion (Sambalpur Package IV),Odisha,Sambalpur,Railway,6.54,92,35.23,60.2,1,33.25,31.56,3.6,5.8,2025-03-20,2027-11-24,203,29.4,High
+P779,Logistics Hub Cluster (Jodhpur Section A),Rajasthan,Jodhpur,Industrial Corridor,24.22,153,86.96,34.9,1,80.88,70.57,6.4,6.6,2023-03-07,2026-04-15,30,4.6,Low
+P780,Expressway Bypass Corridor (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Highway,14.65,89,7.74,244.8,1,26.5,30.19,1.2,8.9,2025-01-26,2027-02-06,270,45.7,High
+P781,Suburban Rail Expansion (Visakhapatnam Phase 1),Andhra Pradesh,Visakhapatnam,Railway,25.0,133,58.5,52.3,1,61.56,68.69,1.6,6.7,2022-11-02,2026-06-28,134,22.8,Medium
+P782,Urban Bypass Expressway (Khordha Package IV),Odisha,Khordha,Urban Infrastructure,32.76,266,70.28,109.0,1,64.7,60.91,7.6,4.1,2024-02-21,2026-06-28,112,18.2,Low
+P783,High-Speed Rail Link (Lucknow Phase 3),Uttar Pradesh,Lucknow,Railway,26.05,144,58.32,87.8,0,58.36,56.65,3.9,7.0,2024-12-05,2027-03-11,76,11.2,Low
+P784,Thermal Power Substation Link (Howrah Section A),West Bengal,Howrah,Power Transmission,108.78,175,46.99,723.9,2,59.96,63.16,4.1,9.3,2024-06-26,2027-03-03,320,51.8,High
+P785,River Interlinking Link (Sambalpur Phase 2),Odisha,Sambalpur,Irrigation,46.76,220,68.35,89.3,1,66.31,48.19,2.9,3.1,2025-06-23,2027-04-14,211,37.2,High
+P786,Smart City Outer Ring Road (Chennai Section A),Tamil Nadu,Chennai,Urban Infrastructure,45.85,438,75.99,15.0,1,76.63,79.57,5.0,5.8,2024-03-28,2027-11-01,70,13.5,Low
+P787,Dedicated Freight Corridor (Guntur Phase 3),Andhra Pradesh,Guntur,Railway,58.36,271,79.89,16.9,1,78.08,57.5,1.5,4.6,2022-12-16,2024-04-12,170,27.2,Medium
+P788,Smart City Outer Ring Road (Madurai Package IV),Tamil Nadu,Madurai,Urban Infrastructure,15.58,168,73.27,160.8,3,72.49,64.56,3.7,6.6,2024-10-24,2028-02-16,121,17.3,Medium
+P789,Flyover & Arterial Road Network (Visakhapatnam Phase 1),Andhra Pradesh,Visakhapatnam,Urban Infrastructure,79.78,508,70.31,164.6,1,70.64,53.35,5.7,5.5,2025-06-01,2028-10-01,75,15.4,Low
+P790,Flyover & Arterial Road Network (Lucknow Section A),Uttar Pradesh,Lucknow,Urban Infrastructure,34.58,259,78.8,97.7,3,70.46,72.32,5.2,6.0,2024-02-12,2028-02-01,121,18.4,Medium
+P791,Feeder Canal Modernization (North 24 Parganas Package IV),West Bengal,North 24 Parganas,Irrigation,60.51,240,67.91,101.8,14,62.79,63.69,10.0,4.5,2022-09-19,2024-06-19,268,44.0,High
+P792,Logistics Hub Cluster (Jaipur Package IV),Rajasthan,Jaipur,Industrial Corridor,16.38,125,36.3,10.0,0,38.92,36.9,4.5,5.1,2024-06-13,2027-08-17,174,25.7,Medium
+P793,Flyover & Arterial Road Network (Chennai Phase 3),Tamil Nadu,Chennai,Urban Infrastructure,11.41,119,36.17,130.8,1,27.96,53.73,4.5,4.7,2024-09-30,2027-02-09,180,28.5,Medium
+P794,State Highway 12 Upgrade (Chennai Phase 3),Tamil Nadu,Chennai,Highway,67.59,395,60.07,126.5,1,51.08,62.14,5.5,7.9,2023-02-10,2025-07-16,109,15.2,Low
+P795,Solar Park Land Acquisition (Indore Section A),Madhya Pradesh,Indore,Power Transmission,48.54,125,36.76,29.2,3,31.43,49.14,2.7,10.0,2024-07-04,2026-08-24,181,27.5,Medium
+P796,Reservoir Dam Construction (Guntur Package IV),Andhra Pradesh,Guntur,Irrigation,18.61,77,13.21,19.7,1,32.07,13.86,8.9,5.1,2024-03-15,2027-01-20,166,25.4,Medium
+P797,Dedicated Freight Corridor (Belagavi Phase 3),Karnataka,Belagavi,Railway,19.06,151,80.88,23.7,1,67.53,83.48,6.2,5.4,2025-05-14,2026-10-22,20,3.9,Low
+P798,Canal Network Expansion (Howrah Phase 3),West Bengal,Howrah,Irrigation,85.12,263,91.4,19.2,1,72.01,65.26,2.7,5.4,2024-08-14,2028-02-21,46,7.3,Low
+P799,Dedicated Freight Corridor (Guntur Package IV),Andhra Pradesh,Guntur,Railway,15.0,87,43.96,169.4,2,35.96,36.37,8.1,7.2,2023-04-25,2026-05-23,138,26.3,Medium
+P800,Feeder Canal Modernization (Bhopal Phase 3),Madhya Pradesh,Bhopal,Irrigation,125.46,537,48.09,39.4,2,53.57,35.74,1.3,5.0,2024-07-07,2026-01-12,269,45.1,High
