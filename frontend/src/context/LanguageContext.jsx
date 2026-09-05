@@ -595,13 +595,6 @@ export function GovTopNavbar() {
 
   return (
     <>
-      {/* Tricolor Sovereign Bar */}
-      <div className="w-full flex h-1.5 shrink-0 select-none" data-purpose="tricolor-strip">
-        <div className="flex-1 bg-[#ea580c]"></div>
-        <div className="flex-1 bg-[#1d4ed8]"></div>
-        <div className="flex-1 bg-[#16a34a]"></div>
-      </div>
-
       {/* Top Sovereign Utility Strip */}
       <header className="w-full bg-white dark:bg-[#0b1329] border-b border-slate-200 dark:border-slate-800 text-xs py-1.5 px-4 md:px-6 transition-colors duration-200" data-purpose="utility-header">
         <div className="max-w-[1920px] mx-auto flex flex-wrap items-center justify-between gap-2">

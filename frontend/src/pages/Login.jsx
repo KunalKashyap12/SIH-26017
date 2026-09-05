@@ -317,7 +317,6 @@ export default function Login() {
 
       {/* Main Header with Branding */}
       <header className="relative z-10 bg-white border-b border-slate-200 shadow-sm transition-colors duration-200" data-purpose="portal-branding">
-        <div className="h-1 w-full tricolor-stripe"></div>
         <div className="w-full px-4 sm:px-6 py-3.5 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center space-x-4 sm:space-x-5">
             <div className="shrink-0 flex items-center justify-center">
