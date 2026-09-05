@@ -73,25 +73,48 @@ body {
     linear-gradient(to bottom, rgba(15, 23, 42, 0.025) 1px, transparent 1px);
   background-size: 24px 24px, 72px 72px, 72px 72px;
 }
+.dark .gis-cadastral-bg {
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0),
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px, 72px 72px, 72px 72px;
+}
 .grid-line {
   stroke: #0F172A;
   opacity: 0.85;
   transition: stroke 0.2s ease, opacity 0.2s ease;
+}
+.dark .grid-line {
+  stroke: #94a3b8;
+  opacity: 0.3;
 }
 .parcel-boundary {
   stroke: #0F172A;
   opacity: 0.9;
   transition: stroke 0.2s ease, opacity 0.2s ease;
 }
+.dark .parcel-boundary {
+  stroke: #94a3b8;
+  opacity: 0.35;
+}
 .corridor-line {
   stroke: #0F172A;
   opacity: 0.85;
   transition: stroke 0.2s ease, opacity 0.2s ease;
 }
+.dark .corridor-line {
+  stroke: #94a3b8;
+  opacity: 0.3;
+}
 .map-coord {
   fill: #0F172A;
   opacity: 0.75;
   transition: fill 0.2s ease, opacity 0.2s ease;
+}
+.dark .map-coord {
+  fill: #94a3b8;
+  opacity: 0.4;
 }
 
 /* High Contrast Mode: Comprehensive High-Contrast Overrides across all pages */

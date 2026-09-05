@@ -290,7 +290,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-between selection:bg-blue-100 selection:text-blue-900 overflow-x-hidden relative gis-cadastral-bg">
+    <div className="min-h-screen flex flex-col justify-between selection:bg-blue-100 selection:text-blue-900 overflow-x-hidden relative gis-cadastral-bg bg-slate-50 dark:bg-[#070d1e] text-slate-800 dark:text-slate-100 transition-colors duration-200">
       {/* Subtle Cadastral Watermark Coordinate Vector Accents */}
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-[0.065] select-none transition-opacity duration-300" id="cadastral-svg-container">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
