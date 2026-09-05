@@ -45,6 +45,8 @@ export const dictionary = {
     title_predict: "Live Proposal Risk Assessment Engine",
     subtitle_main: "Predictive land-acquisition intelligence for proactive infrastructure governance",
     dir_sub: "AI & XGBoost SHAP-driven predictive decision support system for Indian infrastructure projects",
+    dir_title: "Infrastructure Project Directory",
+    bc_project_directory: "Project Directory",
 
     // Dashboard & Stats
     kpi_total_projects: "Total Active Projects",
@@ -156,6 +158,8 @@ export const dictionary = {
     title_predict: "सजीव प्रस्ताव जोखिम मूल्यांकन इंजन",
     subtitle_main: "सक्रिय अवसंरचना शासन हेतु पूर्वानुमानात्मक भूमि अधिग्रहण आसूचना",
     dir_sub: "भारतीय बुनियादी ढांचा परियोजनाओं में रियल-टाइम भूमि अधिग्रहण जोखिम निगरानी।",
+    dir_title: "बुनियादी ढांचा परियोजना निर्देशिका",
+    bc_project_directory: "परियोजना निर्देशिका",
 
     // Dashboard & Stats
     kpi_total_projects: "कुल सक्रिय परियोजनाएं",
