@@ -19,17 +19,17 @@ class PredictRequest(BaseModel):
     legal_disputes_count: int = Field(..., ge=0, example=5)
     possession_pct: float = Field(..., ge=0, le=100, example=20.0)
     rehabilitation_progress_pct: float = Field(..., ge=0, le=100, example=15.0)
-    stakeholder_responsiveness_score: float = Field(..., ge=1, le=10, example=3.5)
-    historical_dept_performance_score: float = Field(..., ge=1, le=10, example=4.0)
+    stakeholder_responsiveness_score: float = Field(default=5.0, ge=1, le=10, example=3.5)
+    historical_dept_performance_score: float = Field(default=5.0, ge=1, le=10, example=4.0)
 
 
 @router.post("/predict")
 def predict_project_risk(payload: PredictRequest):
-    """Predicts risk score, risk category, SHAP top risk factors, and recommendations for a new land acquisition project."""
+    """Predicts risk score, risk category, SHAP top risk factors, and recommendations for a new land acquisition project proposal."""
     try:
         artifacts = load_ml_artifacts()
         clf = artifacts["clf"]
-        reg = artifacts["regressor"] if "regressor" in artifacts else None
+        reg = artifacts.get("regressor")
 
         # Load regressor if not in cache
         if reg is None:

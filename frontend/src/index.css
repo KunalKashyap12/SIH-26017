@@ -1,8 +1,11 @@
 @import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
 @import "leaflet/dist/leaflet.css";
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color-scheme: light;
 }
 
@@ -11,6 +14,8 @@ body {
   padding: 0;
   background-color: #f8fafc;
   color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 /* Custom scrollbars */
@@ -27,4 +32,156 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
+}
+
+/* Tricolor band: Saffron/Orange (#FF9933) on left, Ashoka Navy Blue (#1E3A8A) in middle, India Green (#138808) on right */
+.tricolor-stripe {
+  background: linear-gradient(90deg, #ea580c 0%, #ea580c 33.33%, #1d4ed8 33.33%, #1d4ed8 66.66%, #16a34a 66.66%, #16a34a 100%);
+}
+.lang-fade {
+  transition: opacity 0.18s ease-in-out, transform 0.18s ease-in-out;
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+/* Cadastral Background Pattern from BhoomiDrishti Reference */
+.cadastral-pattern {
+  background-image: linear-gradient(to right, rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+.dark .cadastral-pattern {
+  background-image: linear-gradient(to right, rgba(56, 189, 248, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(56, 189, 248, 0.04) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+.font-feature-tabular {
+  font-feature-settings: "tnum" 1;
+}
+
+/* Subtle GIS / Cadastral Vector Grid Overlay - Light Mode */
+.gis-cadastral-bg {
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(15, 23, 42, 0.04) 1px, transparent 0),
+    linear-gradient(to right, rgba(15, 23, 42, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.025) 1px, transparent 1px);
+  background-size: 24px 24px, 72px 72px, 72px 72px;
+}
+.grid-line {
+  stroke: #0F172A;
+  opacity: 0.85;
+  transition: stroke 0.2s ease, opacity 0.2s ease;
+}
+.parcel-boundary {
+  stroke: #0F172A;
+  opacity: 0.9;
+  transition: stroke 0.2s ease, opacity 0.2s ease;
+}
+.corridor-line {
+  stroke: #0F172A;
+  opacity: 0.85;
+  transition: stroke 0.2s ease, opacity 0.2s ease;
+}
+.map-coord {
+  fill: #0F172A;
+  opacity: 0.75;
+  transition: fill 0.2s ease, opacity 0.2s ease;
+}
+
+/* High Contrast Mode: Comprehensive High-Contrast Overrides across all pages */
+body.high-contrast,
+html.high-contrast body {
+  background-color: #030712 !important;
+  color: #ffffff !important;
+  filter: contrast(115%);
+}
+
+/* Container & Card High-Contrast Borders */
+body.high-contrast nav,
+body.high-contrast aside,
+body.high-contrast main,
+body.high-contrast footer,
+body.high-contrast header,
+body.high-contrast div.bg-white,
+body.high-contrast div[class*="dark:bg-[#111c38]"],
+body.high-contrast div[class*="dark:bg-[#0e172e]"],
+body.high-contrast div[class*="dark:bg-[#0c142b]"],
+body.high-contrast .bg-white,
+body.high-contrast .dark\:bg-\[\#111c38\],
+body.high-contrast .dark\:bg-\[\#0e172e\],
+body.high-contrast .dark\:bg-\[\#0c142b\] {
+  border-color: #f59e0b !important;
+  box-shadow: 0 0 0 1px #f59e0b !important;
+}
+
+/* High Contrast Text Elements */
+body.high-contrast h1,
+body.high-contrast h2,
+body.high-contrast h3,
+body.high-contrast h4,
+body.high-contrast h5,
+body.high-contrast h6,
+body.high-contrast .hc-title,
+body.high-contrast .brand-title {
+  color: #ffffff !important;
+  text-shadow: 0 0 1px rgba(255,255,255,0.5);
+}
+
+body.high-contrast p,
+body.high-contrast label,
+body.high-contrast span {
+  color: #f8fafc;
+}
+
+/* Table High Contrast Styling */
+body.high-contrast table {
+  border-collapse: separate !important;
+  border: 1px solid #f59e0b !important;
+}
+body.high-contrast table th {
+  background-color: #0f172a !important;
+  color: #fcd34d !important;
+  border-bottom: 2px solid #f59e0b !important;
+  font-weight: 800 !important;
+}
+body.high-contrast table td {
+  color: #ffffff !important;
+  border-bottom: 1px solid rgba(245, 158, 11, 0.4) !important;
+}
+body.high-contrast table tr:hover {
+  background-color: #1e293b !important;
+}
+
+/* Input & Form Control High Contrast */
+body.high-contrast input[type="text"],
+body.high-contrast input[type="password"],
+body.high-contrast input[type="number"],
+body.high-contrast select,
+body.high-contrast textarea {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #f59e0b !important;
+}
+
+body.high-contrast button {
+  border-color: #f59e0b !important;
+}
+
+/* Login Page Specific Overrides */
+body.high-contrast #server-time-box {
+  background-color: #111c38 !important;
+  border-color: #f59e0b !important;
+}
+body.high-contrast .role-card {
+  background-color: #0a1226 !important;
+  border: 2px solid #f59e0b !important;
+}
+body.high-contrast .role-card:hover {
+  border-color: #38bdf8 !important;
 }

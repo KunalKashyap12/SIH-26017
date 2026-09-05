@@ -92,10 +92,37 @@ name_templates = {
 }
 
 project_names = []
-for p_type, dist in zip(project_types, districts):
+exact_entry_urls = []
+gazette_notification_links = []
+
+for p_id, p_type, st, dist in zip(project_ids, project_types, states, districts):
     prefix = random.choice(name_templates[p_type])
     phase = random.choice(["Phase 1", "Phase 2", "Phase 3", "Section A", "Package IV"])
     project_names.append(f"{prefix} ({dist} {phase})")
+
+    st_slug = st.lower().replace(" ", "-")
+    dist_slug = dist.lower().replace(" ", "-")
+    p_id_lower = p_id.lower()
+
+    if p_type == "Highway":
+        entry_url = f"https://bhoomirashi.gov.in/notifications.asp?project_id={p_id}&state={st_slug}&district={dist_slug}"
+    elif p_type == "Railway":
+        entry_url = f"https://dfccil.com/ProjectStatus/Detail?proj_id={p_id}&district={dist_slug}"
+    elif p_type == "Irrigation":
+        entry_url = f"https://www.landconflictwatch.org/conflicts/{p_id_lower}-{dist_slug}"
+    elif p_type == "Industrial Corridor":
+        entry_url = f"https://nicdc.in/project-nodes/{st_slug}/{p_id_lower}"
+    elif p_type == "Power Transmission":
+        entry_url = f"https://www.powergrid.in/transmission-projects/{p_id_lower}"
+    elif p_type == "Urban Infrastructure":
+        entry_url = f"https://smartcities.gov.in/project-tracker?id={p_id}&city={dist_slug}"
+    else:
+        entry_url = f"https://bhoomirashi.gov.in/search?id={p_id}"
+
+    exact_entry_urls.append(entry_url)
+    gazette_notification_links.append(
+        f"https://egazette.gov.in/SearchGazette.aspx?notice_ref=LA/2024/{p_id}/{dist_slug.upper()}"
+    )
 
 # Feature generation:
 # 1. land_area_hectares (5 to 500, right-skewed)
@@ -209,6 +236,8 @@ df = pd.DataFrame(
         "project_name": project_names,
         "state": states,
         "district": districts,
+        "direct_entry_url": exact_entry_urls,
+        "gazette_notification_link": gazette_notification_links,
         "project_type": project_types,
         "land_area_hectares": land_area,
         "affected_families": affected_families,

@@ -3,22 +3,48 @@ import React, { createContext, useContext, useState } from 'react';
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
-  // In-memory role state (NO localStorage)
-  const [userRole, setUserRole] = useState(null); // 'Policymaker' | 'District Administrator' | 'Field Officer' | null
+  const [userRole, setUserRole] = useState(null); // 'Policymaker' | 'District Administrator' | 'Field Officer' | 'Central Administration' | null
   const [userName, setUserName] = useState('');
+  const [userEmail, setUserEmail] = useState('');
+  const [userCadre, setUserCadre] = useState('');
+  const [userDesignation, setUserDesignation] = useState('');
 
-  const login = (role, name = 'Officer') => {
-    setUserRole(role);
-    setUserName(name || 'Officer');
+  const login = (roleOrUserObject, name = 'Officer') => {
+    if (typeof roleOrUserObject === 'object' && roleOrUserObject !== null) {
+      setUserRole(roleOrUserObject.role);
+      setUserName(roleOrUserObject.name || 'Officer');
+      setUserEmail(roleOrUserObject.email || '');
+      setUserCadre(roleOrUserObject.cadre || '');
+      setUserDesignation(roleOrUserObject.designation || '');
+    } else {
+      setUserRole(roleOrUserObject);
+      setUserName(name || 'Officer');
+      setUserEmail('');
+      setUserCadre('');
+      setUserDesignation('');
+    }
   };
 
   const logout = () => {
     setUserRole(null);
     setUserName('');
+    setUserEmail('');
+    setUserCadre('');
+    setUserDesignation('');
   };
 
   return (
-    <AuthContext.Provider value={{ userRole, userName, login, logout }}>
+    <AuthContext.Provider
+      value={{
+        userRole,
+        userName,
+        userEmail,
+        userCadre,
+        userDesignation,
+        login,
+        logout,
+      }}
+    >
       {children}
     </AuthContext.Provider>
   );

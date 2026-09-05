@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, Tooltip } from 'react-leaflet';
 import { useNavigate } from 'react-router-dom';
 import client from '../api/client';
-import { MapPin, AlertTriangle, Layers, ExternalLink, RefreshCw, Info } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
+import { MapPin, AlertTriangle, Layers, ExternalLink, RefreshCw } from 'lucide-react';
 
 export default function RiskMap() {
   const navigate = useNavigate();
+  const { t, currentLang, locState, locDistrict } = useLanguage();
   const [districts, setDistricts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -49,50 +51,52 @@ export default function RiskMap() {
   return (
     <div className="space-y-6 pb-8">
       {/* HEADER CONTROLS */}
-      <div className="bg-white rounded-xl p-5 border border-slate-200 shadow-2xs flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div className="bg-white dark:bg-[#111c38] rounded-xl p-5 border border-slate-200/90 dark:border-slate-700/80 shadow-xs flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-            <MapPin className="w-5 h-5 text-teal-600" />
-            GIS District Risk Heatmap
+          <h3 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <MapPin className="w-5 h-5 text-amber-500" />
+            {currentLang === 'hi' ? 'जीआईएस जिला जोखिम हीटमैप' : 'GIS District Risk Heatmap'}
           </h3>
-          <p className="text-xs text-slate-500 mt-1">
-            Geospatial map centered on India displaying dominant risk levels per district
+          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            {currentLang === 'hi' ? 'भारत पर केंद्रित भू-स्थानिक मानचित्र जो प्रति जिला प्रमुख जोखिम स्तर प्रदर्शित करता है' : 'Geospatial map centered on India displaying dominant risk levels per district'}
           </p>
         </div>
 
         {/* Filter Pills */}
-        <div className="flex items-center space-x-1 bg-slate-100 p-1 rounded-lg border border-slate-200 text-xs font-semibold">
+        <div className="flex items-center space-x-1 bg-slate-100 dark:bg-slate-900/60 p-1 rounded-lg border border-slate-200 dark:border-slate-700 text-xs font-semibold">
           <button
             onClick={() => setSelectedFilter('ALL')}
-            className={`px-3 py-1.5 rounded-md transition-colors ${
-              selectedFilter === 'ALL' ? 'bg-white text-slate-900 font-bold shadow-2xs' : 'text-slate-600 hover:text-slate-900'
+            className={`px-3 py-1.5 rounded-md transition-colors cursor-pointer ${
+              selectedFilter === 'ALL'
+                ? 'bg-white dark:bg-slate-800 text-slate-900 dark:text-white font-bold shadow-2xs'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
             }`}
           >
-            All Districts ({districts.length})
+            {currentLang === 'hi' ? `सभी जिले (${districts.length})` : `All Districts (${districts.length})`}
           </button>
           <button
             onClick={() => setSelectedFilter('HIGH')}
-            className={`px-3 py-1.5 rounded-md transition-colors ${
-              selectedFilter === 'HIGH' ? 'bg-rose-600 text-white font-bold shadow-2xs' : 'text-rose-700 hover:bg-rose-100'
+            className={`px-3 py-1.5 rounded-md transition-colors cursor-pointer ${
+              selectedFilter === 'HIGH' ? 'bg-rose-600 text-white font-bold shadow-2xs' : 'text-rose-700 dark:text-rose-400 hover:bg-rose-100 dark:hover:bg-rose-950/60'
             }`}
           >
-            High Risk
+            {currentLang === 'hi' ? 'उच्च जोखिम' : 'High Risk'}
           </button>
           <button
             onClick={() => setSelectedFilter('MEDIUM')}
-            className={`px-3 py-1.5 rounded-md transition-colors ${
-              selectedFilter === 'MEDIUM' ? 'bg-amber-500 text-white font-bold shadow-2xs' : 'text-amber-800 hover:bg-amber-100'
+            className={`px-3 py-1.5 rounded-md transition-colors cursor-pointer ${
+              selectedFilter === 'MEDIUM' ? 'bg-amber-500 text-white font-bold shadow-2xs' : 'text-amber-800 dark:text-amber-400 hover:bg-amber-100 dark:hover:bg-amber-950/60'
             }`}
           >
-            Medium Risk
+            {currentLang === 'hi' ? 'मध्यम जोखिम' : 'Medium Risk'}
           </button>
           <button
             onClick={() => setSelectedFilter('LOW')}
-            className={`px-3 py-1.5 rounded-md transition-colors ${
-              selectedFilter === 'LOW' ? 'bg-emerald-600 text-white font-bold shadow-2xs' : 'text-emerald-800 hover:bg-emerald-100'
+            className={`px-3 py-1.5 rounded-md transition-colors cursor-pointer ${
+              selectedFilter === 'LOW' ? 'bg-emerald-600 text-white font-bold shadow-2xs' : 'text-emerald-800 dark:text-emerald-400 hover:bg-emerald-100 dark:hover:bg-emerald-950/60'
             }`}
           >
-            Low Risk
+            {currentLang === 'hi' ? 'कम जोखिम' : 'Low Risk'}
           </button>
         </div>
       </div>
@@ -100,21 +104,21 @@ export default function RiskMap() {
       {/* MAP & SIDEBAR */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Leaflet Map (2 Cols) */}
-        <div className="lg:col-span-2 bg-white rounded-xl border border-slate-200 shadow-2xs overflow-hidden h-[540px] relative">
+        <div className="lg:col-span-2 bg-white dark:bg-[#111c38] rounded-xl border border-slate-200/90 dark:border-slate-700/80 shadow-xs overflow-hidden h-[540px] relative">
           {loading ? (
-            <div className="w-full h-full flex items-center justify-center bg-slate-50">
-              <div className="flex items-center space-x-2 text-slate-500 text-sm font-medium">
-                <div className="w-5 h-5 border-2 border-teal-600 border-t-transparent rounded-full animate-spin"></div>
+            <div className="w-full h-full flex items-center justify-center bg-slate-50 dark:bg-slate-900/60">
+              <div className="flex items-center space-x-2 text-slate-500 dark:text-slate-400 text-sm font-medium">
+                <div className="w-5 h-5 border-2 border-amber-500 border-t-transparent rounded-full animate-spin"></div>
                 <span>Loading GIS Map Layer...</span>
               </div>
             </div>
           ) : error ? (
-            <div className="w-full h-full flex flex-col items-center justify-center bg-rose-50 p-6 text-center">
+            <div className="w-full h-full flex flex-col items-center justify-center bg-rose-50 dark:bg-rose-950/40 p-6 text-center">
               <AlertTriangle className="w-10 h-10 text-rose-500 mb-2" />
-              <p className="text-sm font-bold text-rose-900">{error}</p>
+              <p className="text-sm font-bold text-rose-900 dark:text-rose-300">{error}</p>
               <button
                 onClick={fetchDistrictStats}
-                className="mt-3 px-4 py-2 bg-rose-600 text-white rounded-lg text-xs font-semibold hover:bg-rose-700 transition-colors flex items-center gap-1.5"
+                className="mt-3 px-4 py-2 bg-rose-600 text-white rounded-lg text-xs font-semibold hover:bg-rose-700 transition-colors flex items-center gap-1.5 cursor-pointer"
               >
                 <RefreshCw className="w-3.5 h-3.5" /> Retry Loading Map
               </button>
@@ -151,15 +155,15 @@ export default function RiskMap() {
                     }}
                   >
                     <Tooltip direction="top" offset={[0, -10]} opacity={0.95}>
-                      <div className="font-bold text-xs">{dist.district}, {dist.state}</div>
+                      <div className="font-bold text-xs">{locDistrict(dist.district)}, {locState(dist.state)}</div>
                       <div className="text-[11px] text-slate-600">Avg Risk: {dist.avg_risk_score}</div>
                     </Tooltip>
 
                     <Popup>
                       <div className="p-1 space-y-2 text-xs min-w-[210px]">
                         <div className="border-b border-slate-200 pb-1.5">
-                          <h4 className="font-bold text-slate-900 text-sm">{dist.district}</h4>
-                          <span className="text-slate-500">{dist.state} Jurisdiction</span>
+                          <h4 className="font-bold text-slate-900 text-sm">{locDistrict(dist.district)}</h4>
+                          <span className="text-slate-500">{locState(dist.state)} Jurisdiction</span>
                         </div>
 
                         <div className="space-y-1.5 font-medium">
@@ -193,7 +197,7 @@ export default function RiskMap() {
                               `/projects?state=${encodeURIComponent(dist.state)}&district=${encodeURIComponent(dist.district)}`
                             )
                           }
-                          className="w-full mt-2.5 py-1.5 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-md text-[11px] transition-colors flex items-center justify-center gap-1.5 shadow-2xs"
+                          className="w-full mt-2.5 py-1.5 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-md text-[11px] transition-colors flex items-center justify-center gap-1.5 cursor-pointer shadow-xs"
                         >
                           Filter Projects in {dist.district} <ExternalLink className="w-3 h-3" />
                         </button>
@@ -206,34 +210,34 @@ export default function RiskMap() {
           )}
 
           {/* Map Legend */}
-          <div className="absolute bottom-4 left-4 z-20 bg-white/95 backdrop-blur-xs p-3 rounded-lg border border-slate-200 shadow-md text-xs space-y-1.5">
-            <span className="font-bold text-slate-800 block mb-1">Risk Legend</span>
+          <div className="absolute bottom-4 left-4 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xs p-3 rounded-lg border border-slate-200 dark:border-slate-700 shadow-md text-xs space-y-1.5">
+            <span className="font-bold text-slate-800 dark:text-slate-200 block mb-1">Risk Legend</span>
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-rose-500 border border-rose-600"></span>
-              <span className="text-slate-700 font-medium">High Risk Dominant</span>
+              <span className="text-slate-700 dark:text-slate-300 font-medium">High Risk Dominant</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-amber-500 border border-amber-600"></span>
-              <span className="text-slate-700 font-medium">Medium Risk Dominant</span>
+              <span className="text-slate-700 dark:text-slate-300 font-medium">Medium Risk Dominant</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 rounded-full bg-emerald-500 border border-emerald-600"></span>
-              <span className="text-slate-700 font-medium">Low Risk Dominant</span>
+              <span className="text-slate-700 dark:text-slate-300 font-medium">Low Risk Dominant</span>
             </div>
           </div>
         </div>
 
         {/* District List Sidebar */}
-        <div className="bg-white rounded-xl border border-slate-200 shadow-2xs overflow-hidden flex flex-col h-[540px]">
-          <div className="p-4 bg-slate-50 border-b border-slate-200">
-            <h4 className="font-bold text-slate-900 text-sm flex items-center gap-2">
-              <Layers className="w-4 h-4 text-teal-600" />
+        <div className="bg-white dark:bg-[#111c38] rounded-xl border border-slate-200/90 dark:border-slate-700/80 shadow-xs overflow-hidden flex flex-col h-[540px]">
+          <div className="p-4 bg-slate-50 dark:bg-slate-800/60 border-b border-slate-200 dark:border-slate-700">
+            <h4 className="font-bold text-slate-900 dark:text-white text-sm flex items-center gap-2">
+              <Layers className="w-4 h-4 text-amber-500" />
               District Summary List
             </h4>
-            <p className="text-xs text-slate-500 mt-0.5">Click to view matching projects directory</p>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Click to view matching projects directory</p>
           </div>
 
-          <div className="flex-1 overflow-y-auto divide-y divide-slate-100 p-2">
+          <div className="flex-1 overflow-y-auto divide-y divide-slate-100 dark:divide-slate-800/80 p-2">
             {filteredDistricts.map((dist, idx) => {
               const dominant = getDominantCategory(dist);
               return (
@@ -244,17 +248,17 @@ export default function RiskMap() {
                       `/projects?state=${encodeURIComponent(dist.state)}&district=${encodeURIComponent(dist.district)}`
                     )
                   }
-                  className="p-3 rounded-lg hover:bg-slate-50 transition-colors cursor-pointer flex items-center justify-between group"
+                  className="p-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors cursor-pointer flex items-center justify-between group"
                 >
                   <div className="flex items-center space-x-3">
-                    <span className="w-6 h-6 rounded-full bg-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center group-hover:bg-teal-700 group-hover:text-white transition-colors">
+                    <span className="w-6 h-6 rounded-full bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-200 font-bold text-xs flex items-center justify-center group-hover:bg-amber-600 group-hover:text-white transition-colors">
                       {idx + 1}
                     </span>
                     <div>
-                      <h5 className="font-bold text-xs text-slate-900 group-hover:text-teal-700 transition-colors">
-                        {dist.district}
+                      <h5 className="font-bold text-xs text-slate-900 dark:text-white group-hover:text-amber-500 transition-colors">
+                        {locDistrict(dist.district)}
                       </h5>
-                      <span className="text-[11px] text-slate-500">{dist.state}</span>
+                      <span className="text-[11px] text-slate-500 dark:text-slate-400">{locState(dist.state)}</span>
                     </div>
                   </div>
 
@@ -262,10 +266,10 @@ export default function RiskMap() {
                     <span
                       className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${
                         dominant === 'High'
-                          ? 'bg-rose-100 text-rose-800'
+                          ? 'bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300'
                           : dominant === 'Medium'
-                          ? 'bg-amber-100 text-amber-800'
-                          : 'bg-emerald-100 text-emerald-800'
+                          ? 'bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300'
+                          : 'bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300'
                       }`}
                     >
                       {dist.avg_risk_score} score

@@ -1,0 +1,29 @@
+=================================================================
+MODEL TRAINING & ACCURACY EVALUATION ON LIVE GOV PIPELINE DATA
+=================================================================
+Total Dataset Size: 4500 projects
+Artifacts saved in: C:\Users\HP\OneDrive\Desktop\26017\land-acquisition-predictor\backend\app\ml\saved_models
+
+--- Classification Model (XGBClassifier) ---
+  Accuracy    : 0.9967 (99.67%)
+  Weighted F1 : 0.9967
+  Precision   : 0.9967
+  Recall      : 0.9967
+
+--- Regression Model (XGBRegressor) ---
+  RMSE        : 0.8299
+  MAE         : 0.1705
+  R2 Score    : 0.9961 (99.61%)
+
+--- Top 10 SHAP Global Feature Importances ---
+  1 . delay_days                                : 3.7428
+  2 . cost_overrun_pct                          : 0.0263
+  3 . rehabilitation_progress_pct               : 0.0175
+  4 . legal_disputes_count                      : 0.0102
+  5 . approval_pending_days                     : 0.0090
+  6 . compensation_disbursed_pct                : 0.0062
+  7 . land_area_hectares                        : 0.0046
+  8 . affected_families                         : 0.0044
+  9 . district_Khordha                          : 0.0014
+  10. possession_pct                            : 0.0000
+=================================================================

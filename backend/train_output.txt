@@ -1,4 +1,29 @@
 =================================================================
-MODEL TRAINING & SHAP FEATURE IMPORTANCE SUMMARY
+PROPOSAL ML MODEL RETRAINED (LEAKAGE FREE & HIGHLY RESPONSIVE)
 =================================================================
+Total Dataset Size: 4500 projects
 Artifacts saved in: C:\Users\HP\OneDrive\Desktop\26017\land-acquisition-predictor\backend\app\ml\saved_models
+
+--- Classification Model (XGBClassifier) ---
+  Accuracy    : 0.9422 (94.22%)
+  Weighted F1 : 0.9424
+  Precision   : 0.9427
+  Recall      : 0.9422
+
+--- Regression Model (XGBRegressor) ---
+  RMSE        : 2.9324
+  MAE         : 2.1240
+  R2 Score    : 0.9514 (95.14%)
+
+--- Top 10 SHAP Global Feature Importances ---
+  1 . legal_disputes_count                      : 1.5220
+  2 . compensation_disbursed_pct                : 0.4602
+  3 . state_Maharashtra                         : 0.2812
+  4 . state_Jharkhand                           : 0.2691
+  5 . state_Bihar                               : 0.2635
+  6 . project_type_HVDC Power Corridor Right-of-Way: 0.1804
+  7 . project_type_Solar Grid Substation Land   : 0.1593
+  8 . rehabilitation_progress_pct               : 0.1588
+  9 . project_type_Reservoir Submergence & Dam Land: 0.1543
+  10. historical_dept_performance_score         : 0.1487
+=================================================================

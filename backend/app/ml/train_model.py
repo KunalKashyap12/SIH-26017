@@ -1,8 +1,15 @@
 import os
+import sys
 import json
 import joblib
 import numpy as np
 import pandas as pd
+
+# Ensure backend root directory is in sys.path for standalone script execution
+sys_path_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if sys_path_root not in sys.path:
+    sys.path.insert(0, sys_path_root)
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder
 from sklearn.compose import ColumnTransformer
@@ -18,14 +25,25 @@ from sklearn.metrics import (
 from xgboost import XGBClassifier, XGBRegressor
 import shap
 
-# 1. Load Dataset
-data_path = os.path.join(os.path.dirname(__file__), "..", "data", "projects.csv")
-if not os.path.exists(data_path):
-    raise FileNotFoundError(f"Data file not found at {data_path}. Run generate_dataset.py first.")
+# 1. Load Dataset from main DB connector
+from app.data.db import get_projects_df
 
-df = pd.read_csv(data_path)
+df = get_projects_df()
 
-# Feature & Target Selection
+# Compute / Ensure proposal features exist
+if "stakeholder_responsiveness_score" not in df.columns:
+    if "legal_disputes_count" in df.columns:
+        df["stakeholder_responsiveness_score"] = np.clip(10.0 - (pd.to_numeric(df["legal_disputes_count"], errors="coerce").fillna(0) * 0.6), 1.0, 10.0)
+    else:
+        df["stakeholder_responsiveness_score"] = 5.0
+
+if "historical_dept_performance_score" not in df.columns:
+    if "compensation_disbursed_pct" in df.columns:
+        df["historical_dept_performance_score"] = np.clip((pd.to_numeric(df["compensation_disbursed_pct"], errors="coerce").fillna(0) / 10.0), 1.0, 10.0)
+    else:
+        df["historical_dept_performance_score"] = 5.0
+
+# Define proposal input parameters (Excluding outcome metrics like delay_days to prevent leakage and ensure full input responsiveness)
 categorical_cols = ["state", "district", "project_type"]
 numeric_cols = [
     "land_area_hectares",
@@ -39,12 +57,15 @@ numeric_cols = [
     "historical_dept_performance_score",
 ]
 
+for col in numeric_cols:
+    df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+
 target_cls = "risk_category"
 target_reg = "risk_score"
 
 X = df[categorical_cols + numeric_cols]
 y_cls_raw = df[target_cls]
-y_reg = df[target_reg]
+y_reg = pd.to_numeric(df[target_reg], errors="coerce").fillna(0)
 
 # Encode target categories
 label_encoder = LabelEncoder()
@@ -74,9 +95,9 @@ X_train, X_test, y_cls_train, y_cls_test, y_reg_train, y_reg_test = train_test_s
 
 # 4. Train Classification Model (XGBClassifier)
 clf = XGBClassifier(
-    n_estimators=120,
-    learning_rate=0.07,
-    max_depth=4,
+    n_estimators=200,
+    learning_rate=0.06,
+    max_depth=6,
     random_state=42,
     eval_metric="mlogloss",
 )
@@ -91,9 +112,9 @@ recall = recall_score(y_cls_test, y_cls_pred, average="weighted")
 
 # 5. Train Regression Model (XGBRegressor)
 reg = XGBRegressor(
-    n_estimators=120,
-    learning_rate=0.07,
-    max_depth=4,
+    n_estimators=200,
+    learning_rate=0.06,
+    max_depth=6,
     random_state=42,
 )
 reg.fit(X_train, y_reg_train)
@@ -143,22 +164,23 @@ with open(importance_json_path, "w") as f:
 
 # 8. Output Summary
 print("=" * 65)
-print("MODEL TRAINING & SHAP FEATURE IMPORTANCE SUMMARY")
+print("PROPOSAL ML MODEL RETRAINED (LEAKAGE FREE & HIGHLY RESPONSIVE)")
 print("=" * 65)
+print(f"Total Dataset Size: {len(df)} projects")
 print(f"Artifacts saved in: {save_dir}")
 
-print("\n--- 🎯 Classification Model (XGBClassifier) ---")
+print("\n--- Classification Model (XGBClassifier) ---")
 print(f"  Accuracy    : {acc:.4f} ({acc*100:.2f}%)")
 print(f"  Weighted F1 : {f1:.4f}")
 print(f"  Precision   : {precision:.4f}")
 print(f"  Recall      : {recall:.4f}")
 
-print("\n--- 📈 Regression Model (XGBRegressor) ---")
+print("\n--- Regression Model (XGBRegressor) ---")
 print(f"  RMSE        : {rmse:.4f}")
 print(f"  MAE         : {mae:.4f}")
-print(f"  R² Score    : {r2:.4f} ({r2*100:.2f}%)")
+print(f"  R2 Score    : {r2:.4f} ({r2*100:.2f}%)")
 
-print("\n--- 🔍 Top 10 SHAP Global Feature Importances ---")
+print("\n--- Top 10 SHAP Global Feature Importances ---")
 for i, (feat, val) in enumerate(list(feature_importance_dict.items())[:10], 1):
     print(f"  {i:<2}. {feat:<42}: {val:.4f}")
 
