@@ -656,7 +656,7 @@ export function GovTopNavbar() {
         className="w-full shrink-0 select-none tricolor-stripe"
         style={{
           height: '4px',
-          background: 'linear-gradient(90deg, #ea580c 0%, #ea580c 33.33%, #1d4ed8 33.33%, #1d4ed8 66.66%, #16a34a 66.66%, #16a34a 100%)'
+          background: 'linear-gradient(90deg, #ff7a00 0%, #ff7a00 33.33%, #1d4ed8 33.33%, #1d4ed8 66.66%, #16a34a 66.66%, #16a34a 100%)'
         }}
         data-purpose="tricolor-strip"
       />

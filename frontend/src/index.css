@@ -36,7 +36,7 @@ body {
 
 /* Tricolor band: Saffron/Orange (#FF9933) on left, Ashoka Navy Blue (#1E3A8A) in middle, India Green (#138808) on right */
 .tricolor-stripe {
-  background: linear-gradient(90deg, #ea580c 0%, #ea580c 33.33%, #1d4ed8 33.33%, #1d4ed8 66.66%, #16a34a 66.66%, #16a34a 100%);
+  background: linear-gradient(90deg, #ff7a00 0%, #ff7a00 33.33%, #1d4ed8 33.33%, #1d4ed8 66.66%, #16a34a 66.66%, #16a34a 100%);
 }
 .lang-fade {
   transition: opacity 0.18s ease-in-out, transform 0.18s ease-in-out;
