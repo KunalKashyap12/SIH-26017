@@ -652,11 +652,14 @@ export function GovTopNavbar() {
       </header>
 
       {/* Tricolor Sovereign Bar below utility header */}
-      <div className="w-full flex h-1.5 shrink-0 select-none" data-purpose="tricolor-strip">
-        <div className="flex-1 bg-[#ea580c]"></div>
-        <div className="flex-1 bg-[#1d4ed8]"></div>
-        <div className="flex-1 bg-[#16a34a]"></div>
-      </div>
+      <div
+        className="w-full shrink-0 select-none tricolor-stripe"
+        style={{
+          height: '4px',
+          background: 'linear-gradient(90deg, #ea580c 0%, #ea580c 33.33%, #1d4ed8 33.33%, #1d4ed8 66.66%, #16a34a 66.66%, #16a34a 100%)'
+        }}
+        data-purpose="tricolor-strip"
+      />
     </>
   );
 }
