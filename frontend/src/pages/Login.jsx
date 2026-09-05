@@ -316,40 +316,40 @@ export default function Login() {
       <GovTopNavbar />
 
       {/* Main Header with Branding */}
-      <header className="relative z-10 bg-white border-b border-slate-200 shadow-sm transition-colors duration-200" data-purpose="portal-branding">
+      <header className="relative z-10 bg-white dark:bg-[#0e172e] border-b border-slate-200 dark:border-slate-800 shadow-sm transition-colors duration-200" data-purpose="portal-branding">
         <div className="w-full px-4 sm:px-6 py-3.5 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center space-x-4 sm:space-x-5">
             <div className="shrink-0 flex items-center justify-center">
               <img
                 alt="BhoomiDrishti Official Emblem"
-                className="h-16 sm:h-20 w-auto object-contain logo-blend mix-blend-multiply transition-transform hover:scale-105 duration-200"
+                className="h-16 sm:h-20 w-auto object-contain logo-blend mix-blend-multiply dark:mix-blend-normal transition-transform hover:scale-105 duration-200"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1tmtCuVEHr8W_23odifTpdT2_SkeEm3TjJph2ge7C4SASAe0Z8VChgbyZ2QC0Hibet4oZkfBpOYTTidPBRTxhFR4m22BmnTP3UeEdHtatnKaydS__iwc5yjnJvARs9jEYNf5mFe2lqIyCy3y_0c-_KOAyqMHQtD7OVRQfnUvno4u1wseuuc9_WNj4DldCYYY9br7HMvSVCe9A1iGvqiB6xbnsNnmw1hmHSGHjvRc2bAq_tXFBSgjJRuhDFyQ5Dyr67Q"
               />
             </div>
             <div>
               <div className="flex items-center flex-wrap gap-2">
-                <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 brand-title">{t.portal_title}</span>
-                <span className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 bg-amber-50 text-amber-900 border border-amber-300 rounded-full proto-demo-badge">{t.badge_proto_head}</span>
+                <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white brand-title">{t.portal_title}</span>
+                <span className="inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 bg-amber-50 dark:bg-amber-950/70 text-amber-900 dark:text-amber-300 border border-amber-300 dark:border-amber-800/60 rounded-full proto-demo-badge">{t.badge_proto_head}</span>
               </div>
-              <p className="text-xs sm:text-sm font-semibold text-blue-900 brand-subtitle">{t.portal_subtitle}</p>
-              <p className="text-[11px] text-slate-500 brand-meta">{t.portal_meta}</p>
+              <p className="text-xs sm:text-sm font-semibold text-blue-900 dark:text-amber-400 brand-subtitle">{t.portal_subtitle}</p>
+              <p className="text-[11px] text-slate-500 dark:text-slate-400 brand-meta">{t.portal_meta}</p>
             </div>
           </div>
 
           <div className="flex items-center gap-3">
             <div className="hidden lg:flex flex-col text-right">
-              <span className="text-xs font-semibold text-slate-700 brand-title flex items-center justify-end gap-1">
-                <svg className="w-3.5 h-3.5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+              <span className="text-xs font-semibold text-slate-700 dark:text-slate-200 brand-title flex items-center justify-end gap-1">
+                <svg className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                   <path clipRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fillRule="evenodd"></path>
                 </svg>
                 <span>{t.auth_sso_ready}</span>
               </span>
-              <span className="text-[11px] text-slate-500 brand-meta">{t.auth_authorized_only}</span>
+              <span className="text-[11px] text-slate-500 dark:text-slate-400 brand-meta">{t.auth_authorized_only}</span>
             </div>
-            <div className="h-8 w-px bg-slate-200 hidden lg:block"></div>
-            <div className="px-3 py-1.5 border rounded text-center transition-colors duration-200 bg-slate-50 border-slate-200" id="server-time-box">
-              <span className="text-[10px] uppercase font-bold tracking-wider block transition-colors duration-200 text-slate-500" id="server-time-label">{t.clock_server_ist}</span>
-              <span className="text-xs font-mono font-semibold transition-colors duration-200 text-slate-800" id="current-ist-time">{istTime || '11:45:00 IST'}</span>
+            <div className="h-8 w-px bg-slate-200 dark:bg-slate-700 hidden lg:block"></div>
+            <div className="px-3 py-1.5 border rounded text-center transition-colors duration-200 bg-slate-50 dark:bg-slate-800/80 border-slate-200 dark:border-slate-700" id="server-time-box">
+              <span className="text-[10px] uppercase font-bold tracking-wider block transition-colors duration-200 text-slate-500 dark:text-slate-400" id="server-time-label">{t.clock_server_ist}</span>
+              <span className="text-xs font-mono font-semibold transition-colors duration-200 text-slate-800 dark:text-slate-200" id="current-ist-time">{istTime || '11:45:00 IST'}</span>
             </div>
           </div>
         </div>
@@ -358,21 +358,21 @@ export default function Login() {
       {/* Main Content Area */}
       <main className="relative z-10 flex-grow py-10 sm:py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full" data-purpose="role-selection-workflow">
         <div className="text-center max-w-3xl mx-auto mb-8">
-          <h1 className="text-2xl sm:text-3.5xl font-extrabold text-slate-900 tracking-tight hc-title">{t.main_heading}</h1>
-          <p className="mt-2.5 text-sm sm:text-base text-slate-600 leading-relaxed hc-desc max-w-2xl mx-auto">{t.main_subheading}</p>
-          <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-slate-700 text-[11px] font-semibold tracking-wider hc-pill">
-            <span className="text-blue-600">●</span>
+          <h1 className="text-2xl sm:text-3.5xl font-extrabold text-slate-900 dark:text-white tracking-tight hc-title">{t.main_heading}</h1>
+          <p className="mt-2.5 text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed hc-desc max-w-2xl mx-auto">{t.main_subheading}</p>
+          <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-[11px] font-semibold tracking-wider hc-pill">
+            <span className="text-amber-500">●</span>
             <span>{t.flow_pill}</span>
           </div>
         </div>
 
         {/* Credentials Card */}
-        <form onSubmit={executeAuthLaunch} className={`max-w-xl mx-auto mb-10 bg-white p-6 rounded-xl border border-slate-200 shadow-sm hc-card transition-all duration-200 ${showError ? 'animate-shake' : ''}`} id="identifier-card">
+        <form onSubmit={executeAuthLaunch} className={`max-w-xl mx-auto mb-10 bg-white dark:bg-[#111c38] p-6 rounded-xl border border-slate-200 dark:border-slate-700/80 shadow-sm hc-card transition-all duration-200 ${showError ? 'animate-shake' : ''}`} id="identifier-card">
           <div className="flex items-center justify-between mb-2">
-            <label className="block text-xs font-bold text-slate-800 hc-title" htmlFor="email-or-phone">
+            <label className="block text-xs font-bold text-slate-800 dark:text-slate-200 hc-title" htmlFor="email-or-phone">
               <span>{t.input_label_title}</span> <span className="text-red-500 font-bold">*</span>
             </label>
-            <span className="text-[10px] font-bold uppercase tracking-wider text-amber-800 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full proto-demo-badge">{t.badge_demo}</span>
+            <span className="text-[10px] font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/70 border border-amber-200 dark:border-amber-800/60 px-2 py-0.5 rounded-full proto-demo-badge">{t.badge_demo}</span>
           </div>
 
           <div className="relative rounded-md mb-3" id="input-container-box">
@@ -382,10 +382,10 @@ export default function Login() {
               </svg>
             </div>
             <input
-              className={`block w-full pl-9 pr-3 py-2.5 sm:text-sm border rounded-md focus:ring-2 placeholder:text-slate-400 text-slate-800 font-medium transition-colors ${
+              className={`block w-full pl-9 pr-3 py-2.5 sm:text-sm border rounded-md focus:ring-2 placeholder:text-slate-400 dark:placeholder:text-slate-500 text-slate-800 dark:text-slate-100 bg-white dark:bg-slate-900/80 font-medium transition-colors ${
                 showError
                   ? 'ring-2 ring-red-500 border-red-500 focus:ring-red-500 focus:border-red-600'
-                  : 'border-slate-300 focus:ring-blue-500 focus:border-blue-600'
+                  : 'border-slate-300 dark:border-slate-700 focus:ring-amber-500 focus:border-amber-600'
               }`}
               id="email-or-phone"
               onChange={(e) => {
@@ -400,8 +400,8 @@ export default function Login() {
 
           <div className="mb-3">
             <div className="flex items-center justify-between mb-1">
-              <label className="block text-xs font-bold text-slate-800 hc-title" htmlFor="gov-officer-pwd">
-                <span>{t.pwd_label_title}</span> <span className="text-red-500 font-bold">*</span> <span className="text-[11px] font-normal text-slate-500 hc-desc">{t.pwd_required_note}</span>
+              <label className="block text-xs font-bold text-slate-800 dark:text-slate-200 hc-title" htmlFor="gov-officer-pwd">
+                <span>{t.pwd_label_title}</span> <span className="text-red-500 font-bold">*</span> <span className="text-[11px] font-normal text-slate-500 dark:text-slate-400 hc-desc">{t.pwd_required_note}</span>
               </label>
             </div>
             <div className="relative rounded-md">
@@ -412,7 +412,7 @@ export default function Login() {
                 </svg>
               </div>
               <input
-                className="block w-full pl-9 pr-10 py-2.5 sm:text-sm border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-600 placeholder:text-slate-400 text-slate-800 font-medium transition-colors"
+                className="block w-full pl-9 pr-10 py-2.5 sm:text-sm border border-slate-300 dark:border-slate-700 rounded-md focus:ring-2 focus:ring-amber-500 focus:border-amber-600 placeholder:text-slate-400 dark:placeholder:text-slate-500 text-slate-800 dark:text-slate-100 bg-white dark:bg-slate-900/80 font-medium transition-colors"
                 id="gov-officer-pwd"
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="••••••••••••"
@@ -420,7 +420,7 @@ export default function Login() {
                 value={password}
               />
               <button
-                className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 focus:outline-none cursor-pointer"
+                className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 focus:outline-none cursor-pointer"
                 onClick={() => setShowPassword(!showPassword)}
                 type="button"
               >
@@ -431,14 +431,14 @@ export default function Login() {
               </button>
             </div>
             <div className="mt-1 text-right">
-              <a className="text-[11px] text-blue-700 hover:text-blue-800 hover:underline font-medium" href="#forgot">
+              <a className="text-[11px] text-amber-600 dark:text-amber-400 hover:underline font-medium" href="#forgot">
                 {t.link_forgot_pwd}
               </a>
             </div>
           </div>
 
           {showError && (
-            <p className="mt-2 text-xs font-semibold text-red-600 flex items-center gap-1.5">
+            <p className="mt-2 text-xs font-semibold text-red-600 dark:text-rose-400 flex items-center gap-1.5">
               <svg className="w-3.5 h-3.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path clipRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" fillRule="evenodd"></path>
               </svg>
@@ -446,7 +446,7 @@ export default function Login() {
             </p>
           )}
 
-          <div className="mt-2.5 pt-2 border-t border-slate-100 text-[11px] flex items-center justify-between text-slate-500 hc-desc">
+          <div className="mt-2.5 pt-2 border-t border-slate-100 dark:border-slate-800 text-[11px] flex items-center justify-between text-slate-500 dark:text-slate-400 hc-desc">
             <span>{t.nic_verification_status}</span>
           </div>
         </form>
@@ -457,17 +457,17 @@ export default function Login() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
             {/* Field Officer */}
             <div
-              className={`role-card relative h-full flex flex-col justify-between bg-white rounded-xl p-6 sm:p-7 shadow-sm hover:shadow-md transition-all duration-200 hc-card cursor-pointer border ${
+              className={`role-card relative h-full flex flex-col justify-between bg-white dark:bg-[#111c38] rounded-xl p-6 sm:p-7 shadow-sm hover:shadow-md transition-all duration-200 hc-card cursor-pointer border ${
                 selectedRole === 'Field Officer'
-                  ? 'border-2 ring-2 hc-card-active border-emerald-600 ring-emerald-500/20'
-                  : 'border-slate-200'
+                  ? 'border-2 ring-2 hc-card-active border-emerald-600 ring-emerald-500/20 dark:border-emerald-500'
+                  : 'border-slate-200 dark:border-slate-700/80'
               }`}
               id="card-field-officer"
               onClick={() => handleRoleSelect('Field Officer')}
             >
               <div>
                 <div className="flex items-start justify-between mb-3">
-                  <div className="w-12 h-12 rounded-lg bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 role-icon-box-emerald">
+                  <div className="w-12 h-12 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800 flex items-center justify-center text-emerald-700 dark:text-emerald-400 role-icon-box-emerald">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 012 2h2a2 2 0 012-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.75"></path>
                     </svg>
@@ -481,37 +481,37 @@ export default function Login() {
                   )}
                 </div>
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="inline-block text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 border border-emerald-200 role-badge-emerald">{t.card1_badge}</span>
-                  <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-wide hc-desc">TEHSIL / TALUK LEVEL</span>
+                  <span className="inline-block text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/80 role-badge-emerald">{t.card1_badge}</span>
+                  <span className="text-[10px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide hc-desc">TEHSIL / TALUK LEVEL</span>
                 </div>
-                <h2 className="text-lg font-bold text-slate-900 tracking-tight hc-title">{t.card1_title}</h2>
-                <p className="mt-2 text-xs text-slate-600 leading-relaxed hc-desc">{t.card1_desc}</p>
+                <h2 className="text-lg font-bold text-slate-900 dark:text-white tracking-tight hc-title">{t.card1_title}</h2>
+                <p className="mt-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed hc-desc">{t.card1_desc}</p>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-slate-100">
-                <span className="block text-[10px] font-bold text-slate-500 tracking-wider uppercase mb-2 hc-badge-label">{t.modules_label}</span>
+              <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
+                <span className="block text-[10px] font-bold text-slate-500 dark:text-slate-400 tracking-wider uppercase mb-2 hc-badge-label">{t.modules_label}</span>
                 <div className="flex flex-wrap gap-1.5 min-h-[52px]">
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_dashboard}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_projects}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_cadastral}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_risk}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_dashboard}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_projects}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_cadastral}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_risk}</span>
                 </div>
               </div>
             </div>
 
             {/* District Administrator */}
             <div
-              className={`role-card relative h-full flex flex-col justify-between bg-white rounded-xl p-6 sm:p-7 shadow-sm hover:shadow-md transition-all duration-200 hc-card cursor-pointer border ${
+              className={`role-card relative h-full flex flex-col justify-between bg-white dark:bg-[#111c38] rounded-xl p-6 sm:p-7 shadow-sm hover:shadow-md transition-all duration-200 hc-card cursor-pointer border ${
                 selectedRole === 'District Administrator'
-                  ? 'border-2 ring-2 hc-card-active border-amber-600 ring-amber-500/20'
-                  : 'border-slate-200'
+                  ? 'border-2 ring-2 hc-card-active border-amber-600 ring-amber-500/20 dark:border-amber-500'
+                  : 'border-slate-200 dark:border-slate-700/80'
               }`}
               id="card-district-admin"
               onClick={() => handleRoleSelect('District Administrator')}
             >
               <div>
                 <div className="flex items-start justify-between mb-3">
-                  <div className="w-12 h-12 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700 role-icon-box-amber">
+                  <div className="w-12 h-12 rounded-lg bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 flex items-center justify-center text-amber-700 dark:text-amber-400 role-icon-box-amber">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.75"></path>
                       <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.75"></path>
@@ -526,38 +526,38 @@ export default function Login() {
                   )}
                 </div>
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="inline-block text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-amber-100 text-amber-800 border border-amber-200 role-badge-amber">{t.card2_badge}</span>
-                  <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-wide hc-desc">DISTRICT / PROJECT LEVEL</span>
+                  <span className="inline-block text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-amber-100 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800/80 role-badge-amber">{t.card2_badge}</span>
+                  <span className="text-[10px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide hc-desc">DISTRICT / PROJECT LEVEL</span>
                 </div>
-                <h2 className="text-lg font-bold text-slate-900 tracking-tight hc-title">{t.card2_title}</h2>
-                <p className="mt-2 text-xs text-slate-600 leading-relaxed hc-desc">{t.card2_desc}</p>
+                <h2 className="text-lg font-bold text-slate-900 dark:text-white tracking-tight hc-title">{t.card2_title}</h2>
+                <p className="mt-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed hc-desc">{t.card2_desc}</p>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-slate-100">
-                <span className="block text-[10px] font-bold text-slate-500 tracking-wider uppercase mb-2 hc-badge-label">{t.modules_label}</span>
+              <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
+                <span className="block text-[10px] font-bold text-slate-500 dark:text-slate-400 tracking-wider uppercase mb-2 hc-badge-label">{t.modules_label}</span>
                 <div className="flex flex-wrap gap-1.5 min-h-[52px]">
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_dashboard}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_projects}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_gis_risk}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_pipeline}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_risk}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_dashboard}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_projects}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_gis_risk}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_pipeline}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_risk}</span>
                 </div>
               </div>
             </div>
 
             {/* Central Administration */}
             <div
-              className={`role-card relative h-full flex flex-col justify-between bg-white rounded-xl p-6 sm:p-7 shadow-sm hover:shadow-md transition-all duration-200 hc-card cursor-pointer border ${
+              className={`role-card relative h-full flex flex-col justify-between bg-white dark:bg-[#111c38] rounded-xl p-6 sm:p-7 shadow-sm hover:shadow-md transition-all duration-200 hc-card cursor-pointer border ${
                 selectedRole === 'Central Administration'
-                  ? 'border-2 ring-2 hc-card-active border-blue-600 ring-blue-500/20'
-                  : 'border-slate-200'
+                  ? 'border-2 ring-2 hc-card-active border-blue-600 ring-blue-500/20 dark:border-blue-500'
+                  : 'border-slate-200 dark:border-slate-700/80'
               }`}
               id="card-policymaker"
               onClick={() => handleRoleSelect('Central Administration')}
             >
               <div>
                 <div className="flex items-start justify-between mb-3">
-                  <div className="w-12 h-12 rounded-lg bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-700 role-icon-box-blue">
+                  <div className="w-12 h-12 rounded-lg bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800 flex items-center justify-center text-blue-700 dark:text-blue-400 role-icon-box-blue">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.75"></path>
                     </svg>
@@ -571,21 +571,21 @@ export default function Login() {
                   )}
                 </div>
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="inline-block text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-blue-100 text-blue-800 border border-blue-200 role-badge-blue">{t.card3_badge}</span>
-                  <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-wide hc-desc">STATE / NATIONAL LEVEL</span>
+                  <span className="inline-block text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-950/80 text-blue-800 dark:text-blue-300 border border-blue-200 dark:border-blue-800/80 role-badge-blue">{t.card3_badge}</span>
+                  <span className="text-[10px] font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide hc-desc">STATE / NATIONAL LEVEL</span>
                 </div>
-                <h2 className="text-lg font-bold text-slate-900 tracking-tight hc-title">{t.card3_title}</h2>
-                <p className="mt-2 text-xs text-slate-600 leading-relaxed hc-desc">{t.card3_desc}</p>
+                <h2 className="text-lg font-bold text-slate-900 dark:text-white tracking-tight hc-title">{t.card3_title}</h2>
+                <p className="mt-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed hc-desc">{t.card3_desc}</p>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-slate-100">
-                <span className="block text-[10px] font-bold text-slate-500 tracking-wider uppercase mb-2 hc-badge-label">{t.modules_label}</span>
+              <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
+                <span className="block text-[10px] font-bold text-slate-500 dark:text-slate-400 tracking-wider uppercase mb-2 hc-badge-label">{t.modules_label}</span>
                 <div className="flex flex-wrap gap-1.5 min-h-[52px]">
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_dashboard}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_projects}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_nat_map}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_alerts}</span>
-                  <span className="text-[11px] bg-slate-100 text-slate-700 px-2.5 py-1 rounded font-medium border border-slate-200 hc-pill">{t.mod_cabinet}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_dashboard}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_projects}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_nat_map}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_alerts}</span>
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-2.5 py-1 rounded font-medium border border-slate-200 dark:border-slate-700 hc-pill">{t.mod_cabinet}</span>
                 </div>
               </div>
             </div>
@@ -594,26 +594,26 @@ export default function Login() {
 
         {/* Workspace Perspective Breadcrumb */}
         <div className="mt-8 text-center max-w-xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-[11px] font-semibold text-slate-700">
-            <span className="text-emerald-700 font-bold">{t.breadcrumb_local}</span>
-            <span className="text-slate-400">→</span>
-            <span className="text-amber-700 font-bold">{t.breadcrumb_district}</span>
-            <span className="text-slate-400">→</span>
-            <span className="text-blue-700 font-bold">{t.breadcrumb_state}</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-[11px] font-semibold text-slate-700 dark:text-slate-300">
+            <span className="text-emerald-700 dark:text-emerald-400 font-bold">{t.breadcrumb_local}</span>
+            <span className="text-slate-400 dark:text-slate-500">→</span>
+            <span className="text-amber-700 dark:text-amber-400 font-bold">{t.breadcrumb_district}</span>
+            <span className="text-slate-400 dark:text-slate-500">→</span>
+            <span className="text-blue-700 dark:text-blue-400 font-bold">{t.breadcrumb_state}</span>
           </div>
-          <p className="mt-2 text-xs font-medium text-slate-600">
+          <p className="mt-2 text-xs font-medium text-slate-600 dark:text-slate-300">
             {t.perspective_tagline}
           </p>
-          <p className="mt-1 text-[11px] font-bold text-slate-400 tracking-wider">
+          <p className="mt-1 text-[11px] font-bold text-slate-400 dark:text-slate-500 tracking-wider">
             {t.perspective_data_flow}
           </p>
         </div>
 
         {/* Dynamic Launch CTA Section */}
         <div className="mt-6 max-w-xl mx-auto text-center" id="action-launch-zone">
-          <div className="mb-3 flex items-center justify-center gap-2 text-xs font-semibold text-slate-600">
+          <div className="mb-3 flex items-center justify-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300">
             <span className={`w-2 h-2 rounded-full ${cfg.dotColor} animate-pulse`}></span>
-            <span>{t.entering_notice} <strong className="text-slate-800">{t[cfg.workspaceKey]}</strong>.</span>
+            <span>{t.entering_notice} <strong className="text-slate-800 dark:text-white">{t[cfg.workspaceKey]}</strong>.</span>
           </div>
 
           <button
@@ -631,7 +631,7 @@ export default function Login() {
 
         {/* National Identity Services Section */}
         <div className="mt-10 max-w-xl mx-auto text-center">
-          <p className="text-xs font-medium text-slate-500 mb-3">{t.sso_title}</p>
+          <p className="text-xs font-medium text-slate-500 dark:text-slate-400 mb-3">{t.sso_title}</p>
           <div className="flex flex-wrap items-center justify-center gap-2.5">
             <button
               onClick={() => {
@@ -640,9 +640,9 @@ export default function Login() {
                 setSelectedRole('District Administrator');
               }}
               type="button"
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-xs font-semibold text-slate-700 shadow-xs transition-colors cursor-pointer"
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-xs font-semibold text-slate-700 dark:text-slate-200 shadow-xs transition-colors cursor-pointer"
             >
-              <span className="w-2.5 h-2.5 rounded-full bg-blue-600"></span>
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
               <span>{t.sso_meri_pehchaan}</span>
             </button>
             <button
@@ -652,9 +652,9 @@ export default function Login() {
                 setSelectedRole('Central Administration');
               }}
               type="button"
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-xs font-semibold text-slate-700 shadow-xs transition-colors cursor-pointer"
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-xs font-semibold text-slate-700 dark:text-slate-200 shadow-xs transition-colors cursor-pointer"
             >
-              <span className="w-2.5 h-2.5 bg-slate-600 rounded-xs"></span>
+              <span className="w-2.5 h-2.5 bg-blue-500 rounded-xs"></span>
               <span>{t.sso_dsc}</span>
             </button>
             <button
@@ -664,17 +664,17 @@ export default function Login() {
                 setSelectedRole('Field Officer');
               }}
               type="button"
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-xs font-semibold text-slate-700 shadow-xs transition-colors cursor-pointer"
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-xs font-semibold text-slate-700 dark:text-slate-200 shadow-xs transition-colors cursor-pointer"
             >
-              <span className="w-2.5 h-2.5 bg-emerald-600 rounded-xs"></span>
+              <span className="w-2.5 h-2.5 bg-emerald-500 rounded-xs"></span>
               <span>{t.sso_sandes}</span>
             </button>
           </div>
         </div>
 
         {/* System Status Banner */}
-        <div className="mt-8 max-w-2xl mx-auto bg-slate-100/80 border border-slate-200 rounded-xl p-3.5 flex flex-wrap items-center justify-center gap-4 text-xs font-medium text-slate-700">
-          <span className="font-bold uppercase tracking-wider text-[11px] text-slate-800">{t.status_banner_title}</span>
+        <div className="mt-8 max-w-2xl mx-auto bg-slate-100/80 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 rounded-xl p-3.5 flex flex-wrap items-center justify-center gap-4 text-xs font-medium text-slate-700 dark:text-slate-300">
+          <span className="font-bold uppercase tracking-wider text-[11px] text-slate-800 dark:text-white">{t.status_banner_title}</span>
           <div className="flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
             <span>{t.status_engine_online}</span>
@@ -691,20 +691,20 @@ export default function Login() {
       </main>
 
       {/* Footer */}
-      <footer className="relative z-10 bg-white border-t border-slate-200 text-xs py-4 px-4 sm:px-6 text-slate-500">
+      <footer className="relative z-10 bg-white dark:bg-[#070d1e] border-t border-slate-200 dark:border-slate-800 text-xs py-4 px-4 sm:px-6 text-slate-500 dark:text-slate-400">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-wrap items-center gap-4 font-medium">
-            <a href="#terms" className="hover:text-blue-700 hover:underline">{t.footer_terms}</a>
-            <a href="#privacy" className="hover:text-blue-700 hover:underline">{t.footer_privacy}</a>
-            <a href="#accessibility" className="hover:text-blue-700 hover:underline">{t.footer_accessibility}</a>
-            <a href="#helpdesk" className="hover:text-blue-700 hover:underline">{t.footer_helpdesk}</a>
-            <a href="#hyperlink" className="hover:text-blue-700 hover:underline">{t.footer_hyperlink}</a>
+            <a href="#terms" className="hover:text-amber-600 dark:hover:text-amber-400 hover:underline">{t.footer_terms}</a>
+            <a href="#privacy" className="hover:text-amber-600 dark:hover:text-amber-400 hover:underline">{t.footer_privacy}</a>
+            <a href="#accessibility" className="hover:text-amber-600 dark:hover:text-amber-400 hover:underline">{t.footer_accessibility}</a>
+            <a href="#helpdesk" className="hover:text-amber-600 dark:hover:text-amber-400 hover:underline">{t.footer_helpdesk}</a>
+            <a href="#hyperlink" className="hover:text-amber-600 dark:hover:text-amber-400 hover:underline">{t.footer_hyperlink}</a>
           </div>
           <div className="text-center md:text-right text-[11px]">
             <span>{t.footer_proto_tag}</span>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto mt-2 pt-2 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-2 text-[10px] text-slate-400">
+        <div className="max-w-7xl mx-auto mt-2 pt-2 border-t border-slate-100 dark:border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2 text-[10px] text-slate-400 dark:text-slate-500">
           <span>{t.footer_ux4g_notice}</span>
           <span>NIC PMU ID: 9482-BHOOMIDRISHTI</span>
         </div>
