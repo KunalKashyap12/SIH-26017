@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: 'http://localhost:8000/api',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://sih-26017.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 10000,
+  timeout: 45000,
 });
 
 // Response interceptor for error handling
