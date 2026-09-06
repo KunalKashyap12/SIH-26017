@@ -11,7 +11,7 @@ const DEMO_USERS = [
     name: 'Dr. A. Sharma, IAS',
     role: 'District Administrator',
     cadre: 'DM Cadre',
-    designation: 'District Collector / SLAO (Mysuru & Mandya)',
+    designation: 'District Collector / SLAO',
   },
   {
     email: 'r.verma@gov.in',

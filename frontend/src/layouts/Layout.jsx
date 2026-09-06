@@ -34,6 +34,56 @@ export default function Layout() {
   // Map Central Administration to Policymaker for nav visibility
   const currentRoleKey = userRole === 'Central Administration' ? 'Policymaker' : userRole;
 
+  // Dynamic Theme Palette based on Active Profile
+  const roleThemes = {
+    'Field Officer': {
+      activeBoxBg: 'bg-emerald-50/80 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800/70',
+      activeBoxTitle: 'text-emerald-900 dark:text-emerald-300',
+      activeBoxBadge: 'bg-emerald-200 dark:bg-emerald-900/80 text-emerald-900 dark:text-emerald-200',
+      navActive: 'bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 font-semibold border-l-4 border-emerald-500',
+      iconActive: 'text-emerald-600 dark:text-emerald-400',
+      iconInactive: 'text-slate-400 dark:text-slate-500 group-hover:text-emerald-600 dark:group-hover:text-emerald-400',
+      userBadge: 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border-emerald-300 dark:border-emerald-700',
+      btnBg: 'bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 shadow-emerald-500/20',
+      accentText: 'text-emerald-600 dark:text-emerald-400',
+    },
+    'District Administrator': {
+      activeBoxBg: 'bg-amber-50/80 dark:bg-amber-950/40 border-amber-200 dark:border-amber-800/70',
+      activeBoxTitle: 'text-amber-900 dark:text-amber-300',
+      activeBoxBadge: 'bg-amber-200 dark:bg-amber-900/80 text-amber-900 dark:text-amber-200',
+      navActive: 'bg-amber-50 dark:bg-amber-500/10 text-amber-700 dark:text-amber-400 font-semibold border-l-4 border-amber-500',
+      iconActive: 'text-amber-600 dark:text-amber-400',
+      iconInactive: 'text-slate-400 dark:text-slate-500 group-hover:text-amber-600 dark:group-hover:text-amber-400',
+      userBadge: 'bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border-amber-300 dark:border-amber-700',
+      btnBg: 'bg-amber-500 hover:bg-amber-600 active:bg-amber-700 shadow-amber-500/20',
+      accentText: 'text-amber-600 dark:text-amber-400',
+    },
+    'Policymaker': {
+      activeBoxBg: 'bg-blue-50/80 dark:bg-blue-950/40 border-blue-200 dark:border-blue-800/70',
+      activeBoxTitle: 'text-blue-900 dark:text-blue-300',
+      activeBoxBadge: 'bg-blue-200 dark:bg-blue-900/80 text-blue-900 dark:text-blue-200',
+      navActive: 'bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 font-semibold border-l-4 border-blue-500',
+      iconActive: 'text-blue-600 dark:text-blue-400',
+      iconInactive: 'text-slate-400 dark:text-slate-500 group-hover:text-blue-600 dark:group-hover:text-blue-400',
+      userBadge: 'bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border-blue-300 dark:border-blue-700',
+      btnBg: 'bg-blue-600 hover:bg-blue-700 active:bg-blue-800 shadow-blue-500/20',
+      accentText: 'text-blue-600 dark:text-blue-400',
+    },
+    'Central Administration': {
+      activeBoxBg: 'bg-blue-50/80 dark:bg-blue-950/40 border-blue-200 dark:border-blue-800/70',
+      activeBoxTitle: 'text-blue-900 dark:text-blue-300',
+      activeBoxBadge: 'bg-blue-200 dark:bg-blue-900/80 text-blue-900 dark:text-blue-200',
+      navActive: 'bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 font-semibold border-l-4 border-blue-500',
+      iconActive: 'text-blue-600 dark:text-blue-400',
+      iconInactive: 'text-slate-400 dark:text-slate-500 group-hover:text-blue-600 dark:group-hover:text-blue-400',
+      userBadge: 'bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border-blue-300 dark:border-blue-700',
+      btnBg: 'bg-blue-600 hover:bg-blue-700 active:bg-blue-800 shadow-blue-500/20',
+      accentText: 'text-blue-600 dark:text-blue-400',
+    },
+  };
+
+  const theme = roleThemes[userRole] || roleThemes[currentRoleKey] || roleThemes['District Administrator'];
+
   // All possible nav items with translation keys and badges
   const allNavItems = [
     {
@@ -144,12 +194,12 @@ export default function Layout() {
               <div className="px-2.5 py-1 text-left">
                 <div className="flex items-center gap-1.5">
                   <span className="font-bold text-xs text-slate-800 dark:text-slate-100">{userName}</span>
-                  <span className="bg-amber-500/10 dark:bg-amber-400/20 text-amber-700 dark:text-amber-300 text-[10px] font-semibold px-1.5 py-0.2 rounded border border-amber-300 dark:border-amber-600/40">
+                  <span className={`text-[10px] font-semibold px-1.5 py-0.2 rounded border ${theme.userBadge}`}>
                     {userRole === 'District Administrator' ? t('cadre_dm', 'DM Cadre') : userRole === 'Field Officer' ? t('cadre_field', 'Field Cadre') : t('cadre_pmu', 'PMU Cadre')}
                   </span>
                 </div>
                 <p className="text-[10px] text-slate-500 dark:text-slate-400 hidden sm:block">
-                  {userRole === 'District Administrator' ? t('desig_district', 'District Collector / SLAO (Mysuru & Mandya)') : userRole === 'Field Officer' ? t('desig_field', 'Field Survey & Verification Officer') : t('desig_central', 'Senior Policymaker / Central PMU')}
+                  {userRole === 'District Administrator' ? t('desig_district', 'District Collector / SLAO') : userRole === 'Field Officer' ? t('desig_field', 'Field Survey & Verification Officer') : t('desig_central', 'Senior Policymaker / Central PMU')}
                 </p>
               </div>
             </div>
@@ -157,7 +207,7 @@ export default function Layout() {
             {/* Predict Risk CTA Button */}
             <button
               onClick={() => setPredictModalOpen(true)}
-              className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-amber-500 hover:bg-amber-600 active:bg-amber-700 text-white text-xs font-semibold shadow-xs shadow-amber-500/20 transition-all cursor-pointer"
+              className={`inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-white text-xs font-semibold shadow-xs transition-all cursor-pointer ${theme.btnBg}`}
               type="button"
             >
               <Zap className="w-4 h-4" />
@@ -193,10 +243,9 @@ export default function Layout() {
         >
           {/* Top Navigation Clusters */}
           <div className="space-y-5 overflow-y-auto pr-1">
-            <div className="p-2.5 rounded-lg bg-amber-50/70 dark:bg-slate-800/60 border border-amber-200/80 dark:border-slate-700/80">
-              <div className="flex items-center justify-between text-[11px] font-bold text-amber-900 dark:text-amber-300 mb-0.5">
+            <div className={`p-2.5 rounded-lg border transition-colors duration-200 ${theme.activeBoxBg}`}>
+              <div className={`flex items-center justify-between text-[11px] font-bold ${theme.activeBoxTitle} mb-0.5`}>
                 <span>{t('active_perspective', 'ACTIVE PERSPECTIVE')}</span>
-                <span className="text-[9px] bg-amber-200 dark:bg-amber-900/60 text-amber-900 dark:text-amber-200 px-1 rounded">{currentLang === 'hi' ? 'मैसूर' : 'Mysuru'}</span>
               </div>
               <div className="text-xs font-semibold text-slate-800 dark:text-slate-200">
                 {userRole === 'District Administrator' ? t('role_district_admin', 'District Administrator & SLAO') : userRole === 'Field Officer' ? t('role_field_officer', 'Field Survey & Verification Officer') : t('role_central_admin', 'Central Policymaker & PMU')}
@@ -212,27 +261,31 @@ export default function Layout() {
                       to={item.path}
                       onClick={() => setSidebarOpen(false)}
                       className={({ isActive }) =>
-                        `flex items-center justify-between px-3 py-2.5 rounded-lg transition-colors ${
+                        `group flex items-center justify-between px-3 py-2.5 rounded-lg transition-colors ${
                           isActive
-                            ? 'bg-amber-50 dark:bg-amber-500/10 text-amber-700 dark:text-amber-400 font-semibold border-l-4 border-amber-500'
+                            ? theme.navActive
                             : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800/60'
                         }`
                       }
                     >
-                      <span className="flex items-center gap-2.5">
-                        <Icon className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-                        <span>{t(item.key, item.name)}</span>
-                      </span>
-                      {item.badge && (
-                        <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${item.badgeClass || ''}`}>
-                          {item.badge}
-                        </span>
-                      )}
-                      {item.ping && (
-                        <span className="flex h-2 w-2 relative">
-                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                        </span>
+                      {({ isActive }) => (
+                        <>
+                          <span className="flex items-center gap-2.5">
+                            <Icon className={`w-4 h-4 transition-colors ${isActive ? theme.iconActive : theme.iconInactive}`} />
+                            <span>{t(item.key, item.name)}</span>
+                          </span>
+                          {item.badge && (
+                            <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${item.badgeClass || ''}`}>
+                              {item.badge}
+                            </span>
+                          )}
+                          {item.ping && (
+                            <span className="flex h-2 w-2 relative">
+                              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                            </span>
+                          )}
+                        </>
                       )}
                     </NavLink>
                   </li>
@@ -273,7 +326,7 @@ export default function Layout() {
                   <span>/</span>
                   <span>{t('bc_ws', 'Workspaces')}</span>
                   <span>/</span>
-                  <span className="text-amber-600 dark:text-amber-400 font-medium">
+                  <span className={`font-medium ${theme.accentText}`}>
                     {getBreadcrumbName(location.pathname)}
                   </span>
                 </div>
