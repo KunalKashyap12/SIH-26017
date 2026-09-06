@@ -11,7 +11,7 @@ const DEMO_USERS = [
     name: 'Dr. A. Sharma, IAS',
     role: 'District Administrator',
     cadre: 'DM Cadre',
-    designation: 'District Collector / SLAO',
+    designation: 'District Collector / SLAO (Mysuru & Mandya)',
   },
   {
     email: 'r.verma@gov.in',
@@ -48,6 +48,7 @@ const translations = {
     main_heading: "Access Your BhoomiDrishti Workspace",
     main_subheading: "Predictive land-acquisition intelligence for proactive infrastructure governance.",
     flow_pill: "MONITOR • PREDICT • EXPLAIN • ACT",
+    flow_words: ["MONITOR", "PREDICT", "EXPLAIN", "ACT"],
     input_label_title: "Email Address or Mobile Number",
     badge_demo: "SIH PROTOTYPE • DEMO ENVIRONMENT",
     input_placeholder: "a.sharma@gov.in or 9876543210",
@@ -117,6 +118,7 @@ const translations = {
     main_heading: "अपने भूमिदृष्टि कार्यक्षेत्र तक पहुंचें",
     main_subheading: "सक्रिय अवसंरचना शासन हेतु पूर्वानुमानात्मक भूमि अधिग्रहण आसूचना।",
     flow_pill: "निगरानी • पूर्वानुमान • व्याख्या • कार्रवाई",
+    flow_words: ["निगरानी", "पूर्वानुमान", "व्याख्या", "कार्रवाई"],
     input_label_title: "ईमेल आईडी अथवा मोबाइल नंबर",
     badge_demo: "एसआइएच प्रोटोटाइप • डेमो वातावरण",
     input_placeholder: "a.sharma@gov.in अथवा 9876543210",
@@ -179,6 +181,7 @@ const roleConfig = {
     color: 'emerald',
     workspaceKey: 'ws_field',
     dotColor: 'bg-emerald-500',
+    dotTextColor: 'text-emerald-500',
     btnBg: 'bg-emerald-700 hover:bg-emerald-800 focus:ring-emerald-300',
     cardBorder: 'border-emerald-600 ring-emerald-500/20'
   },
@@ -186,6 +189,7 @@ const roleConfig = {
     color: 'amber',
     workspaceKey: 'ws_district',
     dotColor: 'bg-amber-500',
+    dotTextColor: 'text-amber-500',
     btnBg: 'bg-amber-600 hover:bg-amber-700 focus:ring-amber-300',
     cardBorder: 'border-amber-600 ring-amber-500/20'
   },
@@ -193,6 +197,7 @@ const roleConfig = {
     color: 'blue',
     workspaceKey: 'ws_central',
     dotColor: 'bg-blue-600',
+    dotTextColor: 'text-blue-600',
     btnBg: 'bg-blue-700 hover:bg-blue-800 focus:ring-blue-300',
     cardBorder: 'border-blue-600 ring-blue-500/20'
   }
@@ -360,9 +365,13 @@ export default function Login() {
         <div className="text-center max-w-3xl mx-auto mb-8">
           <h1 className="text-2xl sm:text-3.5xl font-extrabold text-slate-900 dark:text-white tracking-tight hc-title">{t.main_heading}</h1>
           <p className="mt-2.5 text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed hc-desc max-w-2xl mx-auto">{t.main_subheading}</p>
-          <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-[11px] font-semibold tracking-wider hc-pill">
-            <span className="text-amber-500">●</span>
-            <span>{t.flow_pill}</span>
+          <div className="mt-3 inline-flex items-center flex-wrap justify-center gap-x-1.5 gap-y-1 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-[11px] font-semibold tracking-wider hc-pill">
+            {t.flow_words.map((word, idx) => (
+              <span key={idx} className="inline-flex items-center gap-1.5">
+                <span className={`${cfg.dotTextColor} transition-colors duration-200`}>●</span>
+                <span>{word}</span>
+              </span>
+            ))}
           </div>
         </div>
 
