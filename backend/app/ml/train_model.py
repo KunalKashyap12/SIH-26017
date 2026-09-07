@@ -67,9 +67,9 @@ X = df[categorical_cols + numeric_cols]
 y_cls_raw = df[target_cls]
 y_reg = pd.to_numeric(df[target_reg], errors="coerce").fillna(0)
 
-# Encode target categories
+# Encode target categories with explicit ordinal mapping (Low=0, Medium=1, High=2)
 label_encoder = LabelEncoder()
-label_encoder.fit(["Low", "Medium", "High"])
+label_encoder.classes_ = np.array(["Low", "Medium", "High"])
 y_cls = label_encoder.transform(y_cls_raw)
 
 # 2. Build Preprocessor

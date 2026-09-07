@@ -67,6 +67,14 @@ def predict_project_risk(payload: PredictRequest):
         pred_class_idx = clf.predict(X_proc)[0]
         predicted_category = str(label_encoder.inverse_transform([pred_class_idx])[0])
 
+        # Category alignment safeguard based on continuous risk score thresholds (0-35 Low, 35-65 Medium, >65 High)
+        if predicted_score >= 65.0:
+            predicted_category = "High"
+        elif predicted_score <= 35.0:
+            predicted_category = "Low"
+        elif 35.0 < predicted_score < 65.0 and predicted_category == "High":
+            predicted_category = "Medium"
+
         # SHAP Explainability & Recommendations
         top_factors = get_shap_explanation(features_dict)
         recommendations = get_recommendations(top_factors)
