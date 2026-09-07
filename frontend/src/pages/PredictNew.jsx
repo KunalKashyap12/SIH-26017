@@ -483,54 +483,60 @@ export default function PredictNew() {
                   Predicted Risk Score & Gauge
                 </span>
 
-                <div className="relative w-44 h-44 mx-auto flex items-center justify-center">
-                  <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
-                    <path
-                      className="text-slate-100 dark:text-slate-800"
-                      strokeWidth="3.5"
-                      stroke="currentColor"
-                      fill="none"
-                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                    />
-                    <path
-                      className={
-                        result.risk_category === 'High'
-                          ? 'text-rose-500'
-                          : result.risk_category === 'Medium'
-                          ? 'text-amber-500'
-                          : 'text-emerald-500'
-                      }
-                      strokeDasharray={`${result.risk_score}, 100`}
-                      strokeWidth="3.5"
-                      strokeLinecap="round"
-                      stroke="currentColor"
-                      fill="none"
-                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                    />
-                  </svg>
+                {(() => {
+                  const effectiveCategory = result.risk_score >= 65 ? 'High' : (result.risk_score <= 35 ? 'Low' : 'Medium');
+                  return (
+                    <>
+                      <div className="relative w-44 h-44 mx-auto flex items-center justify-center">
+                        <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                          <path
+                            className="text-slate-100 dark:text-slate-800"
+                            strokeWidth="3.5"
+                            stroke="currentColor"
+                            fill="none"
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <path
+                            className={
+                              effectiveCategory === 'High'
+                                ? 'text-rose-500'
+                                : effectiveCategory === 'Medium'
+                                ? 'text-amber-500'
+                                : 'text-emerald-500'
+                            }
+                            strokeDasharray={`${result.risk_score}, 100`}
+                            strokeWidth="3.5"
+                            strokeLinecap="round"
+                            stroke="currentColor"
+                            fill="none"
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                        </svg>
 
-                  <div className="absolute inset-0 flex flex-col items-center justify-center">
-                    <span className="text-4xl font-extrabold text-slate-900 dark:text-white font-feature-tabular">{result.risk_score}</span>
-                    <span className="text-xs font-bold text-slate-400">OUT OF 100</span>
-                  </div>
-                </div>
-              </div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center">
+                          <span className="text-4xl font-extrabold text-slate-900 dark:text-white font-feature-tabular">{result.risk_score}</span>
+                          <span className="text-xs font-bold text-slate-400">OUT OF 100</span>
+                        </div>
+                      </div>
 
-              <div className="w-full mt-6 space-y-3 pt-4 border-t border-slate-100 dark:border-slate-800 font-feature-tabular">
-                <div className="flex items-center justify-between text-xs px-3 py-2 bg-slate-50 dark:bg-slate-900/60 rounded-lg border border-slate-200 dark:border-slate-800">
-                  <span className="text-slate-600 dark:text-slate-400 font-medium">Risk Classification:</span>
-                  <span
-                    className={`font-extrabold px-2 py-0.5 rounded-full text-[11px] ${
-                      result.risk_category === 'High'
-                        ? 'bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300'
-                        : result.risk_category === 'Medium'
-                        ? 'bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300'
-                        : 'bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300'
-                    }`}
-                  >
-                    {locRisk(result.risk_category)} Risk
-                  </span>
-                </div>
+                      <div className="w-full mt-6 space-y-3 pt-4 border-t border-slate-100 dark:border-slate-800 font-feature-tabular">
+                        <div className="flex items-center justify-between text-xs px-3 py-2 bg-slate-50 dark:bg-slate-900/60 rounded-lg border border-slate-200 dark:border-slate-800">
+                          <span className="text-slate-600 dark:text-slate-400 font-medium">Risk Classification:</span>
+                          <span
+                            className={`font-extrabold px-2 py-0.5 rounded-full text-[11px] ${
+                              effectiveCategory === 'High'
+                                ? 'bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300'
+                                : effectiveCategory === 'Medium'
+                                ? 'bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300'
+                                : 'bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300'
+                            }`}
+                          >
+                            {locRisk(effectiveCategory)} Risk
+                          </span>
+                        </div>
+                    </>
+                  );
+                })()}
 
                 <div className="flex items-center justify-between text-xs px-3 py-2 bg-slate-50 dark:bg-slate-900/60 rounded-lg border border-slate-200 dark:border-slate-800">
                   <span className="text-slate-600 dark:text-slate-400 font-medium">Stakeholder Score:</span>

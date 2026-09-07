@@ -359,28 +359,33 @@ export default function PredictModal({ isOpen, onClose }) {
             /* PREDICTION RESULTS VIEW */
             <div className="space-y-6">
               {/* Score Header */}
-              <div className="p-5 bg-slate-900 dark:bg-[#0b1329] text-white rounded-xl flex items-center justify-between border border-slate-800">
-                <div>
-                  <span className="text-xs text-slate-400 uppercase font-bold tracking-wider">Projected ML Risk Assessment</span>
-                  <div className="text-3xl font-extrabold text-white mt-1 font-feature-tabular">
-                    {result.risk_score} <span className="text-xs font-normal text-slate-400">/ 100</span>
-                  </div>
-                </div>
+              {(() => {
+                const effectiveRiskCategory = result.risk_score >= 65 ? 'High' : (result.risk_score <= 35 ? 'Low' : 'Medium');
+                return (
+                  <div className="p-5 bg-slate-900 dark:bg-[#0b1329] text-white rounded-xl flex items-center justify-between border border-slate-800">
+                    <div>
+                      <span className="text-xs text-slate-400 uppercase font-bold tracking-wider">Projected ML Risk Assessment</span>
+                      <div className="text-3xl font-extrabold text-white mt-1 font-feature-tabular">
+                        {result.risk_score} <span className="text-xs font-normal text-slate-400">/ 100</span>
+                      </div>
+                    </div>
 
-                <div className="text-right">
-                  <span
-                    className={`inline-block px-3.5 py-1 rounded-full text-xs font-extrabold ${
-                      result.risk_category === 'High'
-                        ? 'bg-rose-500 text-white'
-                        : result.risk_category === 'Medium'
-                        ? 'bg-amber-500 text-white'
-                        : 'bg-emerald-500 text-white'
-                    }`}
-                  >
-                    {locRisk(result.risk_category)} Risk Category
-                  </span>
-                </div>
-              </div>
+                    <div className="text-right">
+                      <span
+                        className={`inline-block px-3.5 py-1 rounded-full text-xs font-extrabold ${
+                          effectiveRiskCategory === 'High'
+                            ? 'bg-rose-500 text-white'
+                            : effectiveRiskCategory === 'Medium'
+                            ? 'bg-amber-500 text-white'
+                            : 'bg-emerald-500 text-white'
+                        }`}
+                      >
+                        {locRisk(effectiveRiskCategory)} Risk Category
+                      </span>
+                    </div>
+                  </div>
+                );
+              })()}
 
               {/* SHAP Factors */}
               <div>
